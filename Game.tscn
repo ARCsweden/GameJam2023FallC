@@ -1,6 +1,15 @@
-[gd_scene load_steps=2 format=3 uid="uid://b0ywom0bt3gdb"]
+[gd_scene load_steps=3 format=3 uid="uid://cybq1hcms4lim"]
 
 [ext_resource type="Script" path="res://Game.gd" id="1_t8pt4"]
+[ext_resource type="Texture2D" uid="uid://c7ovxt5kl23ue" path="res://Assets/Backgrounds/Geneic_office_1.png" id="2_hrido"]
 
 [node name="TestScene" type="Node2D"]
+scale = Vector2(6.07064, 16.7428)
 script = ExtResource("1_t8pt4")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_top = -5.0
+offset_right = 1360.0
+offset_bottom = 1019.0
+scale = Vector2(0.124106, 0.0447955)
+texture = ExtResource("2_hrido")
