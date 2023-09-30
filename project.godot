@@ -23,7 +23,7 @@ GlobalBattle="*res://Globals/Battle.gd"
 GlobalEvent="*res://Globals/Event.gd"
 GlobalRiddle="*res://Globals/Riddle.gd"
 GlobalSlisk="*res://Globals/Slisk.gd"
-GlobalGame="*res://Game.gd"
+GlobalSetup="*res://Globals/Setup.gd"
 
 [dotnet]
 

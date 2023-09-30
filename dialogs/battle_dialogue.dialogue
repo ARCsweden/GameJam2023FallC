@@ -1,10 +1,10 @@
 import "res://dialogs/quiz.dialogue" as quiz
 ~ battle_dialogue
-Berättare: {{Battle.prompt}}
+Berättare: {{GlobalBattle.prompt}}
 
-{{Battle.battle_name}}: {{Battle.start_dialogue}}
+{{GlobalBattle.battle_name}}: {{GlobalBattle.start_dialogue}}
 =>< battle_state_machine
-{{Battle.battle_name}}: Ja det gick ju som det gick.
+{{GlobalBattle.battle_name}}: Ja det gick ju som det gick.
 Sten: [[Loser.|Noob.|Kan du inte bättre?]]
 => battle_dialogue
 => END
@@ -12,13 +12,13 @@ Sten: [[Loser.|Noob.|Kan du inte bättre?]]
 ~ battle_state_machine
 
 - Smocka
-	{{Battle.battle_name}}: ouch
+	{{GlobalBattle.battle_name}}: ouch
 - Slisk
 	Sten: Tjena kexet, står du här och smular?
-	{{Battle.battle_name}}: Du är inte så dum du heller 😘
+	{{GlobalBattle.battle_name}}: Du är inte så dum du heller 😘
 
 - Snille
 	=>< quiz/quiz
 - Evil smocka
-	{{Battle.battle_name}}: double ouch
+	{{GlobalBattle.battle_name}}: double ouch
 => END

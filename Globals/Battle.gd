@@ -16,5 +16,6 @@ var smock = 15
 var brains = 14
 var slisk = 10
 
+
 #func _changeSprite():
 	#Add checks to see if player sprite needs to be changed here

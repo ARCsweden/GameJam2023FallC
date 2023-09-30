@@ -1,26 +1,26 @@
 ~ quiz
-#do GlobalGame.load_riddle()
-Berättare: [[Nu ska du få svara på en fråga; ||En liten kluring; ]]{{Riddle.prompt}}
-- Sten: {{Riddle.choice_one.text}} 
-	if Riddle.choice_one.correct:
+do GlobalSetup.load_riddle()
+Berättare: [[Nu ska du få svara på en fråga; ||En liten kluring; ]]{{GlobalRiddle.prompt}}
+- Sten: {{GlobalRiddle.choice_one.text}} 
+	if GlobalRiddle.choice_one.correct == true:
 		=> correct_answer
 	else:
 		=> wrong_answer
 		
-- Sten: {{Riddle.choice_two.text}} 
-	if Riddle.choice_two.correct:
+- Sten: {{GlobalRiddle.choice_two.text}} 
+	if GlobalRiddle.choice_two.correct == true:
 		=> correct_answer
 	else:
 		=> wrong_answer
 		
-- Sten: {{Riddle.choice_three.text}} 
-	if Riddle.choice_three.correct:
+- Sten: {{GlobalRiddle.choice_three.text}} 
+	if GlobalRiddle.choice_three.correct == true:
 		=> correct_answer
 	else:
 		=> wrong_answer
 
-- Sten: {{Riddle.choice_four.text}} 
-	if Riddle.choice_four.correct:
+- Sten: {{GlobalRiddle.choice_four.text}} 
+	if GlobalRiddle.choice_four.correct == true:
 		=> correct_answer
 	else:
 		=> wrong_answer
