@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_10"
+type="Resource"
+uid="uid://ddkmpwauwiutx"
+path="res://.godot/imported/battle_dialogue.dialogue-a68cfd1b4c7c32129a5984c351642ec2.tres"
+
+[deps]
+
+source_file="res://dialogs/battle_dialogue.dialogue"
+dest_files=["res://.godot/imported/battle_dialogue.dialogue-a68cfd1b4c7c32129a5984c351642ec2.tres"]
+
+[params]
+
+defaults=true

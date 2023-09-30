@@ -1,13 +1,14 @@
+import "res://dialogs/battle_dialogue.dialogue" as battle
 ~ main_menu
 
-Narrator: [[Hi|Hello|Howdy]], this is Steriotypical Standoff.
-Nathan: Here are some choices.
-- First one
-	Nathan: You picked the first one.
-- Second one
-	Nathan: You picked the second one.
-- Start again => main_menu
-- End the conversation => END
-Nathan: For more information see the online documentation.
-
+Berättare: [[Hej|Tjenixen|Trevligt att råkas]], detta är Steriotypical Standoff.
+Berättare: Vad heter du?
+- Sten
+Berättare: Sa du Sten? Hej Sten jag är bara berättare och mitt namn spelar ingen roll i denna kontext.
+Berättare: Dags att spela?
+- Ja
+	Sten: Ja, jag vill [[spela|gamea|komma igång]].
+	=> battle/battle_dialogue
+- Nej
+	Sten: Aldrig i livet.
 => END
