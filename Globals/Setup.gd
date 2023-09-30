@@ -27,7 +27,7 @@ func load_battle():
 	GlobalBattle.smock = battle["Stats"]["Smocka"]
 	GlobalBattle.brains = battle["Stats"]["Snille"]
 	GlobalBattle.slisk = battle["Stats"]["Slisk"]
-	
+	GlobalBattle.hp = battle["Stats"]["Hp"]
 	
 func load_event():
 	#Load all events from a json
