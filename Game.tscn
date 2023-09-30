@@ -1,7 +1,6 @@
-[gd_scene load_steps=5 format=3 uid="uid://5xlvw3w600h6"]
+[gd_scene load_steps=4 format=3 uid="uid://5xlvw3w600h6"]
 
 [ext_resource type="Script" path="res://Game.gd" id="1_t8pt4"]
-[ext_resource type="Texture2D" uid="uid://oq6ygk3fqttg" path="res://Assets/Foes/baseSTAN.png" id="2_dau3n"]
 [ext_resource type="Script" path="res://background_image.gd" id="2_kbaac"]
 [ext_resource type="Script" path="res://Foe.gd" id="3_m80ia"]
 
@@ -21,6 +20,5 @@ offset_left = 44.9705
 offset_top = 12.1246
 offset_right = 122.971
 offset_bottom = 42.1246
-texture = ExtResource("2_dau3n")
 expand_mode = 1
 script = ExtResource("3_m80ia")
