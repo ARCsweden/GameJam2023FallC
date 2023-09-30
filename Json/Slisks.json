@@ -23,84 +23,84 @@
 						"ChoiceText": "Är du en konstnär? För du har målat ett leende på mitt ansikte."
 					},
 					{
-						"ChoiceText": "Men se det från min sida"
+						"ChoiceText": "Vad vill du ha till frukost imorgon?"
 					},
 					{
-						"ChoiceText": "Det är en fråga om prioriteringar"
+						"ChoiceText": "Är det varmt här inne, eller är det bara du som är het?"
 					},
 					{
-						"ChoiceText": "Inte Höger inte Vänster, framåt"
+						"ChoiceText": "Jag har tappat mitt telefonnummer, får jag ditt?"
 					}
 				]
 			},
 			{
 				"Choices": [
 					{
-						"ChoiceText": "Inte Upp inte Nedåt, framåt"
+						"ChoiceText": "Du är så söt att jag får hål i tänderna."
 					},
 					{
-						"ChoiceText": "Är du en viking? För du har erövrat mitt hjärta."
+						"ChoiceText": "Allt ok? Ramla ned från himlen är ett långt fall."
 					},
 					{
 						"ChoiceText": "Du måste vara en bro, för du kopplar samman mitt hjärta och mitt sinne."
 					},
 					{
-						"ChoiceText": "Skulle du göra det för mig?"
+						"ChoiceText": "Tror du på kärlek vid första ögonkastet, eller ska jag gå förbi igen?"
 					}
 				]
 			},
 			{
 				"Choices": [
 					{
-						"ChoiceText": "Jag lovar att jag betalar tillbaka"
+						"ChoiceText": "Snälla du, har du ett plåster? Jag skrapade upp knät när jag föll för dig."
 					},
 					{
-						"ChoiceText": "Du kan lita på mig"
+						"ChoiceText": "Vet du vad du skulle varit riktigt vacker i? Mina armar."
 					},
 					{
-						"ChoiceText": "Det är inga problem"
+						"ChoiceText": "Är du en tidsresenär? För jag ser dig definitivt i min framtid."
 					},
 					{
-						"ChoiceText": "Du vet inte vad jag klara av"
+						"ChoiceText": "Hej, jag heter Sven. Minns du mig? Nej just det, vi har bara setts i mina drömmar."
 					}
 				]
 			},
 			{
 				"Choices": [
 					{
-						"ChoiceText": "Det är bra publicitet"
+						"ChoiceText": "Om jag fick en krona för varje gång jag såg någon så vacker som du, så skulle jag bara ha en krona."
 					},
 					{
-						"ChoiceText": "Det kan ge mycket publicitet"
+						"ChoiceText": "Jag önskar jag var skelögd så att jag kunde se dig dubbelt…"
 					},
 					{
-						"ChoiceText": "Jag kan ge dig mycket publicitet"
+						"ChoiceText": "Vet du? Dina ögon är exakt samma färg som min Porsche."
 					},
 					{
-						"ChoiceText": "All publicitet är bra publicitet"
+						"ChoiceText": "Du är så vacker att jag glömde bort min raggningsreplik…"
 					}
 				]
 			},
 			{
 				"Choices": [
 					{
-						"ChoiceText": "Det skulle kunna vara du och jag"
+						"ChoiceText": "Det finns en sak jag skulle vilja förändra med dig. Ditt efternamn."
 					},
 					{
-						"ChoiceText": "Jag hade gjort det göre"
+						"ChoiceText": "Rosor är röda, violer är blå, ska vi gå hem vi två?"
 					},
 					{
-						"ChoiceText": "Du är väl inte en fegis"
+						"ChoiceText": "Ursäkta, kysser du främlingar? Nej? Låt mig då presentera mig…"
 					},
 					{
-						"ChoiceText": "UHOIEP"
+						"ChoiceText": "Min pappa är rik, vill du hångla?"
 					}
 				]
 			},
 			{
 				"Choices": [
 					{
-						"ChoiceText": "C'est une question de priorités"
+						"ChoiceText": "Jag är ingen ande, men jag kan uppfylla alla dina önskningar."
 					},
 					{
 						"ChoiceText": "Vad har du för dig ikväll (;"
@@ -109,39 +109,39 @@
 						"ChoiceText": "Jag är singel, bara så du vet"
 					},
 					{
-						"ChoiceText": "Min pappa är president av nintendo"
+						"ChoiceText": "Hej, jag har inget liv. Vill du dela ditt med mig?"
 					}
 				]
 			},
 			{
 				"Choices": [
 					{
-						"ChoiceText": "Vet du vem jag är"
+						"ChoiceText": "Jag känner verkligen igen dig. Gick vi i samma klass? Jag kan svära på att vi hade kemi."
 					},
 					{
-						"ChoiceText": "Du kommer att ångra det här"
+						"ChoiceText": "Jag älskar dina ögon, men jag älskar mina mer. För med dem kan jag titta på dig."
 					},
 					{
-						"ChoiceText": "Jag har vänner på höga ställen"
+						"ChoiceText": "Du är singel, jag är singel. Sammanträffande? Jag skulle inte tro det."
 					},
 					{
-						"ChoiceText": "Jag skulle aldrig lura dig"
+						"ChoiceText": "Har du ett namn eller kan jag kalla dig min?"
 					}
 				]
 			},
 			{
 				"Choices": [
 					{
-						"ChoiceText": "Jag kan betala på annat sätt (;"
+						"ChoiceText": "Gissa vad jag har på mig? Leendet du gav mig."
 					},
 					{
-						"ChoiceText": "Du skulle ha det så mycket bättre med mig"
+						"ChoiceText": "Kan jag låna en kyss? Jag lovar att jag ska ge tillbaka den."
 					},
 					{
-						"ChoiceText": "Jag känner presidenten"
+						"ChoiceText": "Middag först, eller kan vi gå direkt till efterrätt?"
 					},
 					{
-						"ChoiceText": "omelette du fromage"
+						"ChoiceText": "Hur mycket väger en isbjörn? Tillräckligt för att bryta isen."
 					}
 				]
 			},
@@ -151,29 +151,29 @@
 						"ChoiceText": "Jag är väldigt rik"
 					},
 					{
-						"ChoiceText": "Jag gör bara dom bästa besluten"
+						"ChoiceText": "Låt mig knyta dina skor, för jag vill inte att du ska falla för någon annan."
 					},
 					{
-						"ChoiceText": "Ingen respekterar kvinnor mer en jag gör"
+						"ChoiceText": "Vet du vad min tröja är gjord av? Pojkvänsmaterial."
 					},
 					{
-						"ChoiceText": "Ingen respekterar män mer än jag gör"
+						"ChoiceText": "Var det en jordbävning eller skakade du bara om min värld?"
 					}
 				]
 			},
 			{
 				"Choices": [
 					{
-						"ChoiceText": "Vet du, jag är en så smart person"
+						"ChoiceText": "Ursäkta, jag tror att du har något i ögat. Åh vänta, det är bara en gnista."
 					},
 					{
-						"ChoiceText": "Jag har en bra relation med alla, jag har alltid haft en bra relation"
+						"ChoiceText": "Dina ögon är blå, som havet. Och älskling, jag är vilsen till sjöss"
 					},
 					{
-						"ChoiceText": "När du är en stjärna får du göra vad du vill"
+						"ChoiceText": "Om du och jag var strumpor, skulle vi skapa ett bra par!"
 					},
 					{
-						"ChoiceText": "Mexiko kommer att betala"
+						"ChoiceText": "Bra att jag precis köpt en livförsäkring…för när jag såg dig stannade mitt hjärta!"
 					}
 				]
 			},
@@ -196,29 +196,29 @@
 			{
 				"Choices": [
 					{
-						"ChoiceText": "Ingen tar saker mer personlig än mig"
+						"ChoiceText": "Rosor är röda, mitt ansikte också, det händer bara när jag är vid dig."
 					},
 					{
-						"ChoiceText": "Jag har en enorm förmåga"
+						"ChoiceText": "Dina läppar ser ensamma ut, skulle de vilja träffa mina?"
 					},
 					{
-						"ChoiceText": "Du behöver tänka, så varför inte tänka stort"
+						"ChoiceText": "Skulle det inte vara det perfekta brottet om jag stal ditt hjärta och du stal mitt?"
 					},
 					{
-						"ChoiceText": "Tänk på möjligheterna"
+						"ChoiceText": "Varför skulle jag vilja titta på stjärnorna när jag kan se i dina ögon?"
 					}
 				]
 			},
 			{
 				"Choices": [
 					{
-						"ChoiceText": "Jag kan ändra på mig"
+						"ChoiceText": "Du är hetare än undersidan av min bärbara dator."
 					},
 					{
-						"ChoiceText": "Jag är den minst rasistiska personen som existerar"
+						"ChoiceText": "Du är mitt kompass. Utan dig är jag förlorad."
 					},
 					{
-						"ChoiceText": "Det finns ingen större elle bättre på affärer"
+						"ChoiceText": "Har du alltid varit så söt, eller var du tvungen att jobba på det?"
 					},
 					{
 						"ChoiceText": "Kom med mig och tillsammans kan vi styra galaxen"
@@ -228,16 +228,16 @@
 			{
 				"Choices": [
 					{
-						"ChoiceText": "Jag berättar för mamma att du slog mig"
+						"ChoiceText": "Någon borde ringa polisen. Det måste vara olagligt att se så bra ut."
 					},
 					{
-						"ChoiceText": "Vi måste lära oss att samarbeta"
+						"ChoiceText": "Jag skulle ta dig på bio, men de låter mig inte ta med mina egna snacks."
 					},
 					{
-						"ChoiceText": "Va inte så arg"
+						"ChoiceText": "Även om det inte fanns någon gravitation på jorden, skulle jag fortfarande falla för dig!"
 					},
 					{
-						"ChoiceText": "Har du inte en telefon"
+						"ChoiceText": "Har du en inhalator? För du tog andan ur mig!"
 					}
 				]
 			}
