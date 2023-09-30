@@ -96,11 +96,11 @@ func _ready():
 	GlobalEvent.choice_five.outcome_negative_decrease_value = 3
 	
 	#Load tutorial battle
-	GlobalBattle.battle_name = ""
-	GlobalBattle.prompt = ""
+	GlobalBattle.battle_name = "Sebastian Student"
+	GlobalBattle.prompt = "Du sitter i lobbyn till företaget BBA, väntande på att bli uppropad till din intervju. Du har sökt jobbet som data analytiker, och är hoppfull om dina chanser. I rummet sitter bara en enda person till, en av dina klasskamrater från universitetet. Du minns bara klasskamraten som helt inkompetent inom allt, men tänk om chefen inte håller med. Kanske är dags att visa vem som är rätt person för rollen..."
 	GlobalBattle.battle_type = "Boss"
-	GlobalBattle.start_dialog = ""
-	GlobalBattle.battle_dialogs = ""
+	GlobalBattle.start_dialog = "Kan du bli min kontakt på LinkedIn?"
+	GlobalBattle.battle_dialogs = "Ugh"
 	#GlobalBattle.battle_dialogs = "" ADD SPRITE HERE
 	#GlobalBattle.battle_dialogs = "" ADD BACKGROUND HERE
 	
