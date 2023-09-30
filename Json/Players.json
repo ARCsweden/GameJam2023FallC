@@ -3,7 +3,7 @@
 		{
 			"Name": "Sten",
 			"Stats": {
-				"Stålar": 10000,
+				"Stålar": 5,
 				"Smocka": 10,
 				"Slisk": 5,
 				"Snille": 5,
@@ -15,7 +15,7 @@
 		{
 			"Name": "Sten",
 			"Stats": {
-				"Stålar": 10000,
+				"Stålar": 5,
 				"Smocka": 5,
 				"Slisk": 10,
 				"Snille": 5,
@@ -27,7 +27,7 @@
 		{
 			"Name": "Sten",
 			"Stats": {
-				"Stålar": 10000,
+				"Stålar": 5,
 				"Smocka": 5,
 				"Slisk": 5,
 				"Snille": 10,
@@ -39,7 +39,7 @@
 		{
 			"Name": "Sten",
 			"Stats": {
-				"Stålar": 100000,
+				"Stålar": 10,
 				"Smocka": 5,
 				"Slisk": 5,
 				"Snille": 5,

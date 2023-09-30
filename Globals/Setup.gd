@@ -70,7 +70,6 @@ func load_riddle():
 	var riddle = riddles[random_key]
 	
 	#Add values to the global riddle class
-	GlobalRiddle.riddle_name = riddle["Name"]
 	GlobalRiddle.prompt = riddle["Prompt"]
 	GlobalRiddle.choice_one.text = riddle["Choices"][0]["ChoiceText"]
 	GlobalRiddle.choice_two.text = riddle["Choices"][1]["ChoiceText"]
