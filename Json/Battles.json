@@ -68,5 +68,19 @@
 				"Slisk": "30",
 				"Snille": "30"
 			}
+		},
+	"CoffeeGrunt":
+		{   "Name": "Snubben som hänger vid kaffemaskinen",
+			"Level": 1,
+			"Prompt": "Du reser dig från kontorsbordet för att ta en välförtjänad paus och går mot jobbets kaffemaskin, och där står han som alltid har något att säga... och du vill INTE prata just nu",
+			"BattleType": "Grunt",
+			"StartDialog": "Hörde du vad Bianca Ingrosso sa på gårdagens program?!",
+			"BattleDialogs": "Kaffet hemma är ju mycket godare än det här...",
+			"Stats": {
+				"Stålar": "5",
+				"Smocka": "5",
+				"Slisk": "5",
+				"Snille": "5"
+			}
 		}
 }
