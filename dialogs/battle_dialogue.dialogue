@@ -10,15 +10,35 @@ Sten: [[Loser.|Noob.|Kan du inte bättre?]]
 => END
 
 ~ battle_state_machine
+while GlobalPlayer.hp > 0 and GlobalBattle.hp > 0:
+	
+	{{GlobalBattle.battle_name}}: {{GlobalBattle.hp}} hp
+	=> player_round
+	{{GlobalBattle.battle_name}}: {{GlobalBattle.hp}} hp
+	=> enemy_round
+	
 
+=> END
+
+~ player_round
 - Smocka
-	{{GlobalBattle.battle_name}}: ouch
+	{{GlobalBattle.battle_name}}: Ouch!
+	set GlobalBattle.hp = GlobalBattle.hp - GlobalBattle.smock
+	
 - Slisk
 	Sten: Tjena kexet, står du här och smular?
 	{{GlobalBattle.battle_name}}: Du är inte så dum du heller 😘
 
 - Snille
 	=>< quiz/quiz
-- Evil smocka
-	{{GlobalBattle.battle_name}}: double ouch
+	
+- Stålar
+	{{GlobalBattle.battle_name}}: spenderar pengar
+=> END
+
+~ enemy_round
+%{Global.Battle.smock} Boss: Smocka!!
+%{Global.Battle.brains} Boss: Snille!
+%{Global.Battle.slisk} Boss: Slisk!
+%{Global.Battle.smock} Boss: Smocka!
 => END
