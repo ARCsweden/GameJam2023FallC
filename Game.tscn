@@ -1,7 +1,7 @@
-[gd_scene load_steps=4 format=3 uid="uid://b0ywom0bt3gdb"]
+[gd_scene load_steps=4 format=3 uid="uid://5xlvw3w600h6"]
 
 [ext_resource type="Script" path="res://Game.gd" id="1_t8pt4"]
-[ext_resource type="Script" path="res://Change_backgrounds.gd" id="3_jlqrp"]
+[ext_resource type="Script" path="res://background_image.gd" id="2_kbaac"]
 [ext_resource type="Script" path="res://Foe.gd" id="3_m80ia"]
 
 [node name="TestScene" type="Node2D"]
@@ -13,11 +13,12 @@ offset_top = -5.0
 offset_right = 1360.0
 offset_bottom = 1019.0
 scale = Vector2(0.124106, 0.0447955)
-script = ExtResource("3_jlqrp")
+script = ExtResource("2_kbaac")
 
 [node name="Foe" type="TextureRect" parent="."]
-offset_left = 66.5498
-offset_top = 15.111
-offset_right = 106.55
-offset_bottom = 40.111
+offset_left = 44.9705
+offset_top = 12.1246
+offset_right = 122.971
+offset_bottom = 42.1246
+expand_mode = 1
 script = ExtResource("3_m80ia")
