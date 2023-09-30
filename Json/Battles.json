@@ -1,14 +1,24 @@
 {
-	"Battles": [
-		{   "Name": "",
+	"Battles":
+		{   "Name": "TEst",
 			"Level": 1,
 			"Prompt": "",
 			"BattleType": "",
 			"StartDialog": "",
 			"BattleDialogs": [
 				{
-					"Dialog": ""
+					"Dialog": "ye"
+				},
+				{
+					"Dialog": "yo"
+				},
+				{
+					"Dialog": "yi"
+				},
+				{
+					"Dialog": "ya"
 				}
+
 			],
 			"Stats": {
 				"Stålar": "",
@@ -17,5 +27,4 @@
 				"Snille": ""
 			}
 		}
-	]
 }

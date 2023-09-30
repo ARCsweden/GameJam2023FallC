@@ -1,13 +1,24 @@
 {
-	"Slisks": [
+	"Slisks": 
 		{
 			"Choices": [
 				{
 					"ChoiceText": "",
 					"IncrementValue": 1
+				},
+				{
+					"ChoiceText": "",
+					"IncrementValue": 2
+				},
+				{
+					"ChoiceText": "",
+					"IncrementValue": 4
+				},
+				{
+					"ChoiceText": "",
+					"IncrementValue": 6
 				}
 			],
 			"Threshhold": 12
 		}
-	]
 }
