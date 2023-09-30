@@ -1,0 +1,58 @@
+{
+	"Event_One": 
+		{
+			"Prompt": "Prompt1",
+			"Level" : 1,
+			"Choices": [
+				{
+					"Choice": "Choice1",
+					"IncreaseType": "Snille",
+					"DecreaseType": "Slisk",
+					"SuccessChance": 0.5,
+					"SkillModifier": 0.5,
+					"Outcome": [
+						{
+							"Prompt": "Prompt1Positive",
+							"Type": "Positive",
+							"IncreaseValue": 1,
+							"DecreaseValue": 0
+						},
+						{
+							"Prompt": "Prompt1Negative",
+							"Type": "Negative",
+							"IncreaseValue": 1,
+							"DecreaseValue": 0
+						}
+					]
+				}
+			]
+		},
+	"Event_Two": 
+		{
+			"Prompt": "Prompt2",
+			"Level" : 1,
+			"Choices": [
+				{
+					"Choice": "Choice2",
+					"IncreaseType": "Snille",
+					"DecreaseType": "Slisk",
+					"SuccessChance": 0.5,
+					"SkillModifier": 0.5,
+					"Outcome": [
+						{
+							"Prompt": "Prompt2Positive",
+							"Type": "Positive",
+							"IncreaseValue": 1,
+							"DecreaseValue": 0
+						},
+						{
+							"Prompt": "Prompt2Negative",
+							"Type": "Negative",
+							"IncreaseValue": 1,
+							"DecreaseValue": 0
+						}
+					]
+				}
+			]
+		},
+}

@@ -1,0 +1,46 @@
+{
+	"Player1": 
+		{
+			"Name": "Sten",
+			"Stats": {
+				"Stålar": "10000",
+				"Smocka": "10",
+				"Slisk": "5",
+				"Snille": "5"
+			},
+			"Level": 1
+		},
+	"Player2":
+		{
+			"Name": "Sten",
+			"Stats": {
+				"Stålar": "10000",
+				"Smocka": "5",
+				"Slisk": "10",
+				"Snille": "5"
+			},
+			"Level": 1
+		},
+	"Player3":
+		{
+			"Name": "Sten",
+			"Stats": {
+				"Stålar": "10000",
+				"Smocka": "5",
+				"Slisk": "5",
+				"Snille": "10"
+			},
+			"Level": 1
+		},
+	"Player4":
+		{
+			"Name": "Sten",
+			"Stats": {
+				"Stålar": "100000",
+				"Smocka": "5",
+				"Slisk": "5",
+				"Snille": "5"
+			},
+			"Level": 1
+		}
+}

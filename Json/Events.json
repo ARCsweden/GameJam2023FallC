@@ -1,6 +1,6 @@
 {
-	"Events": [
-		{   "Name": "",
+	"Event_One": 
+		{
 			"Prompt": "Prompt1",
 			"Level" : 1,
 			"Choices": [
@@ -27,14 +27,15 @@
 				}
 			]
 		},
-		{   "Name": "",
+	"Event_Two": 
+		{
 			"Prompt": "Prompt2",
 			"Level" : 1,
 			"Choices": [
 				{
 					"Choice": "Choice2",
-					"IncreaseType": "Smocka",
-					"DecreaseType": "Snille",
+					"IncreaseType": "Snille",
+					"DecreaseType": "Slisk",
 					"SuccessChance": 0.5,
 					"SkillModifier": 0.5,
 					"Outcome": [
@@ -53,6 +54,5 @@
 					]
 				}
 			]
-		}
-	]
+		},
 }
