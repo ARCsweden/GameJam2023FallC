@@ -1,22 +1,36 @@
 ~ quiz
+#do GlobalGame.load_riddle()
 Berättare: [[Nu ska du få svara på en fråga; ||En liten kluring; ]]{{Riddle.prompt}}
-- Sten: Val1 
-	if true:
-		=>< correct_answer
+- Sten: {{Riddle.choice_one.text}} 
+	if Riddle.choice_one.correct:
+		=> correct_answer
 	else:
-		=>< wrong_answer
-- Sten: Val1
-- Sten: Val1
-- Sten: Val1
+		=> wrong_answer
+		
+- Sten: {{Riddle.choice_two.text}} 
+	if Riddle.choice_two.correct:
+		=> correct_answer
+	else:
+		=> wrong_answer
+		
+- Sten: {{Riddle.choice_three.text}} 
+	if Riddle.choice_three.correct:
+		=> correct_answer
+	else:
+		=> wrong_answer
 
+- Sten: {{Riddle.choice_four.text}} 
+	if Riddle.choice_four.correct:
+		=> correct_answer
+	else:
+		=> wrong_answer
 => END
 
 ~ correct_answer
-Berättare: Rätt svar!
-Berättare: Det där gjorde du bra.
+Berättare: [[Rätt svar!|Amenlejteså!|Snyggt!|Den kanske inte var så svår ändå?]]
 => END
 
 ~ wrong_answer
-Berättare: Fel svar...
+Berättare: [[Fel svar...|Hmm... Inte riktigt rätt det där|Ursäkta?|Nja, tyvärr är det fel.|Det var ändå en bra gissning...]]
 Berättare: Bättre lycka nästa gång.
 => END
