@@ -5,7 +5,6 @@ extends Node
 func _ready():
 	pass # Replace with function body.
 
-
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	pass
@@ -83,11 +82,11 @@ func load_riddle():
 
 func load_slisks():
 	#Load all slisks from a json
-	var slisks = read_json_file("res://Json/Slisks.json")
-	
+	var slisksRaw = read_json_file("res://Json/Slisks.json")
+	var slisks = slisksRaw["Slisks"]
 	#Pick the next slisk at random
 	var size = slisks.size()
-	var random_key = slisks.keys()[randi() % size]
+	var random_key = randi() % size
 	var slisk = slisks[random_key]
 	
 	#Add values to the global slisk class
@@ -95,11 +94,6 @@ func load_slisks():
 	GlobalSlisk.choice_two.text = slisk["Choices"][1]["ChoiceText"]
 	GlobalSlisk.choice_three.text = slisk["Choices"][2]["ChoiceText"]
 	GlobalSlisk.choice_four.text = slisk["Choices"][3]["ChoiceText"]
-	GlobalSlisk.choice_one.increment_value = slisk["Choices"][0]["IncrementValue"]
-	GlobalSlisk.choice_two.increment_value = slisk["Choices"][1]["IncrementValue"]
-	GlobalSlisk.choice_three.increment_value = slisk["Choices"][2]["IncrementValue"]
-	GlobalSlisk.choice_four.increment_value = slisk["Choices"][3]["IncrementValue"]
-	GlobalSlisk.threshhold = slisk["Threshhold"]
 	
 func parse_json(text):
 	return JSON.parse_string(text)
