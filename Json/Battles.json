@@ -69,18 +69,47 @@
 				"Snille": 30
 			}
 		},
-	"CoffeeGrunt":
-		{   "Name": "Snubben som hänger vid kaffemaskinen",
+	"SiggeSnabbkaffe":
+		{   "Name": "Sigge Snabbkaffe",
 			"Level": 1,
 			"Prompt": "Du reser dig från kontorsbordet för att ta en välförtjänad paus och går mot jobbets kaffemaskin, och där står han som alltid har något att säga... och du vill INTE prata just nu",
 			"BattleType": "Grunt",
 			"StartDialog": "Hörde du vad Bianca Ingrosso sa på gårdagens program?!",
 			"BattleDialogs": "Kaffet hemma är ju mycket godare än det här...",
 			"Stats": {
+				"Stålar": 3,
+				"Smocka": 4,
+				"Slisk": 6,
+				"Snille": 2
+			}
+		},
+	"SvenSvensson":
+		{   "Name": "Sven Svensson",
+			"Level": 1,
+			"Prompt": "Du sitter med kodarhållningen i din kontorsstol på jobbet. Du känner två ögon som stirrar på dig. Det är skyddsombudet som är alldeles för på om att du måste ha bättre hållning när du arbetar. Vi får se vems rygg som mår bäst efter detta...",
+			"BattleType": "Grunt",
+			"StartDialog": "Vill du ha ett ståskrivbord?",
+			"BattleDialogs": "Mina leder!",
+			"Stats": {
 				"Stålar": 5,
 				"Smocka": 5,
 				"Slisk": 5,
 				"Snille": 5
 			}
+		},
+	"SuneSriracha":
+		{   "Name": "Sune Sriracha",
+			"Level": 1,
+			"Prompt": "Idag trillade du in lite senare till jobbade och det slår dig att företaget gjort alla kontorsplatser till fria platser, så man får sätta sig vart man vill. Tyvärr är den enda lediga platsen precis bredvid toaletten. Till din förskräckan ser du Sune Sriacha som precis satt i sig en stor burrito med starksås vagga mot toaletterna. Dags att slå skiten ur honom, bokstavligen",
+			"BattleType": "Grunt",
+			"StartDialog": "Min mage är lite orolig idag..",
+			"BattleDialogs": "Detta är inte bra för tarmfloran",
+			"Stats": {
+				"Stålar": 5,
+				"Smocka": 6,
+				"Slisk": 2,
+				"Snille": 3
+			}
 		}
+		
 }
