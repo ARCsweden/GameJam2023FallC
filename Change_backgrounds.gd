@@ -3,6 +3,7 @@ extends TextureRect
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	#set default here
 	get_node(".").texture = load("res://Assets/Backgrounds/Geneic_office_1.png")
 	pass # Replace with function body.
 	
