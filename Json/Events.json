@@ -1,29 +1,29 @@
 {
 	"Event_One": 
 		{
-			"Name": "",
-			"Prompt": "Prompt1",
+			"Name": "JudgeDread",
+			"Prompt": "För att knyta lite nya kontakter och för att bygga upp ditt CV lite så har du volontärat att vara domare för en innovationstävling för elever som går i mellanstadiet. Det går lite som väntat, vissa elevers bidrag är väldigt imponerande (för en mellanstadielev i alla fall, inte jämfört med din excellens) och vissa är precis lika bra som förväntan. Efter många timmar av bedömning står det nu mellan två innovationer. Ett av projektet är något riktigt innovativt, en kastrull med en inbyggd termometer! Det andra projektet är något som uppenbart är plagiat. Hur bedömmer du?",
 			"Level" : 1,
 			"Choices": [
 				{
-					"ChoicePrompt": "TEST",
-					"ChoiceType": "Snille",
-					"IncreaseType": "Snille",
+					"ChoicePrompt": "Du funderar i 5 minuter vad ordet innovation betyder, och kör ole dole doff om vem som vinner.",
+					"ChoiceType": "Smocka",
+					"IncreaseType": "Smocka",
 					"DecreaseType": "Slisk",
 					"SuccessChance": 0.5,
-					"SkillModifier": 0.5,
+					"SkillModifier": 1.5,
 					"Outcome": [
 						{
-							"Prompt": "Prompt1Positive",
+							"Prompt": "På något osannolikt sätt märkte ingen att du sa ole dole doff fel och alla accepterar vinsten. Du firar med ett tungt gympass!",
 							"Type": "Positive",
-							"IncreaseValue": 1,
+							"IncreaseValue": 5,
 							"DecreaseValue": 0
 						},
 						{
-							"Prompt": "Prompt1Negative",
+							"Prompt": "Föräldrarna klagar att domaren verkar mindre kvalificerad än barnen som tävlar, och ditt beslut överklagas. Skämmigt!",
 							"Type": "Negative",
-							"IncreaseValue": 1,
-							"DecreaseValue": 0
+							"IncreaseValue": 0,
+							"DecreaseValue": 3
 						}
 					]
 				},
