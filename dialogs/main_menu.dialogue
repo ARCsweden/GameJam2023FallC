@@ -1,6 +1,6 @@
 ~ main_menu
 
-Narrator: [[Hi|Hello|Howdy]], this is Steriotypical Standoff.
+Narrator: [[Hi|Hello|Howdy]] {{GlobalPlayer.player_name}}, this is Steriotypical Standoff.
 Nathan: Here are some choices.
 - First one
 	Nathan: You picked the first one.

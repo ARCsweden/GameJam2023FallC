@@ -18,6 +18,11 @@ config/icon="res://icon.svg"
 [autoload]
 
 DialogueManager="*res://addons/dialogue_manager/dialogue_manager.gd"
+GlobalPlayer="*res://Globals/Player.gd"
+GlobalBattle="*res://Globals/Battle.gd"
+GlobalEvent="*res://Globals/Event.gd"
+GlobalRiddle="*res://Globals/Riddle.gd"
+GlobalSlisk="*res://Globals/Slisk.gd"
 
 [dotnet]
 
@@ -29,4 +34,4 @@ enabled=PackedStringArray("res://addons/dialogue_manager/plugin.cfg")
 
 [internationalization]
 
-locale/translations_pot_files=PackedStringArray("res://dialogs/test_dialogue.dialogue", "res://dialogs/main_menu.dialogue")
+locale/translations_pot_files=PackedStringArray("res://Dialogs/main_menu.dialogue", "res://Dialogs/test_dialogue.dialogue")
