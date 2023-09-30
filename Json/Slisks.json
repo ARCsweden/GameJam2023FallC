@@ -1,24 +1,246 @@
 {
 	"Slisks": 
-		{
-			"Choices": [
-				{
-					"ChoiceText": "",
-					"IncrementValue": 1
-				},
-				{
-					"ChoiceText": "",
-					"IncrementValue": 2
-				},
-				{
-					"ChoiceText": "",
-					"IncrementValue": 4
-				},
-				{
-					"ChoiceText": "",
-					"IncrementValue": 6
-				}
-			],
-			"Threshhold": 12
-		}
+		[
+			{
+				"Choices": [
+					{
+						"ChoiceText": "Om du vore en varulv, skulle jag vilja vara din måne."
+					},
+					{
+						"ChoiceText": "Om du vore en grönsak, skulle du vara en söt-potatis."
+					},
+					{
+						"ChoiceText": "Om vi säger att vi träffades på ICA, hur skulle det låta?"
+					},
+					{
+						"ChoiceText": "Är du en högspänningsledning? För du ger mig en elektrisk känsla."
+					}
+				]
+			},
+			{
+				"Choices": [
+					{
+						"ChoiceText": "Är du en konstnär? För du har målat ett leende på mitt ansikte."
+					},
+					{
+						"ChoiceText": "Men se det från min sida"
+					},
+					{
+						"ChoiceText": "Det är en fråga om prioriteringar"
+					},
+					{
+						"ChoiceText": "Inte Höger inte Vänster, framåt"
+					}
+				]
+			},
+			{
+				"Choices": [
+					{
+						"ChoiceText": "Inte Upp inte Nedåt, framåt"
+					},
+					{
+						"ChoiceText": "Är du en viking? För du har erövrat mitt hjärta."
+					},
+					{
+						"ChoiceText": "Du måste vara en bro, för du kopplar samman mitt hjärta och mitt sinne."
+					},
+					{
+						"ChoiceText": "Skulle du göra det för mig?"
+					}
+				]
+			},
+			{
+				"Choices": [
+					{
+						"ChoiceText": "Jag lovar att jag betalar tillbaka"
+					},
+					{
+						"ChoiceText": "Du kan lita på mig"
+					},
+					{
+						"ChoiceText": "Det är inga problem"
+					},
+					{
+						"ChoiceText": "Du vet inte vad jag klara av"
+					}
+				]
+			},
+			{
+				"Choices": [
+					{
+						"ChoiceText": "Det är bra publicitet"
+					},
+					{
+						"ChoiceText": "Det kan ge mycket publicitet"
+					},
+					{
+						"ChoiceText": "Jag kan ge dig mycket publicitet"
+					},
+					{
+						"ChoiceText": "All publicitet är bra publicitet"
+					}
+				]
+			},
+			{
+				"Choices": [
+					{
+						"ChoiceText": "Det skulle kunna vara du och jag"
+					},
+					{
+						"ChoiceText": "Jag hade gjort det göre"
+					},
+					{
+						"ChoiceText": "Du är väl inte en fegis"
+					},
+					{
+						"ChoiceText": "UHOIEP"
+					}
+				]
+			},
+			{
+				"Choices": [
+					{
+						"ChoiceText": "C'est une question de priorités"
+					},
+					{
+						"ChoiceText": "Vad har du för dig ikväll (;"
+					},
+					{
+						"ChoiceText": "Jag är singel, bara så du vet"
+					},
+					{
+						"ChoiceText": "Min pappa är president av nintendo"
+					}
+				]
+			},
+			{
+				"Choices": [
+					{
+						"ChoiceText": "Vet du vem jag är"
+					},
+					{
+						"ChoiceText": "Du kommer att ångra det här"
+					},
+					{
+						"ChoiceText": "Jag har vänner på höga ställen"
+					},
+					{
+						"ChoiceText": "Jag skulle aldrig lura dig"
+					}
+				]
+			},
+			{
+				"Choices": [
+					{
+						"ChoiceText": "Jag kan betala på annat sätt (;"
+					},
+					{
+						"ChoiceText": "Du skulle ha det så mycket bättre med mig"
+					},
+					{
+						"ChoiceText": "Jag känner presidenten"
+					},
+					{
+						"ChoiceText": "omelette du fromage"
+					}
+				]
+			},
+			{
+				"Choices": [
+					{
+						"ChoiceText": "Jag är väldigt rik"
+					},
+					{
+						"ChoiceText": "Jag gör bara dom bästa besluten"
+					},
+					{
+						"ChoiceText": "Ingen respekterar kvinnor mer en jag gör"
+					},
+					{
+						"ChoiceText": "Ingen respekterar män mer än jag gör"
+					}
+				]
+			},
+			{
+				"Choices": [
+					{
+						"ChoiceText": "Vet du, jag är en så smart person"
+					},
+					{
+						"ChoiceText": "Jag har en bra relation med alla, jag har alltid haft en bra relation"
+					},
+					{
+						"ChoiceText": "När du är en stjärna får du göra vad du vill"
+					},
+					{
+						"ChoiceText": "Mexiko kommer att betala"
+					}
+				]
+			},
+			{
+				"Choices": [
+					{
+						"ChoiceText": "Jag kommer inte acceptera ett nej"
+					},
+					{
+						"ChoiceText": "Nej är inte en del av min ordbok"
+					},
+					{
+						"ChoiceText": "Jag misslykas alldrig"
+					},
+					{
+						"ChoiceText": "What the fuck did you just fucking say about me, you little bitch? I'll have you know I graduated top of my class in the Navy Seals, and I've been involved in numerous secret raids on Al-Quaeda, and I have over 300 confirmed kills. I am trained in gorilla warfare and I'm the top sniper in the entire US armed forces. You are nothing to me but just another target. I will wipe you the fuck out with precision the likes of which has never been seen before on this Earth, mark my fucking words. You think you can get away with saying that shit to me over the Internet? Think again, fucker. As we speak I am contacting my secret network of spies across the USA and your IP is being traced right now so you better prepare for the storm, maggot. The storm that wipes out the pathetic little thing you call your life. You're fucking dead, kid. I can be anywhere, anytime, and I can kill you in over seven hundred ways, and that's just with my bare hands. Not only am I extensively trained in unarmed combat, but I have access to the entire arsenal of the United States Marine Corps and I will use it to its full extent to wipe your miserable ass off the face of the continent, you little shit. If only you could have known what unholy retribution your little clever comment was about to bring down upon you, maybe you would have held your fucking tongue. But you couldn't, you didn't, and now you're paying the price, you goddamn idiot. I will shit fury all over you and you will drown in it. You're fucking dead, kiddo."
+					}
+				]
+			},
+			{
+				"Choices": [
+					{
+						"ChoiceText": "Ingen tar saker mer personlig än mig"
+					},
+					{
+						"ChoiceText": "Jag har en enorm förmåga"
+					},
+					{
+						"ChoiceText": "Du behöver tänka, så varför inte tänka stort"
+					},
+					{
+						"ChoiceText": "Tänk på möjligheterna"
+					}
+				]
+			},
+			{
+				"Choices": [
+					{
+						"ChoiceText": "Jag kan ändra på mig"
+					},
+					{
+						"ChoiceText": "Jag är den minst rasistiska personen som existerar"
+					},
+					{
+						"ChoiceText": "Det finns ingen större elle bättre på affärer"
+					},
+					{
+						"ChoiceText": "Kom med mig och tillsammans kan vi styra galaxen"
+					}
+				]
+			},
+			{
+				"Choices": [
+					{
+						"ChoiceText": "Jag berättar för mamma att du slog mig"
+					},
+					{
+						"ChoiceText": "Vi måste lära oss att samarbeta"
+					},
+					{
+						"ChoiceText": "Va inte så arg"
+					},
+					{
+						"ChoiceText": "Har du inte en telefon"
+					}
+				]
+			}
+		]
 }
+
