@@ -1,30 +1,24 @@
+import "res://dialogs/quiz.dialogue" as quiz
 ~ battle_dialogue
-Berättare: Börjar en ny fight 😊
-Berättare: Berättar om varför du slåss...
+Berättare: {{Battle.prompt}}
 
-Boss: Start dialog...
+{{Battle.battle_name}}: {{Battle.start_dialogue}}
 =>< battle_state_machine
-Boss: Ja det gick ju som det gick.
+{{Battle.battle_name}}: Ja det gick ju som det gick.
 Sten: [[Loser.|Noob.|Kan du inte bättre?]]
 => battle_dialogue
 => END
 
 ~ battle_state_machine
 
-- Smocka [if true]
-	Boss: ouch
-
-- Slisk [if false]
+- Smocka
+	{{Battle.battle_name}}: ouch
+- Slisk
 	Sten: Tjena kexet, står du här och smular?
-	Boss: Du är inte så dum du heller 😘
+	{{Battle.battle_name}}: Du är inte så dum du heller 😘
 
-- Snille [if false]
-	Berättare: Vad heter du?
-	- Sten
-	- Sten
-	Berättare: Ok, det var rätt
-	Boss: Nu hängde jag inte med...
-
-- Evil smocka [if true]
-	Boss: double ouch
+- Snille
+	=>< quiz/quiz
+- Evil smocka
+	{{Battle.battle_name}}: double ouch
 => END

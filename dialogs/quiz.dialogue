@@ -1,0 +1,22 @@
+~ quiz
+Berättare: [[Nu ska du få svara på en fråga; ||En liten kluring; ]]{{Riddle.prompt}}
+- Sten: Val1 
+	if true:
+		=>< correct_answer
+	else:
+		=>< wrong_answer
+- Sten: Val1
+- Sten: Val1
+- Sten: Val1
+
+=> END
+
+~ correct_answer
+Berättare: Rätt svar!
+Berättare: Det där gjorde du bra.
+=> END
+
+~ wrong_answer
+Berättare: Fel svar...
+Berättare: Bättre lycka nästa gång.
+=> END
