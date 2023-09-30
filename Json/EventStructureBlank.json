@@ -1,0 +1,31 @@
+{
+    "Events": [
+        {   "Name": "",
+            "Prompt": "",
+            "Level" : 1,
+            "Choices": [
+                {
+                    "Choice": "",
+                    "IncreaseType": "",
+                    "DecreaseType": "",
+                    "SuccessChance": 0.5,
+                    "SkillModifier": 0.5,
+                    "Outcome": [
+                        {
+                            "Prompt": "",
+                            "Type": "",
+                            "IncreaseValue": 1,
+                            "DecreaseValue": 0
+                        },
+                        {
+                            "Prompt": "",
+                            "Type": "",
+                            "IncreaseValue": 1,
+                            "DecreaseValue": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

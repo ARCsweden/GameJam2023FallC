@@ -1,0 +1,14 @@
+{
+    "Riddles": [
+        {   "Name": "",
+            "Prompt": "",
+            "Choices": [
+                {
+                    "ChoiceText": "",
+                    "Correct": true
+                }
+            ],
+            "Difficulty": ""
+        }
+    ]
+}
