@@ -10,7 +10,8 @@
 				"Stålar": 5,
 				"Smocka": 10,
 				"Slisk": 5,
-				"Snille": 5
+				"Snille": 5,
+				"Hp": 40
 			}
 		},
 	"SamSchnygg":
@@ -24,7 +25,8 @@
 				"Stålar": 10,
 				"Smocka": 10,
 				"Slisk": 15,
-				"Snille": 10
+				"Snille": 10,
+				"Hp": 50
 			}
 		},
 	"StefanSynaps":
@@ -38,7 +40,8 @@
 				"Stålar": 15,
 				"Smocka": 15,
 				"Slisk": 15,
-				"Snille": 20
+				"Snille": 20,
+				"Hp": 60
 			}
 		},
 	"StigAfSchtenrik":
@@ -52,7 +55,8 @@
 				"Stålar": 25,
 				"Smocka": 20,
 				"Slisk": 20,
-				"Snille": 20
+				"Snille": 20,
+				"Hp": 75
 			}
 		},
 	"SimonVonSteinberg":
@@ -66,7 +70,8 @@
 				"Stålar": 30,
 				"Smocka": 30,
 				"Slisk": 30,
-				"Snille": 30
+				"Snille": 30,
+				"Hp": 100
 			}
 		},
 	"SiggeSnabbkaffe":
@@ -80,7 +85,8 @@
 				"Stålar": 3,
 				"Smocka": 4,
 				"Slisk": 6,
-				"Snille": 2
+				"Snille": 2,
+				"Hp": 15
 			}
 		},
 	"SvenSvensson":
@@ -94,7 +100,8 @@
 				"Stålar": 5,
 				"Smocka": 5,
 				"Slisk": 5,
-				"Snille": 5
+				"Snille": 5,
+				"Hp": 20
 			}
 		},
 	"SuneSriracha":
@@ -108,7 +115,8 @@
 				"Stålar": 5,
 				"Smocka": 6,
 				"Slisk": 2,
-				"Snille": 3
+				"Snille": 3,
+				"Hp": 25
 			}
 		}
 		

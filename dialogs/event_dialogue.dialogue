@@ -1,23 +1,23 @@
 ~ event
 Berättare: {{GlobalEvent.prompt}}
 - {{GlobalEvent.choice_one.choice_prompt}}
-	%{{GlobalEvent.choice_one.success_chance}} Berättare: {{GlobalEvent.choice_one.outcome_positive_prompt}}
-	%{{GlobalEvent.choice_one.fail_chance}} Berättare: {{GlobalEvent.choice_one.outcome_negative_prompt}}
+	%3 Berättare: {{GlobalEvent.choice_one.outcome_positive_prompt}}
+	%2 Berättare: {{GlobalEvent.choice_one.outcome_negative_prompt}}
 
 - {{GlobalEvent.choice_two.choice_prompt}}
-	%{{GlobalEvent.choice_two.success_chance}} Berättare: {{GlobalEvent.choice_two.outcome_positive_prompt}}
-	% Berättare: {{GlobalEvent.choice_two.outcome_negative_prompt}}
+	%3 Berättare: {{GlobalEvent.choice_two.outcome_positive_prompt}}
+	%2 Berättare: {{GlobalEvent.choice_two.outcome_negative_prompt}}
 
 - {{GlobalEvent.choice_three.choice_prompt}}
-	%{{GlobalEvent.choice_three.success_chance}} Berättare: {{GlobalEvent.choice_three.outcome_positive_prompt}}
-	% Berättare: {{GlobalEvent.choice_three.outcome_negative_prompt}}
+	%3 Berättare: {{GlobalEvent.choice_three.outcome_positive_prompt}}
+	%2 Berättare: {{GlobalEvent.choice_three.outcome_negative_prompt}}
 
 - {{GlobalEvent.choice_four.choice_prompt}}
-	%{{GlobalEvent.choice_four.success_chance}} Berättare: {{GlobalEvent.choice_four.outcome_positive_prompt}}
-	% Berättare: {{GlobalEvent.choice_four.outcome_negative_prompt}}
+	%3 Berättare: {{GlobalEvent.choice_four.outcome_positive_prompt}}
+	%2 Berättare: {{GlobalEvent.choice_four.outcome_negative_prompt}}
 	
 - {{GlobalEvent.choice_five.choice_prompt}}
-	%{{GlobalEvent.choice_five.success_chance}} Berättare: {{GlobalEvent.choice_five.outcome_positive_prompt}}
-	% Berättare: {{GlobalEvent.choice_five.outcome_negative_prompt}}
+	%3 Berättare: {{GlobalEvent.choice_five.outcome_positive_prompt}}
+	%2 Berättare: {{GlobalEvent.choice_five.outcome_negative_prompt}}
 
 => END
