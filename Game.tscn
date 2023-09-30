@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://Game.gd" id="1_t8pt4"]
 [ext_resource type="Texture2D" uid="uid://oq6ygk3fqttg" path="res://Assets/Foes/baseSTAN.png" id="2_dau3n"]
-[ext_resource type="Script" path="res://Change_backgrounds.gd" id="3_jlqrp"]
+[ext_resource type="Script" path="res://background_image.gd" id="2_kbaac"]
 [ext_resource type="Script" path="res://Foe.gd" id="3_m80ia"]
 
 [node name="TestScene" type="Node2D"]
@@ -14,7 +14,7 @@ offset_top = -5.0
 offset_right = 1360.0
 offset_bottom = 1019.0
 scale = Vector2(0.124106, 0.0447955)
-script = ExtResource("3_jlqrp")
+script = ExtResource("2_kbaac")
 
 [node name="Foe" type="TextureRect" parent="."]
 offset_left = 45.0
