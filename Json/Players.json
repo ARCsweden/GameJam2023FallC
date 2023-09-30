@@ -3,10 +3,11 @@
 		{
 			"Name": "Sten",
 			"Stats": {
-				"Stålar": "10000",
-				"Smocka": "10",
-				"Slisk": "5",
-				"Snille": "5"
+				"Stålar": 10000,
+				"Smocka": 10,
+				"Slisk": 5,
+				"Snille": 5,
+				"Hp": 30
 			},
 			"Level": 1
 		},
@@ -14,10 +15,11 @@
 		{
 			"Name": "Sten",
 			"Stats": {
-				"Stålar": "10000",
-				"Smocka": "5",
-				"Slisk": "10",
-				"Snille": "5"
+				"Stålar": 10000,
+				"Smocka": 5,
+				"Slisk": 10,
+				"Snille": 5,
+				"Hp": 30
 			},
 			"Level": 1
 		},
@@ -25,10 +27,11 @@
 		{
 			"Name": "Sten",
 			"Stats": {
-				"Stålar": "10000",
-				"Smocka": "5",
-				"Slisk": "5",
-				"Snille": "10"
+				"Stålar": 10000,
+				"Smocka": 5,
+				"Slisk": 5,
+				"Snille": 10,
+				"Hp": 30
 			},
 			"Level": 1
 		},
@@ -36,10 +39,11 @@
 		{
 			"Name": "Sten",
 			"Stats": {
-				"Stålar": "100000",
-				"Smocka": "5",
-				"Slisk": "5",
-				"Snille": "5"
+				"Stålar": 100000,
+				"Smocka": 5,
+				"Slisk": 5,
+				"Snille": 5,
+				"Hp": 30
 			},
 			"Level": 1
 		}
