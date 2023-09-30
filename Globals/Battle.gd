@@ -17,6 +17,10 @@ var brains = 5
 var slisk = 5
 var hp = 30
 
+var random_attack = 0
 
+func select_random_attack():
+	random_attack = randf()
+	
 #func _changeSprite():
 	#Add checks to see if player sprite needs to be changed here

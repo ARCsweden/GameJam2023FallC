@@ -78,7 +78,6 @@ func load_riddle():
 	GlobalRiddle.choice_four.text = riddle["Choices"][3]["ChoiceText"]
 	GlobalRiddle.choice_one.correct = riddle["Choices"][0]["Correct"]
 	GlobalRiddle.choice_two.correct = riddle["Choices"][1]["Correct"]
-	print(GlobalRiddle.choice_two.correct)
 	GlobalRiddle.choice_three.correct = riddle["Choices"][2]["Correct"]
 	GlobalRiddle.choice_four.correct = riddle["Choices"][3]["Correct"]
 	GlobalRiddle.difficulty = riddle["Difficulty"]

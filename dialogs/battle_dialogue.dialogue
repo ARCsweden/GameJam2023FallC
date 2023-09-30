@@ -2,7 +2,7 @@ import "res://dialogs/quiz.dialogue" as quiz
 ~ battle_dialogue
 Berättare: {{GlobalBattle.prompt}}
 
-{{GlobalBattle.battle_name}}: {{GlobalBattle.start_dialogue}}
+{{GlobalBattle.battle_name}}: {{GlobalBattle.start_dialog}}
 =>< battle_state_machine
 {{GlobalBattle.battle_name}}: Ja det gick ju som det gick.
 Sten: [[Loser.|Noob.|Kan du inte bättre?]]
@@ -12,18 +12,20 @@ Sten: [[Loser.|Noob.|Kan du inte bättre?]]
 ~ battle_state_machine
 while GlobalPlayer.hp > 0 and GlobalBattle.hp > 0:
 	
+	=>< player_round
 	{{GlobalBattle.battle_name}}: {{GlobalBattle.hp}} hp
-	=> player_round
-	{{GlobalBattle.battle_name}}: {{GlobalBattle.hp}} hp
-	=> enemy_round
+	=>< enemy_round
+	Sten: {{GlobalPlayer.hp}} hp
 	
-
 => END
 
 ~ player_round
 - Smocka
 	{{GlobalBattle.battle_name}}: Ouch!
-	set GlobalBattle.hp = GlobalBattle.hp - GlobalBattle.smock
+	if GlobalPlayer.smock - GlobalBattle.smock > 0:
+		set GlobalBattle.hp -= GlobalPlayer.smock - GlobalBattle.smock
+	else:
+		Berättare: {{GlobalBattle.battle_name}} är för stark för dig...
 	
 - Slisk
 	Sten: Tjena kexet, står du här och smular?
@@ -31,14 +33,27 @@ while GlobalPlayer.hp > 0 and GlobalBattle.hp > 0:
 
 - Snille
 	=>< quiz/quiz
-	
-- Stålar
-	{{GlobalBattle.battle_name}}: spenderar pengar
 => END
 
 ~ enemy_round
-%{Global.Battle.smock} Boss: Smocka!!
-%{Global.Battle.brains} Boss: Snille!
-%{Global.Battle.slisk} Boss: Slisk!
-%{Global.Battle.smock} Boss: Smocka!
+do GlobalBattle.select_random_attack()
+if GlobalBattle.random_attack < 0.33:
+	{{GlobalBattle.battle_name}}: Smocka!!
+	if GlobalPlayer.hp - GlobalBattle.smock > 0:
+		set GlobalPlayer.hp = GlobalPlayer.hp - GlobalBattle.smock
+	else:
+		Berättare: {{GlobalBattle.battle_name}} är [[inte tillräckligt stark|vek|en mes]]...
+elif GlobalBattle.random_attack < 0.66:
+	{{GlobalBattle.battle_name}}: Snille!
+	do GlobalBattle.select_random_attack()
+	if GlobalBattle.random_attack < 0.33:
+		if  GlobalBattle.brains - GlobalPlayer.brains / 2 > 0
+			set GlobalPlayer.hp -= GlobalBattle.brains - GlobalPlayer.brains / 2 
+		else:
+			Berättare: {{GlobalBattle.battle_name}} är [[inte tillräckligt smart|dum i huvudet|svagt begåvad]]...
+else:
+	{{GlobalBattle.battle_name}}: Slisk!
+	do GlobalBattle.select_random_attack()
+	if GlobalBattle.random_attack < 0.33: 
+		set GlobalPlayer.hp -= GlobalBattle.slisk - GlobalPlayer.slisk / 2
 => END
