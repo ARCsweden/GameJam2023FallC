@@ -18,6 +18,11 @@ config/icon="res://icon.svg"
 [autoload]
 
 DialogueManager="*res://addons/dialogue_manager/dialogue_manager.gd"
+GlobalPlayer="*res://Globals/Player.gd"
+GlobalBattle="*res://Globals/Battle.gd"
+GlobalEvent="*res://Globals/Event.gd"
+GlobalRiddle="*res://Globals/Riddle.gd"
+GlobalSlisk="*res://Globals/Slisk.gd"
 
 [dotnet]
 
