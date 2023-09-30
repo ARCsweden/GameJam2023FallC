@@ -7,10 +7,10 @@
 			"StartDialog": "Vad är ditt personbästa i tyngdlyft?",
 			"BattleDialogs": "Jag kan räkna till minst 7 faktiskt",
 			"Stats": {
-				"Stålar": "5",
-				"Smocka": "10",
-				"Slisk": "5",
-				"Snille": "5"
+				"Stålar": 5,
+				"Smocka": 10,
+				"Slisk": 5,
+				"Snille": 5
 			}
 		},
 	"SamSchnygg":
@@ -21,10 +21,10 @@
 			"StartDialog": "Använd gärna min promo code SCHNYGG20% för 20% billigare fettsugning",
 			"BattleDialogs": "Min näsa! Den var ju plastikopererad!",
 			"Stats": {
-				"Stålar": "10",
-				"Smocka": "10",
-				"Slisk": "15",
-				"Snille": "10"
+				"Stålar": 10,
+				"Smocka": 10,
+				"Slisk": 5,
+				"Snille": 10
 			}
 		},
 	"StefanSynaps":
@@ -35,10 +35,10 @@
 			"StartDialog": "Jag vill inte säga att jag är bättre än dig bara för jag är smartare men, du kan väl inte ens stava till intellekt...",
 			"BattleDialogs": "Jag hade faktiskt 2.0 på högskoleprovet",
 			"Stats": {
-				"Stålar": "15",
-				"Smocka": "15",
-				"Slisk": "15",
-				"Snille": "20"
+				"Stålar": 15,
+				"Smocka": 15,
+				"Slisk": 15,
+				"Snille": 20
 			}
 		},
 	"StigAfSchtenrik":
@@ -49,10 +49,10 @@
 			"StartDialog": "Om ditt förmögenhet inte är minst tiosiffrig, kan du lika gärna Schticka iväg",
 			"BattleDialogs": "Jag är kommer från en bättre familj",
 			"Stats": {
-				"Stålar": "25",
-				"Smocka": "20",
-				"Slisk": "20",
-				"Snille": "20"
+				"Stålar": 25,
+				"Smocka": 20,
+				"Slisk": 20,
+				"Snille": 20
 			}
 		},
 	"SimonVonSteinberg":
@@ -63,10 +63,24 @@
 			"StartDialog": "Dom kallar mig aktiemarknadens knug",
 			"BattleDialogs": "Vakter, vakter! Allt mitt guld",
 			"Stats": {
-				"Stålar": "30",
-				"Smocka": "30",
-				"Slisk": "30",
-				"Snille": "30"
+				"Stålar": 30,
+				"Smocka": 30,
+				"Slisk": 30,
+				"Snille": 30
+			}
+		},
+	"CoffeeGrunt":
+		{   "Name": "Snubben som hänger vid kaffemaskinen",
+			"Level": 1,
+			"Prompt": "Du reser dig från kontorsbordet för att ta en välförtjänad paus och går mot jobbets kaffemaskin, och där står han som alltid har något att säga... och du vill INTE prata just nu",
+			"BattleType": "Grunt",
+			"StartDialog": "Hörde du vad Bianca Ingrosso sa på gårdagens program?!",
+			"BattleDialogs": "Kaffet hemma är ju mycket godare än det här...",
+			"Stats": {
+				"Stålar": 5,
+				"Smocka": 5,
+				"Slisk": 5,
+				"Snille": 5
 			}
 		}
 }
