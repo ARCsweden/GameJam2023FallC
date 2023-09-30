@@ -1,23 +1,53 @@
 ~ event
 Berättare: {{GlobalEvent.prompt}}
+do GlobalBattle.get_random()
 - {{GlobalEvent.choice_one.choice_prompt}}
-	%3 Berättare: {{GlobalEvent.choice_one.outcome_positive_prompt}}
-	%2 Berättare: {{GlobalEvent.choice_one.outcome_negative_prompt}}
-
+	if GlobalBattle.random_val <= GlobalEvent.choice_one.success_chance:
+		Berättare: {{GlobalEvent.choice_one.outcome_positive_prompt}}
+		do GlobalPlayer.increase_skill(GlobalEvent.choice_one.increase_type,GlobalEvent.choice_one.outcome_positive_increase_value)
+		Berättare: {{GlobalPlayer.answer}}
+	else:
+		Berättare: {{GlobalEvent.choice_one.outcome_negative_prompt}}
+		do GlobalPlayer.decrease_skill(GlobalEvent.choice_one.decrease_type,GlobalEvent.choice_one.outcome_negative_decrease_value)
+		Berättare: {{GlobalPlayer.answer}}
+		
 - {{GlobalEvent.choice_two.choice_prompt}}
-	%3 Berättare: {{GlobalEvent.choice_two.outcome_positive_prompt}}
-	%2 Berättare: {{GlobalEvent.choice_two.outcome_negative_prompt}}
-
+	if GlobalBattle.random_val <= GlobalEvent.choice_two.success_chance:
+		Berättare: {{GlobalEvent.choice_two.outcome_positive_prompt}}
+		do GlobalPlayer.increase_skill(GlobalEvent.choice_two.increase_type,GlobalEvent.choice_two.outcome_positive_increase_value)
+		Berättare: {{GlobalPlayer.answer}}
+	else:
+		Berättare: {{GlobalEvent.choice_two.outcome_negative_prompt}}
+		do GlobalPlayer.decrease_skill(GlobalEvent.choice_two.decrease_type,GlobalEvent.choice_two.outcome_negative_decrease_value)
+		Berättare: {{GlobalPlayer.answer}}
+		
 - {{GlobalEvent.choice_three.choice_prompt}}
-	%3 Berättare: {{GlobalEvent.choice_three.outcome_positive_prompt}}
-	%2 Berättare: {{GlobalEvent.choice_three.outcome_negative_prompt}}
-
+	if GlobalBattle.random_val <= GlobalEvent.choice_three.success_chance:
+		Berättare: {{GlobalEvent.choice_three.outcome_positive_prompt}}
+		do GlobalPlayer.increase_skill(GlobalEvent.choice_three.increase_type,GlobalEvent.choice_three.outcome_positive_increase_value)
+		Berättare: {{GlobalPlayer.answer}}
+	else:
+		Berättare: {{GlobalEvent.choice_three.outcome_negative_prompt}}
+		do GlobalPlayer.decrease_skill(GlobalEvent.choice_three.decrease_type,GlobalEvent.choice_three.outcome_negative_decrease_value)
+		Berättare: {{GlobalPlayer.answer}}
+		
 - {{GlobalEvent.choice_four.choice_prompt}}
-	%3 Berättare: {{GlobalEvent.choice_four.outcome_positive_prompt}}
-	%2 Berättare: {{GlobalEvent.choice_four.outcome_negative_prompt}}
-	
+	if GlobalBattle.random_val <= GlobalEvent.choice_four.success_chance:
+		Berättare: {{GlobalEvent.choice_four.outcome_positive_prompt}}
+		do GlobalPlayer.increase_skill(GlobalEvent.choice_four.increase_type,GlobalEvent.choice_four.outcome_positive_increase_value)
+		Berättare: {{GlobalPlayer.answer}}
+	else:
+		Berättare: {{GlobalEvent.choice_four.outcome_negative_prompt}}
+		do GlobalPlayer.decrease_skill(GlobalEvent.choice_four.decrease_type,GlobalEvent.choice_four.outcome_negative_decrease_value)
+		Berättare: {{GlobalPlayer.answer}}		
+		
 - {{GlobalEvent.choice_five.choice_prompt}}
-	%3 Berättare: {{GlobalEvent.choice_five.outcome_positive_prompt}}
-	%2 Berättare: {{GlobalEvent.choice_five.outcome_negative_prompt}}
-
+	if GlobalBattle.random_val <= GlobalEvent.choice_five.success_chance:
+		Berättare: {{GlobalEvent.choice_five.outcome_positive_prompt}}
+		do GlobalPlayer.increase_skill(GlobalEvent.choice_five.increase_type,GlobalEvent.choice_five.outcome_positive_increase_value)
+		Berättare: {{GlobalPlayer.answer}}
+	else:
+		Berättare: {{GlobalEvent.choice_five.outcome_negative_prompt}}
+		do GlobalPlayer.decrease_skill(GlobalEvent.choice_five.decrease_type,GlobalEvent.choice_five.outcome_negative_decrease_value)
+		Berättare: {{GlobalPlayer.answer}}
 => END
