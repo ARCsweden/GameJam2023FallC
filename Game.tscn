@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://5xlvw3w600h6"]
+[gd_scene load_steps=4 format=3 uid="uid://b0ywom0bt3gdb"]
 
 [ext_resource type="Script" path="res://Game.gd" id="1_t8pt4"]
 [ext_resource type="Script" path="res://Change_backgrounds.gd" id="3_jlqrp"]

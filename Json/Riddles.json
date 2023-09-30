@@ -5,7 +5,7 @@
 			"Choices": [
 				{
 					"ChoiceText": "Vildsvin",
-					"Correct": true
+					"Correct": false
 				},
 				{
 					"ChoiceText": "Hjort",
