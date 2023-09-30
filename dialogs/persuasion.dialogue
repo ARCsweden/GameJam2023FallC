@@ -1,0 +1,48 @@
+~ slisk
+do GlobalSetup.load_slisks()
+do GlobalBattle.get_random()
+- Sten: {{GlobalSlisk.choice_one.text}}
+	if GlobalBattle.random_val < 0.8:
+		if GlobalPlayer.slisk - GlobalBattle.slisk > 0:
+			GlobalBattle.hp -= GlobalPlayer.slisk - GlobalBattle.slisk
+			=> slisk_success
+		else:
+			Berättare: {{GlobalBattle.battle_name}} är för sliskig för dig...
+	else:
+		=> slisk_fail
+- Sten: {{GlobalSlisk.choice_two.text}}
+	if GlobalBattle.random_val < 0.6:
+		if GlobalPlayer.slisk - GlobalBattle.slisk/2 > 0:
+			GlobalBattle.hp -= GlobalPlayer.slisk - GlobalBattle.slisk/2
+			=> slisk_success
+		else:
+			Berättare: {{GlobalBattle.battle_name}} är för sliskig för dig...
+	else:
+		=> slisk_fail
+- Sten: {{GlobalSlisk.choice_three.text}}
+	if GlobalBattle.random_val < 0.35:
+		if GlobalPlayer.slisk > 0:
+			GlobalBattle.hp -= GlobalPlayer.slisk
+			=> slisk_success
+		else:
+			Berättare: {{GlobalBattle.battle_name}} är för sliskig för dig...
+	else:
+		=> slisk_fail
+- Sten: {{GlobalSlisk.choice_four.text}}
+	if GlobalBattle.random_val < 0.2:
+		if GlobalPlayer.slisk * 1.5 > 0:
+			GlobalBattle.hp -= GlobalPlayer.slisk  * 1.5
+			=> slisk_success
+		else:
+			Berättare: {{GlobalBattle.battle_name}} är för sliskig för dig...
+	else:
+		=> slisk_fail
+=> END
+
+~ slisk_success
+{{GlobalBattle.battle_name}}: [[Nämen ojojoj 😊|Håhå jaja|Nej nu rodnar jag]]
+=> END
+
+~ slisk_fail
+{{GlobalBattle.battle_name}}: [[Du det där var rätt sliskigt...|Nämen usch!|Prata inte mer med mig😓]]
+=> END

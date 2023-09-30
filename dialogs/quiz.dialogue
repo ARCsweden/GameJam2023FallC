@@ -37,5 +37,4 @@ else:
 ~ wrong_answer
 Berättare: [[Fel svar...|Hmm... Inte riktigt rätt det där|Ursäkta?|Nja, tyvärr är det fel.|Det var ändå en bra gissning...]]
 Berättare: Bättre lycka nästa gång.
-set GlobalBattle.solved_quiz = false
 => END

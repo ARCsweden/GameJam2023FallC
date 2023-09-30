@@ -1,4 +1,5 @@
 import "res://dialogs/quiz.dialogue" as quiz
+import "res://dialogs/persuasion.dialogue" as persuasion
 ~ battle_dialogue
 Berättare: {{GlobalBattle.prompt}}
 
@@ -28,32 +29,31 @@ while GlobalPlayer.hp > 0 and GlobalBattle.hp > 0:
 		Berättare: {{GlobalBattle.battle_name}} är för stark för dig...
 	
 - Slisk
-	Sten: Tjena kexet, står du här och smular?
-	{{GlobalBattle.battle_name}}: Du är inte så dum du heller 😘
+	=>< persuasion/slisk
 
 - Snille
 	=>< quiz/quiz
 => END
 
 ~ enemy_round
-do GlobalBattle.select_random_attack()
-if GlobalBattle.random_attack < 0.33:
+do GlobalBattle.get_random()
+if GlobalBattle.random_val < 0.33:
 	{{GlobalBattle.battle_name}}: Smocka!!
 	if GlobalPlayer.hp - GlobalBattle.smock > 0:
 		set GlobalPlayer.hp = GlobalPlayer.hp - GlobalBattle.smock
 	else:
 		Berättare: {{GlobalBattle.battle_name}} är [[inte tillräckligt stark|vek|en mes]]...
-elif GlobalBattle.random_attack < 0.66:
+elif GlobalBattle.random_val < 0.66:
 	{{GlobalBattle.battle_name}}: Snille!
-	do GlobalBattle.select_random_attack()
-	if GlobalBattle.random_attack < 0.33:
+	do GlobalBattle.get_random()
+	if GlobalBattle.random_val < 0.33:
 		if  GlobalBattle.brains - GlobalPlayer.brains / 2 > 0
 			set GlobalPlayer.hp -= GlobalBattle.brains - GlobalPlayer.brains / 2 
 		else:
 			Berättare: {{GlobalBattle.battle_name}} är [[inte tillräckligt smart|dum i huvudet|svagt begåvad]]...
 else:
 	{{GlobalBattle.battle_name}}: Slisk!
-	do GlobalBattle.select_random_attack()
-	if GlobalBattle.random_attack < 0.33: 
+	do GlobalBattle.get_random()
+	if GlobalBattle.random_val < 0.33: 
 		set GlobalPlayer.hp -= GlobalBattle.slisk - GlobalPlayer.slisk / 2
 => END

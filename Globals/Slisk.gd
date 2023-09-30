@@ -10,3 +10,4 @@ var threshhold = 0 #Threshhold that needs to be reached to complete slisk encoun
 class SliskChoice:
 	var text = ""
 	var increment_value = 0
+
