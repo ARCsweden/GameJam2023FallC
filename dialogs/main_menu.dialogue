@@ -1,4 +1,5 @@
 import "res://dialogs/battle_dialogue.dialogue" as battle
+import "res://dialogs/event_dialogue.dialogue" as event
 ~ main_menu
 
 Berättare: [[Hej|Tjenixen|Trevligt att råkas]], detta är Steriotypical Standoff.
@@ -8,7 +9,12 @@ Berättare: Sa du Sten? Hej Sten jag är bara berättare och mitt namn spelar in
 Berättare: Dags att spela?
 - Ja
 	Sten: Ja, jag vill [[spela|gamea|komma igång]].
-	=> battle/battle_dialogue
+	=>< event/event
+	=>< battle/battle_dialogue
+	do GlobalSetup.load_event()
+	=>< event/event
+	do GlobalSetup.load_battle()
+	=>< battle/battle_dialogue
 - Nej
 	Sten: Aldrig i livet.
 	=> main_menu

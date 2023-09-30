@@ -52,9 +52,7 @@ func load_event():
 		GlobalEvent.choice_one.skill_modifier = event["Choices"][i]["SkillModifier"]
 		GlobalEvent.choice_one.outcome_positive_prompt = event["Choices"][i]["Outcome"][0]["Prompt"]
 		GlobalEvent.choice_one.outcome_positive_increase_value = event["Choices"][i]["Outcome"][0]["IncreaseValue"]
-		GlobalEvent.choice_one.outcome_positive_decrease_value = event["Choices"][i]["Outcome"][0]["DecreaseValue"]
 		GlobalEvent.choice_one.outcome_negative_prompt = event["Choices"][i]["Outcome"][1]["Prompt"]
-		GlobalEvent.choice_one.outcome_negative_increase_value = event["Choices"][i]["Outcome"][1]["IncreaseValue"]
 		GlobalEvent.choice_one.outcome_negative_decrease_value = event["Choices"][i]["Outcome"][1]["DecreaseValue"]
 
 

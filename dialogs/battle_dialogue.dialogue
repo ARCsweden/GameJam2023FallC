@@ -5,9 +5,12 @@ Berättare: {{GlobalBattle.prompt}}
 
 {{GlobalBattle.battle_name}}: {{GlobalBattle.start_dialog}}
 =>< battle_state_machine
-{{GlobalBattle.battle_name}}: Ja det gick ju som det gick.
-Sten: [[Loser.|Noob.|Kan du inte bättre?]]
-=> battle_dialogue
+if GlobalPlayer.hp > GlobalBattle.hp:
+	{{GlobalBattle.battle_name}}: [[Ja det gick ju som det gick.|Nu vill jag inte vara med mer.]]
+	Sten: [[Loser.|Noob.|Kan du inte bättre?]]
+else:
+	{{GlobalBattle.battle_name}}: [[Hahahaha, där fick du så du teg!|Inte så kaxig nu va?]]
+	Sten: ...
 => END
 
 ~ battle_state_machine
