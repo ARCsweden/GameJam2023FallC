@@ -9,7 +9,7 @@
 					"ChoicePrompt": "Du funderar i 5 minuter vad ordet innovation betyder, och kör ole dole doff om vem som vinner.",
 					"ChoiceType": "Smocka",
 					"IncreaseType": "Smocka",
-					"DecreaseType": "Slisk",
+					"DecreaseType": "Smocka",
 					"SuccessChance": 0.5,
 					"SkillModifier": 1.5,
 					"Outcome": [
@@ -28,90 +28,90 @@
 					]
 				},
 				{
-					"ChoicePrompt": "TEST2",
+					"ChoicePrompt": "Akademiskt oärlighet är helt vedergäligt, du anmäler unge 2 till urkund",
 					"ChoiceType": "Snille",
 					"IncreaseType": "Snille",
-					"DecreaseType": "Slisk",
+					"DecreaseType": "Snille",
 					"SuccessChance": 0.5,
-					"SkillModifier": 0.5,
+					"SkillModifier": 1.5,
 					"Outcome": [
 						{
-							"Prompt": "Prompt1Positive",
+							"Prompt": "Till stående ovationer uppskattas din lojalitet till Sveriges akademis etik och rätt elev vann. Du kan nu skriva ett inspirerande linkedIn inlägg om situationen, och ditt kontaktnät utökas!",
 							"Type": "Positive",
-							"IncreaseValue": 1,
+							"IncreaseValue": 5,
 							"DecreaseValue": 0
 						},
 						{
-							"Prompt": "Prompt1Negative",
+							"Prompt": "Föräldrarna och akademin uppskattar inte att du förstör barnens passion för akademi och lärande. Ditt nätverk ser inte ljust på detta...",
 							"Type": "Negative",
-							"IncreaseValue": 1,
-							"DecreaseValue": 0
+							"IncreaseValue": 0,
+							"DecreaseValue": 3
 						}
 					]
 				},
 				{
-					"ChoicePrompt": "TEST3",
-					"ChoiceType": "Snille",
-					"IncreaseType": "Snille",
+					"ChoicePrompt": "Första ungens förälder är singel, och den andras är gift, så första ungen vinner",
+					"ChoiceType": "Slisk",
+					"IncreaseType": "Slisk",
 					"DecreaseType": "Slisk",
 					"SuccessChance": 0.5,
-					"SkillModifier": 0.5,
+					"SkillModifier": 1.5,
 					"Outcome": [
 						{
-							"Prompt": "Prompt1Positive",
+							"Prompt": "Ingen ifrågasätter ditt beslut, och med lite schmoosing så får du även numret till barnets förälder. ",
 							"Type": "Positive",
-							"IncreaseValue": 1,
+							"IncreaseValue": 5,
 							"DecreaseValue": 0
 						},
 						{
-							"Prompt": "Prompt1Negative",
+							"Prompt": "Ryktet sprids att du valde vinnaren beroende på hur snygg deras förälder var, och föräldern blir äcklad. Blir visst en mikrolåda för en ikväll...",
 							"Type": "Negative",
-							"IncreaseValue": 1,
-							"DecreaseValue": 0
+							"IncreaseValue": 0,
+							"DecreaseValue": 3
 						}
 					]
 				},
 				{
-					"ChoicePrompt": "TEST4",
-					"ChoiceType": "Snille",
-					"IncreaseType": "Snille",
-					"DecreaseType": "Slisk",
+					"ChoicePrompt": "Ungen som fuskar vinner, för hans pappa är vän till familjen",
+					"ChoiceType": "Stålar",
+					"IncreaseType": "Stålar",
+					"DecreaseType": "Stålar",
 					"SuccessChance": 0.5,
-					"SkillModifier": 0.5,
+					"SkillModifier": 1.5,
 					"Outcome": [
 						{
-							"Prompt": "Prompt1Positive",
+							"Prompt": "Pappan till barnet som vann uppskattar din familjelojalitet, och med hjälp av lite trevlig nepotism får du lite vinstgivande möjligheter..",
 							"Type": "Positive",
-							"IncreaseValue": 1,
+							"IncreaseValue": 5,
 							"DecreaseValue": 0
 						},
 						{
-							"Prompt": "Prompt1Negative",
+							"Prompt": "En lyhördig pensionär råkade överhöra dig och barnets pappa diskutera om vem som skulle vinna, och har anmält er till myndigheterna. Du får betala din PR firma för att sopa detta under mattan. Ajdå!",
 							"Type": "Negative",
-							"IncreaseValue": 1,
-							"DecreaseValue": 0
+							"IncreaseValue": 0,
+							"DecreaseValue": 3
 						}
 					]
 				},
 				{
-					"ChoicePrompt": "TEST5",
-					"ChoiceType": "Snille",
-					"IncreaseType": "Snille",
-					"DecreaseType": "Slisk",
+					"ChoicePrompt": "Du sprintar mot ungen som fuskat, och sparkar sönder uppfinningen. Välkommen till livets hårda skola",
+					"ChoiceType": "RödSmocka",
+					"IncreaseType": "Smocka",
+					"DecreaseType": "Smocka",
 					"SuccessChance": 0.5,
-					"SkillModifier": 0.5,
+					"SkillModifier": 1.5,
 					"Outcome": [
 						{
-							"Prompt": "Prompt1Positive",
+							"Prompt": "Du blev inte arresterad i alla fall. Turligt nog behöver en av föräldrarna en livvakt, och blir imponerad av din styrka.",
 							"Type": "Positive",
-							"IncreaseValue": 1,
+							"IncreaseValue": 5,
 							"DecreaseValue": 0
 						},
 						{
-							"Prompt": "Prompt1Negative",
+							"Prompt": "Du blir arresterad och spenderar en dag i häktet. På grund av bristen av kvarg förlorar du lite muskelmassa...",
 							"Type": "Negative",
-							"IncreaseValue": 1,
-							"DecreaseValue": 0
+							"IncreaseValue": 0,
+							"DecreaseValue": 3
 						}
 					]
 				}
@@ -119,117 +119,117 @@
 		},
 	"Event_Two": 
 		{
-			"Name": "",
-			"Prompt": "Prompt2",
+			"Name": "BaseEvent",
+			"Prompt": "Efter en lång arbetsdag sitter du på bussen och slösurfar på mobilen. Efter att för tredje gången öppnat och uppdaterat dina aktier så ser du att de fortfarande pekar starkt nedåt så börjar mobilen vibrera. Det är din älskade farmor som ringer. Du svarar direkt, och farmor är helt till sig. Hon berättar att hon har köpt alldeles för mycket ärtsoppa med fläsk igen, men orkar inte bära hem det själv. Turligt nog är du inte långt bort, och givetvis lovar du farmor att hjälpa till. Vad gör du?",
 			"Level" : 1,
 			"Choices": [
 				{
-					"ChoicePrompt": "TEST6",
-					"ChoiceType": "Snille",
-					"IncreaseType": "Snille",
-					"DecreaseType": "Slisk",
+					"ChoicePrompt": "Hjälp farmor att bära hem matvarorna",
+					"ChoiceType": "Smocka",
+					"IncreaseType": "Smocka",
+					"DecreaseType": "Smocka",
 					"SuccessChance": 0.5,
-					"SkillModifier": 0.5,
+					"SkillModifier": 1.5,
 					"Outcome": [
 						{
-							"Prompt": "Prompt2Positive",
+							"Prompt": "Stark och muskulös som du är, och redo att flexa för alla gamla damer på din lokala matvarubutik, så kastar du dig mot stoppknappen och sprintar iväg mot affären. Du lyfter kassarna med ena armen och plockar upp farmor med den andra och bär båda hem till seniorboendet.",
 							"Type": "Positive",
-							"IncreaseValue": 1,
+							"IncreaseValue": 5,
 							"DecreaseValue": 0
 						},
 						{
-							"Prompt": "Prompt2Negative",
+							"Prompt": "Du klickar på bussens stoppknapp, men busschauffören verkar ha haft en dålig dag och kör bara vidare. 5 hållplatser senare kommer du äntligen av bussen, och du börja springa till affären. När du kommer fram, helt svettig så har redan en muskulös hunk hjälpt farmor hem, och du kollapsar av trötthet och skam.",
 							"Type": "Negative",
-							"IncreaseValue": 1,
-							"DecreaseValue": 0
+							"IncreaseValue": 0,
+							"DecreaseValue": 3
 						}
 					]
 				},
 				{
-					"ChoicePrompt": "TEST7",
+					"ChoicePrompt": "Börja mentalt designa en bärlösning för farmor",
 					"ChoiceType": "Snille",
 					"IncreaseType": "Snille",
-					"DecreaseType": "Slisk",
+					"DecreaseType": "Snille",
 					"SuccessChance": 0.5,
-					"SkillModifier": 0.5,
+					"SkillModifier": 1.5,
 					"Outcome": [
 						{
-							"Prompt": "Prompt2Positive",
+							"Prompt": "Under promenaden från bussen till affären har du funderat ut en perfekt lyftanordning. Du köper allt du behöver i affären, och bygger snabbt ihop en lyftanordning som farmor kan bära på ryggen. Det är ändå 2023 och det finns inget som säger att farmor inte kan bära allt själv med rätt hjälpmedel. Allt går perfekt och farmor får hem alla sina matvaror.",
 							"Type": "Positive",
-							"IncreaseValue": 1,
+							"IncreaseValue": 5,
 							"DecreaseValue": 0
 						},
 						{
-							"Prompt": "Prompt2Negative",
+							"Prompt": "Du anländer till affären med din självdesignade lyftanordning. Tyvärr räknade du lite fel, och när farmor lyfter upp kassarna så fick hon diskbrock, ajdå! Farmor skriver ur dig ur testamentet..",
 							"Type": "Negative",
-							"IncreaseValue": 1,
-							"DecreaseValue": 0
+							"IncreaseValue": 0,
+							"DecreaseValue": 3
 						}
 					]
 				},
 				{
-					"ChoicePrompt": "TEST8",
-					"ChoiceType": "Snille",
-					"IncreaseType": "Snille",
+					"ChoicePrompt": "Hjälp farmor i utbyte mot en av hennes singelvänners nummer",
+					"ChoiceType": "Slisk",
+					"IncreaseType": "Slisk",
 					"DecreaseType": "Slisk",
 					"SuccessChance": 0.5,
-					"SkillModifier": 0.5,
+					"SkillModifier": 1.5,
 					"Outcome": [
 						{
-							"Prompt": "Prompt2Positive",
+							"Prompt": "Farmor utlovar en riktig pangpringlas nummer i utbyte mot din hjälp, så i rask task tar du dig till affären. Du lyckas när du väl är där övertala en muskulöst kassabiträde att bära hem farmors kassar. Farmor är överlycklig över att få hem ärtsoppan (Och kanske för ögongodiset också) och ger dig numret till pangpringlan Stina. Du och Stina kanske inte är jämnåriga, men vilket dejt det blev!",
 							"Type": "Positive",
-							"IncreaseValue": 1,
+							"IncreaseValue": 5,
 							"DecreaseValue": 0
 						},
 						{
-							"Prompt": "Prompt2Negative",
+							"Prompt": "Du tar dig till affären och försöker övertala kassabidrätet att bära hem farmors matkassar. Du får inte mycket till napp, så du får själv försöka kånka hem dem, med farmor i följetåg. Men ack o ve, dina kollegor ser dig utföra fysiskt arbete, vilket skam!",
 							"Type": "Negative",
-							"IncreaseValue": 1,
-							"DecreaseValue": 0
+							"IncreaseValue": 0,
+							"DecreaseValue": 3
 						}
 					]
 				},
 				{
-					"ChoicePrompt": "TEST9",
-					"ChoiceType": "Snille",
-					"IncreaseType": "Snille",
-					"DecreaseType": "Slisk",
+					"ChoicePrompt": "Betala första bästa person att gå och hjälpa farmor",
+					"ChoiceType": "Stålar",
+					"IncreaseType": "Stålar",
+					"DecreaseType": "Stålar",
 					"SuccessChance": 0.5,
-					"SkillModifier": 0.5,
+					"SkillModifier": 1.5,
 					"Outcome": [
 						{
-							"Prompt": "Prompt2Positive",
+							"Prompt": "Vilken tur! Första personen du frågar har precis förlorat sitt jobb, och behöver pengar för att ge sina barn något att äta ikväll. Det betyder att de är desperata, och du betalar dem endast en spottstyver för jobbet. Farmor får sin ärtsoppa hem utan problem.",
 							"Type": "Positive",
-							"IncreaseValue": 1,
+							"IncreaseValue": 5,
 							"DecreaseValue": 0
 						},
 						{
-							"Prompt": "Prompt2Negative",
+							"Prompt": "Du hittar ingen på bussen som kan hjälpa till, så du får ringa efter hjälp. Tyvärr får råkade det vara ett scamföretag, och ingen kom och hjälpte farmor. Pengarna försvann ut i intet.",
 							"Type": "Negative",
-							"IncreaseValue": 1,
-							"DecreaseValue": 0
+							"IncreaseValue": 0,
+							"DecreaseValue": 3
 						}
 					]
 				},
 				{
-					"ChoicePrompt": "TEST10",
-					"ChoiceType": "Snille",
-					"IncreaseType": "Snille",
-					"DecreaseType": "Slisk",
+					"ChoicePrompt": "Gratis matvaror? Slå ned farmor och sno hennes ärtsoppa",
+					"ChoiceType": "RödSmocka",
+					"IncreaseType": "Smocka",
+					"DecreaseType": "Smocka",
 					"SuccessChance": 0.5,
-					"SkillModifier": 0.5,
+					"SkillModifier": 1.5,
 					"Outcome": [
 						{
-							"Prompt": "Prompt2Positive",
+							"Prompt": "Du sprintar till affären, rosenrasande att farmor stört dig i din adrenalinfyllda vardag. En rak höger och så blev ärtsoppan din.",
 							"Type": "Positive",
-							"IncreaseValue": 1,
+							"IncreaseValue": 5,
 							"DecreaseValue": 0
 						},
 						{
-							"Prompt": "Prompt2Negative",
+							"Prompt": "Du tar dig snabbt till affären och försöker klubba ned farmor och ta hennes matvaror. Farmor, som den tuffa brud hon är, undviker enkelt din raka höger. och slår enkelt ned dig, och tar pengarna i din plånbok. Pinsamt!",
 							"Type": "Negative",
-							"IncreaseValue": 1,
-							"DecreaseValue": 0
+							"IncreaseValue": 0,
+							"DecreaseValue": 3
 						}
 					]
 				}

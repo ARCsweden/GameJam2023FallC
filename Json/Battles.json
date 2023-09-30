@@ -1,30 +1,72 @@
 {
-	"Battles":
-		{   "Name": "TEst",
+	"SvenStark":
+		{   "Name": "Sven Stark",
 			"Level": 1,
-			"Prompt": "",
-			"BattleType": "",
-			"StartDialog": "",
-			"BattleDialogs": [
-				{
-					"Dialog": "ye"
-				},
-				{
-					"Dialog": "yo"
-				},
-				{
-					"Dialog": "yi"
-				},
-				{
-					"Dialog": "ya"
-				}
-
-			],
+			"Prompt": "Du har precis varit inne på systemet och handlat inför helgens middagsbjudning. En flaska prosecco och några burkar stor stark. Framför dig vid slutet av kön ser du en bastant individ som precis köpt en hel platta stor stark, och håller på att halsa burk efter burk. Du försöker ta dig förbi personen, men på grund av personens imponerande figur råkar du stöta emot personen, och en ölburk faller i golvet. Figuren vänder sig om, och du börjar undra varför du plötsligt hör bossmusik?",
+			"BattleType": "Boss",
+			"StartDialog": "Vad är ditt personbästa i tyngdlyft?",
+			"BattleDialogs": "Jag kan räkna till minst 7 faktiskt",
 			"Stats": {
-				"Stålar": "",
-				"Smocka": "",
-				"Slisk": "",
-				"Snille": ""
+				"Stålar": "5",
+				"Smocka": "10",
+				"Slisk": "5",
+				"Snille": "5"
+			}
+		},
+	"SamSchnygg":
+		{   "Name": "Sam Schnygg",
+			"Level": 2,
+			"Prompt": "Ikväll är det dags för en dejt. Du har träffat en riktig drömpartner, och det är er tredje dejt på lika många dagar. Kalla mig divätemonoxid, för kemin är där! Men helt plötsligt går någon upp till ert bord, och börjar flörta med din dejt! Och ännu värre, din dejt verkar mer intresserad av denna person än dig. Du sätter på spellistan 'Sjävförtroendepepp' och gör dig redo att visa denna nykomling vem som är hunken här.",
+			"BattleType": "Boss",
+			"StartDialog": "Använd gärna min promo code SCHNYGG20% för 20% billigare fettsugning",
+			"BattleDialogs": "Min näsa! Den var ju plastikopererad!",
+			"Stats": {
+				"Stålar": "10",
+				"Smocka": "10",
+				"Slisk": "15",
+				"Snille": "10"
+			}
+		},
+	"StefanSynaps":
+		{   "Name": "Stefan Synaps",
+			"Level": 3,
+			"Prompt": "Karriären har tagit fart, och du har chans att bli chef över en hel forskningsavdelning på ett internationellt företag. Men det finns en riktigt arrogant kollega som också har sökt rollen. VD:n har nu bestämt att för att luska ut vem som är rätt för rollen, så ska ni ha ett kunskapstest, framför hela företaget. Är du redo?",
+			"BattleType": "Boss",
+			"StartDialog": "Jag vill inte säga att jag är bättre än dig bara för jag är smartare men, du kan väl inte ens stava till intellekt...",
+			"BattleDialogs": "Jag hade faktiskt 2.0 på högskoleprovet",
+			"Stats": {
+				"Stålar": "15",
+				"Smocka": "15",
+				"Slisk": "15",
+				"Snille": "20"
+			}
+		},
+	"StigAfSchtenrik":
+		{   "Name": "Stig af Schtenrik",
+			"Level": 4,
+			"Prompt": "Du har jobbat som chef för forskningsavdelningen i flera år, och nu har du stagnerat. Varför inte starta eget? Men det är så dyrt. Kanske ska du hitta en investerare? Hur svårt kan det vara att schmoosa en rik Stureplanare? Du bokar snabbt in ett möte och gör dig redo. Ingen minns en fegis som talesättet går..",
+			"BattleType": "Boss",
+			"StartDialog": "Om ditt förmögenhet inte är minst tiosiffrig, kan du lika gärna Schticka iväg",
+			"BattleDialogs": "Jag är kommer från en bättre familj",
+			"Stats": {
+				"Stålar": "25",
+				"Smocka": "20",
+				"Slisk": "20",
+				"Snille": "20"
+			}
+		},
+	"SimonVonSteinberg":
+		{   "Name": "Simon Von Steinberg",
+			"Level": 5,
+			"Prompt": "Ditt företag växer med stormsteg på aktiemarknaden, men det drar åt sig oönskade blickar. Speciellt från adeln. Hur vågar denna pöbliska individ närma sig aktievärdet av stolta uråldriga adliska riksföretag? Vet hut! Med lite kontakter och tips så har du nu blivit anmäld till staten, och måste infinna dig hos en av de mest inflyteserika personerna i Sverige. Gör dig redo!",
+			"BattleType": "Boss",
+			"StartDialog": "Dom kallar mig aktiemarknadens knug",
+			"BattleDialogs": "Vakter, vakter! Allt mitt guld",
+			"Stats": {
+				"Stålar": "30",
+				"Smocka": "30",
+				"Slisk": "30",
+				"Snille": "30"
 			}
 		}
 }
