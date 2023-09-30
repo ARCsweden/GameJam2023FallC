@@ -1,6 +1,443 @@
 {
-	"Riddles": 
-		{   "Name": "",
+	"1": 
+		{ 
+			"Prompt": "",
+			"Choices": [
+				{
+					"ChoiceText": "",
+					"Correct": true
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				}
+			],
+			"Difficulty": 1
+		},
+	"2":
+		{   
+			"Prompt": "",
+			"Choices": [
+				{
+					"ChoiceText": "",
+					"Correct": true
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				}
+			],
+			"Difficulty": 1
+		},
+	"3":
+		{  
+			"Prompt": "",
+			"Choices": [
+				{
+					"ChoiceText": "",
+					"Correct": true
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				}
+			],
+			"Difficulty": 1
+		},
+	"4":
+		{   
+			"Prompt": "",
+			"Choices": [
+				{
+					"ChoiceText": "",
+					"Correct": true
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				}
+			],
+			"Difficulty": 1
+		},
+	"5":
+		{   
+			"Prompt": "",
+			"Choices": [
+				{
+					"ChoiceText": "",
+					"Correct": true
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				}
+			],
+			"Difficulty": 1
+		},
+	"6":
+		{   
+			"Prompt": "",
+			"Choices": [
+				{
+					"ChoiceText": "",
+					"Correct": true
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				}
+			],
+			"Difficulty": 1
+		},
+	"7":
+		{   
+			"Prompt": "",
+			"Choices": [
+				{
+					"ChoiceText": "",
+					"Correct": true
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				}
+			],
+			"Difficulty": 1
+		},
+	"8":
+		{   
+			"Prompt": "",
+			"Choices": [
+				{
+					"ChoiceText": "",
+					"Correct": true
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				}
+			],
+			"Difficulty": 1
+		},
+	"9":
+		{   
+			"Prompt": "",
+			"Choices": [
+				{
+					"ChoiceText": "",
+					"Correct": true
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				}
+			],
+			"Difficulty": 1
+		},
+	"10":
+		{   
+			"Prompt": "",
+			"Choices": [
+				{
+					"ChoiceText": "",
+					"Correct": true
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				}
+			],
+			"Difficulty": 1
+		},
+	"11":
+		{   
+			"Prompt": "",
+			"Choices": [
+				{
+					"ChoiceText": "",
+					"Correct": true
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				}
+			],
+			"Difficulty": 1
+		},
+	"12":
+		{   
+			"Prompt": "",
+			"Choices": [
+				{
+					"ChoiceText": "",
+					"Correct": true
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				}
+			],
+			"Difficulty": 1
+		},
+	"13":
+		{   
+			"Prompt": "",
+			"Choices": [
+				{
+					"ChoiceText": "",
+					"Correct": true
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				}
+			],
+			"Difficulty": 1
+		},
+	"14":
+		{  
+			"Prompt": "",
+			"Choices": [
+				{
+					"ChoiceText": "",
+					"Correct": true
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				}
+			],
+			"Difficulty": 1
+		},
+	"15":
+		{   
+			"Prompt": "",
+			"Choices": [
+				{
+					"ChoiceText": "",
+					"Correct": true
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				}
+			],
+			"Difficulty": 1
+		},
+	"16":
+		{   
+			"Prompt": "",
+			"Choices": [
+				{
+					"ChoiceText": "",
+					"Correct": true
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				}
+			],
+			"Difficulty": 1
+		},
+	"17":
+		{   
+			"Prompt": "",
+			"Choices": [
+				{
+					"ChoiceText": "",
+					"Correct": true
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				}
+			],
+			"Difficulty": 1
+		},
+	"18":
+		{   
+			"Prompt": "",
+			"Choices": [
+				{
+					"ChoiceText": "",
+					"Correct": true
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				}
+			],
+			"Difficulty": 1
+		},
+	"19":
+		{   
+			"Prompt": "",
+			"Choices": [
+				{
+					"ChoiceText": "",
+					"Correct": true
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "",
+					"Correct": false
+				}
+			],
+			"Difficulty": 1
+		},
+	"20":
+		{   
 			"Prompt": "",
 			"Choices": [
 				{

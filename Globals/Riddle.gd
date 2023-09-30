@@ -1,7 +1,6 @@
 class_name Riddle extends Node2D
 
 #Information
-var riddle_name = ""
 var prompt = ""
 var choice_one = RiddleChoice.new()
 var choice_two = RiddleChoice.new()
