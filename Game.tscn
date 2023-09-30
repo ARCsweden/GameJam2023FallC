@@ -16,9 +16,9 @@ scale = Vector2(0.124106, 0.0447955)
 script = ExtResource("2_kbaac")
 
 [node name="Foe" type="TextureRect" parent="."]
-offset_left = 44.9705
-offset_top = 12.1246
-offset_right = 122.971
-offset_bottom = 42.1246
+offset_left = 45.9589
+offset_top = 9.79526
+offset_right = 123.959
+offset_bottom = 39.7953
 expand_mode = 1
 script = ExtResource("3_m80ia")
