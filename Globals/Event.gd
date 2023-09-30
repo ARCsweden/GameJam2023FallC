@@ -18,12 +18,11 @@ class Choice:
 	var increase_type = "" #Smocka|snille|slisk
 	var decrease_type = "" #Smocka|snille|slisk
 	var success_chance = 0.0
+	var success_threshhold = 5
 	var skill_modifier = 0.0
 	var outcome_positive_prompt = ""
 	var outcome_positive_increase_value = 0
-	var outcome_positive_decrease_value = 0
 	var outcome_negative_prompt = ""
-	var outcome_negative_increase_value = 0
 	var outcome_negative_decrease_value = 0
 
 #func _changeSprite():
