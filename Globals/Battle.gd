@@ -11,11 +11,11 @@ var character_sprite = ""
 var background_sprite = ""
 
 #Stats
-var cash = 10000
-var smock = 5
-var brains = 5
-var slisk = 5
-var hp = 30
+var cash = 0
+var smock = 0
+var brains = 0
+var slisk = 0
+var hp = 0
 
 var random_attack = 0
 

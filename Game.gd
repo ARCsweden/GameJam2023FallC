@@ -20,6 +20,8 @@ func _ready():
 	
 	#Load tutorial values
 	#Load tutorial event
+	GlobalEvent.prompt = "Du ligger på en sandstrand. Du kan höga vågorna slå emot klippväggen, och doften av hav omsluter hela ditt väsen. Din vackra partner och dina fantastiska barn är givetvis med. Kan livet bli mer perfekt? Men sen hörs ett ljud, och vips så är du inne i verkligheten. Sandstranden utbytt mot brödsmulor i sängen, det kristallklara havsvattnet mot ljummet kranvatten och havsdoften mot dagsgammal kebabtallrik. Du öppnar ögonen, och det är knäpptyst. När ögonen hunnit vänja sig vid solljuset ser du att klockan är 08:14. Jäklar, inte ekonomiskt oberoende ännu, och man måste jobba? Bara 45 år kvar tills pension, wihoo! Jobbet börjar 8:30, vad gör du?"
+	
 	#Choice one
 	GlobalEvent.choice_one.choice_type = "Smocka"
 	GlobalEvent.choice_one.choice_prompt = "Du gör ändå din proteinshake och morgonträning, rutiner är viktigast"
