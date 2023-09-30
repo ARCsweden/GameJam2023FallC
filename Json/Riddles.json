@@ -1,22 +1,22 @@
 {
 	"1": 
 		{ 
-			"Prompt": "",
+			"Prompt": "I skogen går jag, men jag är inte ett träd, Jag är ett djur som med horn bär sitt spår. Mitt steg är stort och tungt, min panna är bred, Vilket djur är jag?",
 			"Choices": [
 				{
-					"ChoiceText": "",
+					"ChoiceText": "Vildsvin",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "Hjort",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "Älg",
 					"Correct": true
 				},
 				{
-					"ChoiceText": "",
-					"Correct": false
-				},
-				{
-					"ChoiceText": "",
-					"Correct": false
-				},
-				{
-					"ChoiceText": "",
+					"ChoiceText": "Björn",
 					"Correct": false
 				}
 			],
@@ -24,22 +24,22 @@
 		},
 	"2":
 		{   
-			"Prompt": "",
+			"Prompt": "Jag är en vit och kall värld där man glider, Med skidor på fötterna, framåt jag skrider. På fjäll och i skog, jag är ute och far, Vilken plats i vinterlandskapet är jag?",
 			"Choices": [
 				{
-					"ChoiceText": "",
+					"ChoiceText": "Snö",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "Skidspår",
 					"Correct": true
 				},
 				{
-					"ChoiceText": "",
+					"ChoiceText": "Vinter",
 					"Correct": false
 				},
 				{
-					"ChoiceText": "",
-					"Correct": false
-				},
-				{
-					"ChoiceText": "",
+					"ChoiceText": "Is",
 					"Correct": false
 				}
 			],
@@ -47,22 +47,22 @@
 		},
 	"3":
 		{  
-			"Prompt": "",
+			"Prompt": "Jag är svart som natten, men jag brinner ändå, Med gnistor och flammande värme jag står. Jag kan vara farlig om du inte är försiktig, Vad är jag som i elden är?",
 			"Choices": [
 				{
-					"ChoiceText": "",
+					"ChoiceText": "Kol",
 					"Correct": true
 				},
 				{
-					"ChoiceText": "",
+					"ChoiceText": "Gasspis",
 					"Correct": false
 				},
 				{
-					"ChoiceText": "",
+					"ChoiceText": "Hat",
 					"Correct": false
 				},
 				{
-					"ChoiceText": "",
+					"ChoiceText": "Kittel",
 					"Correct": false
 				}
 			],
@@ -70,45 +70,45 @@
 		},
 	"4":
 		{   
-			"Prompt": "",
+			"Prompt": "Den som har det är fattig, den som saknar det är rik. Den som vet det är dum, den som gör det är lat. Den som hör det är döv, den som ser det är blind?",
 			"Choices": [
 				{
-					"ChoiceText": "",
+					"ChoiceText": "Pengar",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "Sömn",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "Motivation",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "Ingenting",
 					"Correct": true
-				},
-				{
-					"ChoiceText": "",
-					"Correct": false
-				},
-				{
-					"ChoiceText": "",
-					"Correct": false
-				},
-				{
-					"ChoiceText": "",
-					"Correct": false
 				}
 			],
 			"Difficulty": 1
 		},
 	"5":
 		{   
-			"Prompt": "",
+			"Prompt": "Den som inte har mig försöker vinna mig och den som har tillräckligt av mig försöker göra mig kortare. Vad är det?",
 			"Choices": [
 				{
-					"ChoiceText": "",
+					"ChoiceText": "Livet",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "Tid",
 					"Correct": true
 				},
 				{
-					"ChoiceText": "",
+					"ChoiceText": "Ingenting",
 					"Correct": false
 				},
 				{
-					"ChoiceText": "",
-					"Correct": false
-				},
-				{
-					"ChoiceText": "",
+					"ChoiceText": "Pengar",
 					"Correct": false
 				}
 			],
@@ -116,22 +116,22 @@
 		},
 	"6":
 		{   
-			"Prompt": "",
+			"Prompt": "Det här måste man blunda för att kunna se. Vad är det?",
 			"Choices": [
 				{
-					"ChoiceText": "",
+					"ChoiceText": "Drömmarna",
 					"Correct": true
 				},
 				{
-					"ChoiceText": "",
+					"ChoiceText": "Inget",
 					"Correct": false
 				},
 				{
-					"ChoiceText": "",
+					"ChoiceText": "Ögonlocken",
 					"Correct": false
 				},
 				{
-					"ChoiceText": "",
+					"ChoiceText": "Framtiden",
 					"Correct": false
 				}
 			],
@@ -139,45 +139,45 @@
 		},
 	"7":
 		{   
-			"Prompt": "",
+			"Prompt": "Kan du säga vilken mat det är som har både skinn och kött, men inga ben?",
 			"Choices": [
 				{
-					"ChoiceText": "",
+					"ChoiceText": "Fisk",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "Nuggets",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "Stek",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "Korv",
 					"Correct": true
-				},
-				{
-					"ChoiceText": "",
-					"Correct": false
-				},
-				{
-					"ChoiceText": "",
-					"Correct": false
-				},
-				{
-					"ChoiceText": "",
-					"Correct": false
 				}
 			],
 			"Difficulty": 1
 		},
 	"8":
 		{   
-			"Prompt": "",
+			"Prompt": "När svarar inte Fröken Ur?",
 			"Choices": [
 				{
-					"ChoiceText": "",
+					"ChoiceText": "När du använder en bannan",
+					"Correct": false 
+				},
+				{
+					"ChoiceText": "När telefonnätet är nere",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "När hon inte har tid.",
 					"Correct": true
 				},
 				{
-					"ChoiceText": "",
-					"Correct": false
-				},
-				{
-					"ChoiceText": "",
-					"Correct": false
-				},
-				{
-					"ChoiceText": "",
+					"ChoiceText": "Ibland",
 					"Correct": false
 				}
 			],
@@ -185,22 +185,22 @@
 		},
 	"9":
 		{   
-			"Prompt": "",
+			"Prompt": "Vad är det för farkost som är likadan framifrån som bakifrån?",
 			"Choices": [
 				{
-					"ChoiceText": "",
+					"ChoiceText": "Kanot",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "kayak",
 					"Correct": true
 				},
 				{
-					"ChoiceText": "",
+					"ChoiceText": "Bil",
 					"Correct": false
 				},
 				{
-					"ChoiceText": "",
-					"Correct": false
-				},
-				{
-					"ChoiceText": "",
+					"ChoiceText": "Flotte",
 					"Correct": false
 				}
 			],
@@ -208,45 +208,45 @@
 		},
 	"10":
 		{   
-			"Prompt": "",
+			"Prompt": "Det står 2 lamm framför 2 andra lamm. Det står 2 lamm bakom 2 andra lamm. Det står 2 lamm bredvid 2 andra lamm. Hur många?",
 			"Choices": [
 				{
-					"ChoiceText": "",
+					"ChoiceText": "8",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "6",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "2",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "4",
 					"Correct": true
-				},
-				{
-					"ChoiceText": "",
-					"Correct": false
-				},
-				{
-					"ChoiceText": "",
-					"Correct": false
-				},
-				{
-					"ChoiceText": "",
-					"Correct": false
 				}
 			],
 			"Difficulty": 1
 		},
 	"11":
 		{   
-			"Prompt": "",
+			"Prompt": "10 guldfiskar är i en skål, 2 drunknar, 3 simmar iväg, 4 dör plötsligt. Hur många är kvar i skålen?",
 			"Choices": [
 				{
-					"ChoiceText": "",
+					"ChoiceText": "1",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "10",
 					"Correct": true
 				},
 				{
-					"ChoiceText": "",
+					"ChoiceText": "7",
 					"Correct": false
 				},
 				{
-					"ChoiceText": "",
-					"Correct": false
-				},
-				{
-					"ChoiceText": "",
+					"ChoiceText": "4",
 					"Correct": false
 				}
 			],
@@ -254,22 +254,22 @@
 		},
 	"12":
 		{   
-			"Prompt": "",
+			"Prompt": "En pojke gav fyra äpplen utan att dela dem åt tre flickor, så att ingen fick mer än den andra. Hur bar han sig åt?",
 			"Choices": [
 				{
-					"ChoiceText": "",
+					"ChoiceText": "Han gav 2 till den andra",
 					"Correct": true
 				},
 				{
-					"ChoiceText": "",
+					"ChoiceText": "Han åt ett äpple själv",
 					"Correct": false
 				},
 				{
-					"ChoiceText": "",
+					"ChoiceText": "Han hittade 2 till äpplen",
 					"Correct": false
 				},
 				{
-					"ChoiceText": "",
+					"ChoiceText": "Magi",
 					"Correct": false
 				}
 			],
@@ -277,22 +277,22 @@
 		},
 	"13":
 		{   
-			"Prompt": "",
+			"Prompt": "Erik använder ett ljus varje kväll, och stumparna som blir över sparar han för att stöpa till nya ljus. Sex ljusstumpar räcker till ett helt nytt ljus. Erik har sparat ihop 36 stumpar, till hur många kvällar räcker de nya ljusen?",
 			"Choices": [
 				{
-					"ChoiceText": "",
+					"ChoiceText": "8",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "6",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "7",
 					"Correct": true
 				},
 				{
-					"ChoiceText": "",
-					"Correct": false
-				},
-				{
-					"ChoiceText": "",
-					"Correct": false
-				},
-				{
-					"ChoiceText": "",
+					"ChoiceText": "5",
 					"Correct": false
 				}
 			],
@@ -300,45 +300,45 @@
 		},
 	"14":
 		{  
-			"Prompt": "",
+			"Prompt": "En farfar, två pappor och två söner går på fotbollsmatch ihop. Hur många biljetter köper de totalt?",
 			"Choices": [
 				{
-					"ChoiceText": "",
+					"ChoiceText": "2",
 					"Correct": true
 				},
 				{
-					"ChoiceText": "",
+					"ChoiceText": "4",
 					"Correct": false
 				},
 				{
-					"ChoiceText": "",
+					"ChoiceText": "5",
 					"Correct": false
 				},
 				{
-					"ChoiceText": "",
-					"Correct": false
+					"ChoiceText": "3",
+					"Correct": true
 				}
 			],
 			"Difficulty": 1
 		},
 	"15":
 		{   
-			"Prompt": "",
+			"Prompt": "En man hade 25 mynt i tior och femmor. Om han växlade en av tiorna till två femmor skulle han få lika många tior som femmor. Hur många kronor hade mannen i sin plånbok?",
 			"Choices": [
 				{
-					"ChoiceText": "",
+					"ChoiceText": "200",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "195",
 					"Correct": true
 				},
 				{
-					"ChoiceText": "",
+					"ChoiceText": "175",
 					"Correct": false
 				},
 				{
-					"ChoiceText": "",
-					"Correct": false
-				},
-				{
-					"ChoiceText": "",
+					"ChoiceText": "210",
 					"Correct": false
 				}
 			],
@@ -346,117 +346,117 @@
 		},
 	"16":
 		{   
-			"Prompt": "",
+			"Prompt": "Il y a un homme dans un immeuble de 4 étages. Il saute par la fenêtre et s’en sort indemne. Il n’a utilisé aucun rembourrage, et n’a subi aucun dommage. Comment ?",
 			"Choices": [
 				{
-					"ChoiceText": "",
+					"ChoiceText": "Il a sauté du rez-de-chaussée",
 					"Correct": true
 				},
 				{
-					"ChoiceText": "",
+					"ChoiceText": "fenêtres",
 					"Correct": false
 				},
 				{
-					"ChoiceText": "",
+					"ChoiceText": "Ils sont nés dans des fuseaux horaires différents.",
 					"Correct": false
 				},
 				{
-					"ChoiceText": "",
+					"ChoiceText": "mensonge",
 					"Correct": false
 				}
 			],
-			"Difficulty": 1
+			"Difficulty": 4
 		},
 	"17":
 		{   
-			"Prompt": "",
+			"Prompt": "Qu’est-ce qui n’est ni à l’intérieur ni à l’extérieur de la maison mais qui est une nécessité pour toute maison ?",
 			"Choices": [
 				{
-					"ChoiceText": "",
+					"ChoiceText": "mensonge",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "Ils sont nés dans des fuseaux horaires différents.",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "fenêtres",
 					"Correct": true
 				},
 				{
-					"ChoiceText": "",
-					"Correct": false
-				},
-				{
-					"ChoiceText": "",
-					"Correct": false
-				},
-				{
-					"ChoiceText": "",
+					"ChoiceText": "trois",
 					"Correct": false
 				}
 			],
-			"Difficulty": 1
+			"Difficulty": 4
 		},
 	"18":
 		{   
-			"Prompt": "",
+			"Prompt": "Deux personnes sont nées au même moment, mais elles n’ont pas les mêmes anniversaires. Comment cela est-il possible ?",
 			"Choices": [
 				{
-					"ChoiceText": "",
+					"ChoiceText": "mensonge",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "Ils sont nés dans des fuseaux horaires différents.",
 					"Correct": true
 				},
 				{
-					"ChoiceText": "",
+					"ChoiceText": "aujourd'hui",
 					"Correct": false
 				},
 				{
-					"ChoiceText": "",
-					"Correct": false
-				},
-				{
-					"ChoiceText": "",
+					"ChoiceText": "trois",
 					"Correct": false
 				}
 			],
-			"Difficulty": 1
+			"Difficulty": 4
 		},
 	"19":
 		{   
-			"Prompt": "",
+			"Prompt": "Si je dis “tout ce que je te dis est un mensonge”, est-ce que je te dis la vérité ou un mensonge ?",
 			"Choices": [
 				{
-					"ChoiceText": "",
+					"ChoiceText": "mensonge",
 					"Correct": true
 				},
 				{
-					"ChoiceText": "",
+					"ChoiceText": "trois",
 					"Correct": false
 				},
 				{
-					"ChoiceText": "",
+					"ChoiceText": "L'autruche. Elle ne vole pas.",
 					"Correct": false
 				},
 				{
-					"ChoiceText": "",
+					"ChoiceText": "aujourd'hui",
 					"Correct": false
 				}
 			],
-			"Difficulty": 1
+			"Difficulty": 4
 		},
 	"20":
 		{   
-			"Prompt": "",
+			"Prompt": "Il y a deux canards devant un canard, deux canards derrière un canard et un canard au milieu. Combien de canards y a-t-il ?",
 			"Choices": [
 				{
-					"ChoiceText": "",
+					"ChoiceText": "L'autruche. Elle ne vole pas.",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "Aujourd'hui, c'est son onzième anniversaire.",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "aujourd'hui",
+					"Correct": false
+				},
+				{
+					"ChoiceText": "trois",
 					"Correct": true
-				},
-				{
-					"ChoiceText": "",
-					"Correct": false
-				},
-				{
-					"ChoiceText": "",
-					"Correct": false
-				},
-				{
-					"ChoiceText": "",
-					"Correct": false
 				}
 			],
-			"Difficulty": 1
+			"Difficulty": 4
 		}
 }
