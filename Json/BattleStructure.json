@@ -1,21 +1,21 @@
 {
-    "Battles": [
-        {   "Name": "",
-            "Level": 1,
-            "Prompt": "",
-            "BattleType": "",
-            "StartDialog": "",
-            "BattleDialogs": [
-                {
-                    "Dialog": ""
-                }
-            ],
-            "Stats": {
-                "Stålar": "",
-                "Smocka": "",
-                "Slisk": "",
-                "Snille": ""
-            }
-        }
-    ]
+	"Battles": [
+		{   "Name": "",
+			"Level": 1,
+			"Prompt": "",
+			"BattleType": "",
+			"StartDialog": "",
+			"BattleDialogs": [
+				{
+					"Dialog": ""
+				}
+			],
+			"Stats": {
+				"Stålar": "",
+				"Smocka": "",
+				"Slisk": "",
+				"Snille": ""
+			}
+		}
+	]
 }

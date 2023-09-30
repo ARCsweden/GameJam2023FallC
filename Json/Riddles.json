@@ -1,14 +1,14 @@
 {
-    "Riddles": [
-        {   "Name": "",
-            "Prompt": "",
-            "Choices": [
-                {
-                    "ChoiceText": "",
-                    "Correct": true
-                }
-            ],
-            "Difficulty": ""
-        }
-    ]
+	"Riddles": [
+		{   "Name": "",
+			"Prompt": "",
+			"Choices": [
+				{
+					"ChoiceText": "",
+					"Correct": true
+				}
+			],
+			"Difficulty": ""
+		}
+	]
 }

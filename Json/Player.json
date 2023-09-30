@@ -1,14 +1,14 @@
 {
-    "Player": [
-        {
-            "Name": "",
-            "Stats": {
-                "Stålar": "",
-                "Smocka": "",
-                "Slisk": "",
-                "Snille": ""
-            },
-            "Level": 1
-        }
-    ]
+	"Player": [
+		{
+			"Name": "",
+			"Stats": {
+				"Stålar": "",
+				"Smocka": "",
+				"Slisk": "",
+				"Snille": ""
+			},
+			"Level": 1
+		}
+	]
 }
