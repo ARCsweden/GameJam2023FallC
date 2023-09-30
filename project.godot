@@ -25,6 +25,12 @@ GlobalRiddle="*res://Globals/Riddle.gd"
 GlobalSlisk="*res://Globals/Slisk.gd"
 GlobalSetup="*res://Globals/Setup.gd"
 
+[display]
+
+window/size/viewport_width=1024
+window/size/viewport_height=768
+window/stretch/mode="viewport"
+
 [dotnet]
 
 project/assembly_name="Stereotypical Standoff"
