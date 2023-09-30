@@ -116,4 +116,3 @@ func read_json_file(file_path):
 	var content_as_dictionary = parse_json(content_as_text)
 	return content_as_dictionary
 
-
