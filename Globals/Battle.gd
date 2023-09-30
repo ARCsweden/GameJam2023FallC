@@ -4,9 +4,9 @@ class_name Battle extends Node2D
 var battle_name = ""
 var level = 1
 var prompt = ""
-enum battle_type {Grunt, Boss}
+var battle_type = ""
 var start_dialog = ""
-var battle_dialog = ""
+var battle_dialogs = []
 var character_sprite = ""
 var background_sprite = ""
 
