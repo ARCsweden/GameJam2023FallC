@@ -1,7 +1,9 @@
 import "res://dialogs/quiz.dialogue" as quiz
 import "res://dialogs/persuasion.dialogue" as persuasion
+
 ~ battle_dialogue
 do GlobalAudioStreamPlayer.switch_to_battle()
+set GlobalBattle.gameover = false
 Berättare: {{GlobalBattle.prompt}}
 
 {{GlobalBattle.battle_name}}: {{GlobalBattle.start_dialog}}
@@ -13,6 +15,7 @@ if GlobalPlayer.hp > GlobalBattle.hp:
 else:
 	{{GlobalBattle.battle_name}}: [[Hahahaha, där fick du så du teg!|Inte så kaxig nu va?]]
 	Sten: ...
+	set GlobalBattle.gameover = true
 => END
 
 ~ battle_state_machine
