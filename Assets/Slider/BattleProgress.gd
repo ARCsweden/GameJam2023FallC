@@ -9,6 +9,10 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	value = GlobalBattle.hp
+	if GlobalBattle.gameover:
+		activateBar(false)
+	else:
+		activateBar(true)
 	pass
 
 func activateBar(active: bool):

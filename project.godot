@@ -26,6 +26,7 @@ GlobalSlisk="*res://Globals/Slisk.gd"
 GlobalSetup="*res://Globals/Setup.gd"
 GlobalBackgroundImage="*res://background_image.gd"
 GlobalAudioStreamPlayer="*res://AudioStreamPlayer.gd"
+GlobalBattleProgress="*res://Assets/Slider/BattleProgress.gd"
 
 [display]
 

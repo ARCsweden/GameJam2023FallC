@@ -16,6 +16,7 @@ var smock = 4
 var brains = 4
 var slisk = 4
 var hp = 20
+var gameover = true
 
 var random_val = 0
 
