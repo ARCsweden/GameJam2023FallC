@@ -12,7 +12,7 @@ Berättare: Dags att spela?
 	=>< event/event
 	Berättare: Dags för din första standoff!
 	=>< battle/battle_dialogue
-	while GlobalPlayer.grunts_defeated % 3 != 0:
+	while GlobalPlayer.grunts_defeated % 3 != 0 or GlobalPlayer.grunts_defeated == 0:
 		do GlobalSetup.load_event()
 		=>< event/event
 		do GlobalSetup.load_battle()
