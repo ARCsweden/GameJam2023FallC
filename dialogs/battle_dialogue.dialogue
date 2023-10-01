@@ -37,7 +37,7 @@ while GlobalBattle.game_state < GlobalBattle.hp + GlobalPlayer.hp and GlobalBatt
 do GlobalBattle.calculate_bribe()
 - Smocka
 	if GlobalPlayer.smock - GlobalBattle.smock > 0:
-		{{GlobalBattle.battle_name}}: [[Ouch!|Ajajajajaj|Syft|Oufff]]
+		{{GlobalBattle.battle_name}}: [[Ouch!|Ajajajajaj|Snyft😪|Oufff]]
 		set GlobalBattle.game_state += (GlobalPlayer.smock - GlobalBattle.smock)
 	else:
 		Berättare: {{GlobalBattle.battle_name}} är för stark för dig...

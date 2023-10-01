@@ -3,15 +3,20 @@ import "res://dialogs/event_dialogue.dialogue" as event
 ~ main_menu
 Berättare: [[Hej|Tjenixen|Trevligt att råkas]], detta är Steriotypical Standoff.
 Berättare: Vad heter du?
+- [[Erik Excel|Gustav Godot|Dabbe Dabbelito]]
 - Sten
-Berättare: Sa du Sten? Hej Sten jag är bara berättare och mitt namn spelar ingen roll i denna kontext.
+- [[Roger Rännskita|William Wumbo|Janne Jour]]
+- [[Pelle Pillefjong|Fabian Filur|Henrik Himmel]]
+Berättare: Sa du Sten? Hejsan Sten! Du kanske undrar vem jag är? Jag är bara denna världs ståtliga brättare, så det spelar inte så stor roll vad jag heter, eller hur?
 Berättare: Dags att spela?
 - Ja
 	Sten: Ja, jag vill [[spela|gamea|komma igång]].
 	Berättare: Det var en gång...
 	=>< event/event
+	=>< check_backrupcy
 	Berättare: Dags för din första standoff!
 	=>< battle/battle_dialogue
+	=>< check_backrupcy
 	while GlobalPlayer.grunts_defeated % 3 != 0 or GlobalPlayer.grunts_defeated == 0:
 		do GlobalSetup.load_event()
 		=>< event/event
@@ -101,6 +106,6 @@ else:
 	=> end_game
 	
 ~ end_game
-Berättare: Tyvärr är pengarna slut... 
+Berättare: [Tyvärr är pengarna slut...|Slut i kassan...|Du har gått i konkurs]
 Berättare: Du får inte spela mera nu.
-=> END!
+=> end_game
