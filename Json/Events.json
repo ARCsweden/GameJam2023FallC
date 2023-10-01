@@ -234,5 +234,359 @@
 					]
 				}
 			]
+		},
+		"Event_Three": 
+		{
+			"Name": "SchmysigDejt",
+			"Prompt": "Vilken dag, du blev utfrågad på dejt! Det händer ju inte varje dag, eller hur? Pangpringlan Stina tog för sig och frågade ut dig på dejt. Men hon uppskattar lite självförtroende och pushighet, så du får ta henne med storm och föreslå dejtens aktivitet. Vilken dejt låter mest spännande?",
+			"Level" : 1,
+			"Choices": [
+				{
+					"ChoicePrompt": "Gymdejt",
+					"ChoiceType": "Smocka",
+					"IncreaseType": "Smocka",
+					"DecreaseType": "Smocka",
+					"SuccessChance": 0.5,
+					"SkillModifier": 1.5,
+					"Outcome": [
+						{
+							"Prompt": "Stina är en riktig träningsfantast, och blir överlycklig över att du också gillar att räna. Ni har en fantastisk dejt fylld av pump, stretching och massor med cardio.",
+							"Type": "Positive",
+							"IncreaseValue": 5,
+							"DecreaseValue": 0
+						},
+						{
+							"Prompt": "Stina tycker mycket mer om en hemmakväll med god mat och massor med snacks, än att träna. det är som att du inte ens känner henne alls (Ni träffades igår)",
+							"Type": "Negative",
+							"IncreaseValue": 0,
+							"DecreaseValue": 3
+						}
+					]
+				},
+				{
+					"ChoicePrompt": "Bjud med Stina till nästkommande konferens du ska på, som givetvis handlar om avancerad molekylärbiologi",
+					"ChoiceType": "Snille",
+					"IncreaseType": "Snille",
+					"DecreaseType": "Snille",
+					"SuccessChance": 0.5,
+					"SkillModifier": 1.5,
+					"Outcome": [
+						{
+							"Prompt": "Hur kunde du veta att Stinas farmor var en av de världsledande forskarna inom molekylärbiologi? Hon har positiva minnen från att höra sin farmor prata om det. Perfekt dejt, det är nästan som att du är ett Snille eller något.. ",
+							"Type": "Positive",
+							"IncreaseValue": 5,
+							"DecreaseValue": 0
+						},
+						{
+							"Prompt": "Höra massa nördar prata om nördgrejer? Stina tycker det verkar dötrist. #boring",
+							"Type": "Negative",
+							"IncreaseValue": 0,
+							"DecreaseValue": 3
+						}
+					]
+				},
+				{
+					"ChoicePrompt": "Finns inget mer romantiskt än en luftballongsfärd i en hjärtformad ballong",
+					"ChoiceType": "Slisk",
+					"IncreaseType": "Slisk",
+					"DecreaseType": "Slisk",
+					"SuccessChance": 0.5,
+					"SkillModifier": 1.5,
+					"Outcome": [
+						{
+							"Prompt": "Du förstår precis att Stina älskar sådan här spontanitet, och vem älskar inte en hjärtformat ballong? När ni glider runt över stockholm skärgård får du en puss på kinden som tack.",
+							"Type": "Positive",
+							"IncreaseValue": 5,
+							"DecreaseValue": 0
+						},
+						{
+							"Prompt": "Hon uppskattar ballongfärden, men det var dimma hela dagen, och mitt under hösten, så det blev svinkallt. Inte nog med det så glömde du att erbjuda din jacka till henne. Det blev inte en lyckad dejt.",
+							"Type": "Negative",
+							"IncreaseValue": 0,
+							"DecreaseValue": 3
+						}
+					]
+				},
+				{
+					"ChoicePrompt": "Spontantripp till Öland med privatjet",
+					"ChoiceType": "Stålar",
+					"IncreaseType": "Stålar",
+					"DecreaseType": "Stålar",
+					"SuccessChance": 0.5,
+					"SkillModifier": 1.5,
+					"Outcome": [
+						{
+							"Prompt": "Stina är helt till sig och tar ledigt från jobbet direkt. Hur kan något gå fel på ett privatjet med skumpa och schmys? Stina dokumenterar resan på sin reseblogg, och den resulterade i så mycket mer populäritet för företaget som hyrde ut sitt privatplan att de låter er ta en gratisresa i planet varje månad. Titt så det kan gå!",
+							"Type": "Positive",
+							"IncreaseValue": 5,
+							"DecreaseValue": 0
+						},
+						{
+							"Prompt": "Stina följer med på resan, inte varje dag man åker privatflygplan. Men hon uppskattar en lite mer frugal man, som inte slösar så med pengar, så det blir inte en andra dejt.",
+							"Type": "Negative",
+							"IncreaseValue": 0,
+							"DecreaseValue": 3
+						}
+					]
+				},
+				{
+					"ChoicePrompt": "Du frågar ut Stinas syster på gymdejt istället",
+					"ChoiceType": "RödSmocka",
+					"IncreaseType": "Smocka",
+					"DecreaseType": "Smocka",
+					"SuccessChance": 0.5,
+					"SkillModifier": 1.5,
+					"Outcome": [
+						{
+							"Prompt": "Du vet inte vilket dysfunktionellt förhållande de två systrarna verkar ha, men hennes syster vill gärna få Stina avundsjuk, och ni har en superlyckad dejt.",
+							"Type": "Positive",
+							"IncreaseValue": 5,
+							"DecreaseValue": 0
+						},
+						{
+							"Prompt": "Stinas syster säger nej direkt, och berättar för Stina vad du hittat på, så Stina vill inte gå på dejt längre heller. I din sorg äter du en liter glass och skippar gymmet.",
+							"Type": "Negative",
+							"IncreaseValue": 0,
+							"DecreaseValue": 3
+						}
+					]
+				}
+			]
+		},
+		"Event_Four": 
+		{
+			"Name": "Afterwork",
+			"Prompt": "Kollegorna kommer förbi ditt skrivbord och frågar om du ska hänga med till den lokala baren på afterwork. Vad säger du?",
+			"Level" : 1,
+			"Choices": [
+				{
+					"ChoicePrompt": "Sorry, jag kör LCHF och ska gymma ikväll",
+					"ChoiceType": "Smocka",
+					"IncreaseType": "Smocka",
+					"DecreaseType": "Smocka",
+					"SuccessChance": 0.5,
+					"SkillModifier": 1.5,
+					"Outcome": [
+						{
+							"Prompt": "Kollegorna nickar uppskattande åt dina framtida gains. Du slår personbästa på gymmet till följd av all protein du nu äter.",
+							"Type": "Positive",
+							"IncreaseValue": 5,
+							"DecreaseValue": 0
+						},
+						{
+							"Prompt": "Kollegorna skrattar, och börjar frysa ut dig på jobbet. Du presterar sämre på gymmet som följd",
+							"Type": "Negative",
+							"IncreaseValue": 0,
+							"DecreaseValue": 3
+						}
+					]
+				},
+				{
+					"ChoicePrompt": "Föreslår en lite mer stimulerande aktivitet, som quiz på en anna bar",
+					"ChoiceType": "Snille",
+					"IncreaseType": "Snille",
+					"DecreaseType": "Snille",
+					"SuccessChance": 0.5,
+					"SkillModifier": 1.5,
+					"Outcome": [
+						{
+							"Prompt": "Kollegorna tycker ditt förslag låter bra mycket roligare än den sunkiga bar de föreslog, och ni drar iväg till quizzet på en annan bar. Du leder er grupp till en vinst, och alla blir lite extra imponerade.",
+							"Type": "Positive",
+							"IncreaseValue": 5,
+							"DecreaseValue": 0
+						},
+						{
+							"Prompt": "Kollegorna säger nej, de tycker ett quiz verkar tråkigt. de lyckas dra med dig ändå, och genom grupptryck dricker du dig alldeles för full. Du är bakis dagen efter och kan knappt tänka klart..",
+							"Type": "Negative",
+							"IncreaseValue": 0,
+							"DecreaseValue": 3
+						}
+					]
+				},
+				{
+					"ChoicePrompt": "Självklart, vi drar redan nu!",
+					"ChoiceType": "Slisk",
+					"IncreaseType": "Slisk",
+					"DecreaseType": "Slisk",
+					"SuccessChance": 0.5,
+					"SkillModifier": 1.5,
+					"Outcome": [
+						{
+							"Prompt": "Du blir stjärnan på afterworken och dina skämt landar träffsäkert varje gång. Kvällen avslutas med ett leende på allas läppar. Kvällens höjdpunkt var när du fick till en tryckare till låten: Careless Whisper. Snyggt!",
+							"Type": "Positive",
+							"IncreaseValue": 5,
+							"DecreaseValue": 0
+						},
+						{
+							"Prompt": "Du hänger med ut på afterworken, men kollegorna verkar inte gilla dig så mycket. Dina skämt faller platt, och det slutar med att du gömmer dig på toaletten av skam..",
+							"Type": "Negative",
+							"IncreaseValue": 0,
+							"DecreaseValue": 3
+						}
+					]
+				},
+				{
+					"ChoicePrompt": "Har en gala att gå på, så får bli en annan gång",
+					"ChoiceType": "Stålar",
+					"IncreaseType": "Stålar",
+					"DecreaseType": "Stålar",
+					"SuccessChance": 0.5,
+					"SkillModifier": 1.5,
+					"Outcome": [
+						{
+							"Prompt": "Vilken lyckad gala! Du lyckas värva en ny investerare till din nya startup! Kollegorna kanske saknade dig, men de håller dig bara tillbaka.",
+							"Type": "Positive",
+							"IncreaseValue": 5,
+							"DecreaseValue": 0
+						},
+						{
+							"Prompt": "Galen var ett riktigt bottenapp, ingen ny investerare, så du fick stå för hela dryckesnotan själv. Du skulle nog gått på afterworken istället.",
+							"Type": "Negative",
+							"IncreaseValue": 0,
+							"DecreaseValue": 3
+						}
+					]
+				},
+				{
+					"ChoicePrompt": "Du kallar kollegorna idioter för att de hellre äter kolhydrater än att gå och gymma.",
+					"ChoiceType": "RödSmocka",
+					"IncreaseType": "Smocka",
+					"DecreaseType": "Smocka",
+					"SuccessChance": 0.5,
+					"SkillModifier": 1.5,
+					"Outcome": [
+						{
+							"Prompt": "Kollegorna tittar skumt mot dig och går iväg, men ingen tjallade till chefen, så du kan ta dig iväg i normal tid och gymma. Du må vara ett riktigt rövhål, men du är i alla fall ett starkt rövhål",
+							"Type": "Positive",
+							"IncreaseValue": 5,
+							"DecreaseValue": 0
+						},
+						{
+							"Prompt": "Kollegorna anmäler dig till HR, och du blir fast i möte med HR chefen resten av dagen. Det blev visst inget kvällsgymmande denna dag",
+							"Type": "Negative",
+							"IncreaseValue": 0,
+							"DecreaseValue": 3
+						}
+					]
+				}
+			]
+		},
+		"Event_Five": 
+		{
+			"Name": "Afterwork",
+			"Prompt": "Kollegorna kommer förbi ditt skrivbord och frågar om du ska hänga med till den lokala baren på afterwork. Vad säger du?",
+			"Level" : 1,
+			"Choices": [
+				{
+					"ChoicePrompt": "Sorry, jag kör LCHF och ska gymma ikväll",
+					"ChoiceType": "Smocka",
+					"IncreaseType": "Smocka",
+					"DecreaseType": "Smocka",
+					"SuccessChance": 0.5,
+					"SkillModifier": 1.5,
+					"Outcome": [
+						{
+							"Prompt": "Kollegorna nickar uppskattande åt dina framtida gains. Du slår personbästa på gymmet till följd av all protein du nu äter.",
+							"Type": "Positive",
+							"IncreaseValue": 5,
+							"DecreaseValue": 0
+						},
+						{
+							"Prompt": "Kollegorna skrattar, och börjar frysa ut dig på jobbet. Du presterar sämre på gymmet som följd",
+							"Type": "Negative",
+							"IncreaseValue": 0,
+							"DecreaseValue": 3
+						}
+					]
+				},
+				{
+					"ChoicePrompt": "Föreslår en lite mer stimulerande aktivitet, som quiz på en anna bar",
+					"ChoiceType": "Snille",
+					"IncreaseType": "Snille",
+					"DecreaseType": "Snille",
+					"SuccessChance": 0.5,
+					"SkillModifier": 1.5,
+					"Outcome": [
+						{
+							"Prompt": "Kollegorna tycker ditt förslag låter bra mycket roligare än den sunkiga bar de föreslog, och ni drar iväg till quizzet på en annan bar. Du leder er grupp till en vinst, och alla blir lite extra imponerade.",
+							"Type": "Positive",
+							"IncreaseValue": 5,
+							"DecreaseValue": 0
+						},
+						{
+							"Prompt": "Kollegorna säger nej, de tycker ett quiz verkar tråkigt. de lyckas dra med dig ändå, och genom grupptryck dricker du dig alldeles för full. Du är bakis dagen efter och kan knappt tänka klart..",
+							"Type": "Negative",
+							"IncreaseValue": 0,
+							"DecreaseValue": 3
+						}
+					]
+				},
+				{
+					"ChoicePrompt": "Självklart, vi drar redan nu!",
+					"ChoiceType": "Slisk",
+					"IncreaseType": "Slisk",
+					"DecreaseType": "Slisk",
+					"SuccessChance": 0.5,
+					"SkillModifier": 1.5,
+					"Outcome": [
+						{
+							"Prompt": "Du blir stjärnan på afterworken och dina skämt landar träffsäkert varje gång. Kvällen avslutas med ett leende på allas läppar. Kvällens höjdpunkt var när du fick till en tryckare till låten: Careless Whisper. Snyggt!",
+							"Type": "Positive",
+							"IncreaseValue": 5,
+							"DecreaseValue": 0
+						},
+						{
+							"Prompt": "Du hänger med ut på afterworken, men kollegorna verkar inte gilla dig så mycket. Dina skämt faller platt, och det slutar med att du gömmer dig på toaletten av skam..",
+							"Type": "Negative",
+							"IncreaseValue": 0,
+							"DecreaseValue": 3
+						}
+					]
+				},
+				{
+					"ChoicePrompt": "Har en gala att gå på, så får bli en annan gång",
+					"ChoiceType": "Stålar",
+					"IncreaseType": "Stålar",
+					"DecreaseType": "Stålar",
+					"SuccessChance": 0.5,
+					"SkillModifier": 1.5,
+					"Outcome": [
+						{
+							"Prompt": "Vilken lyckad gala! Du lyckas värva en ny investerare till din nya startup! Kollegorna kanske saknade dig, men de håller dig bara tillbaka.",
+							"Type": "Positive",
+							"IncreaseValue": 5,
+							"DecreaseValue": 0
+						},
+						{
+							"Prompt": "Galen var ett riktigt bottenapp, ingen ny investerare, så du fick stå för hela dryckesnotan själv. Du skulle nog gått på afterworken istället.",
+							"Type": "Negative",
+							"IncreaseValue": 0,
+							"DecreaseValue": 3
+						}
+					]
+				},
+				{
+					"ChoicePrompt": "Du kallar kollegorna idioter för att de hellre äter kolhydrater än att gå och gymma.",
+					"ChoiceType": "RödSmocka",
+					"IncreaseType": "Smocka",
+					"DecreaseType": "Smocka",
+					"SuccessChance": 0.5,
+					"SkillModifier": 1.5,
+					"Outcome": [
+						{
+							"Prompt": "Kollegorna tittar skumt mot dig och går iväg, men ingen tjallade till chefen, så du kan ta dig iväg i normal tid och gymma. Du må vara ett riktigt rövhål, men du är i alla fall ett starkt rövhål",
+							"Type": "Positive",
+							"IncreaseValue": 5,
+							"DecreaseValue": 0
+						},
+						{
+							"Prompt": "Kollegorna anmäler dig till HR, och du blir fast i möte med HR chefen resten av dagen. Det blev visst inget kvällsgymmande denna dag",
+							"Type": "Negative",
+							"IncreaseValue": 0,
+							"DecreaseValue": 3
+						}
+					]
+				}
+			]
 		}
 }
