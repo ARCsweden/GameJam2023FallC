@@ -1,18 +1,22 @@
-[gd_scene load_steps=10 format=3 uid="uid://b0ywom0bt3gdb"]
+[gd_scene load_steps=7 format=3 uid="uid://b0ywom0bt3gdb"]
 
 [ext_resource type="Script" path="res://Game.gd" id="1_t8pt4"]
 [ext_resource type="Script" path="res://background_image.gd" id="2_kbaac"]
 [ext_resource type="Script" path="res://Foe.gd" id="3_m80ia"]
-[ext_resource type="Texture2D" uid="uid://k1k1obwlxr4d" path="res://Assets/Slider/Red.png" id="4_g5ldv"]
 [ext_resource type="AudioStream" uid="uid://dibb5n0inlayr" path="res://Music/click.wav" id="5_1kfc0"]
 [ext_resource type="Script" path="res://AudioStreamPlayer.gd" id="5_auyi6"]
-[ext_resource type="Texture2D" uid="uid://5014juh1qyt8" path="res://Assets/Slider/Green.png" id="5_kaegv"]
-[ext_resource type="Script" path="res://Assets/Slider/BattleProgress.gd" id="6_cicae"]
 [ext_resource type="Script" path="res://ClickAudio.gd" id="6_t7yji"]
 
 [node name="TestScene" type="Node2D"]
 scale = Vector2(6.07064, 16.7428)
 script = ExtResource("1_t8pt4")
+
+[node name="background_image" type="TextureRect" parent="."]
+offset_top = -5.0
+offset_right = 1360.0
+offset_bottom = 1019.0
+scale = Vector2(0.124106, 0.0447955)
+script = ExtResource("2_kbaac")
 
 [node name="Foe" type="TextureRect" parent="."]
 offset_left = 45.9589
@@ -34,23 +38,3 @@ script = ExtResource("5_auyi6")
 [node name="AudioStreamPlayer2" type="AudioStreamPlayer" parent="Control"]
 stream = ExtResource("5_1kfc0")
 script = ExtResource("6_t7yji")
-
-[node name="background_image" type="TextureRect" parent="."]
-offset_top = -5.0
-offset_right = 1360.0
-offset_bottom = 1019.0
-scale = Vector2(0.124106, 0.0447955)
-script = ExtResource("2_kbaac")
-
-[node name="BattleProgress" type="TextureProgressBar" parent="."]
-visible = false
-offset_left = 24.8738
-offset_top = 20.3072
-offset_right = 151.874
-offset_bottom = 39.3072
-value = 50.0
-rounded = true
-nine_patch_stretch = true
-texture_under = ExtResource("4_g5ldv")
-texture_progress = ExtResource("5_kaegv")
-script = ExtResource("6_cicae")

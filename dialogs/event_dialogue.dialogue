@@ -1,4 +1,5 @@
 ~ event
+do GlobalAudioStreamPlayer.switch_to_event()
 Berättare: {{GlobalEvent.prompt}}
 do GlobalBattle.get_random()
 - {{GlobalEvent.choice_one.choice_prompt}}

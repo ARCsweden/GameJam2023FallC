@@ -2,6 +2,8 @@ import "res://dialogs/quiz.dialogue" as quiz
 import "res://dialogs/persuasion.dialogue" as persuasion
 
 ~ battle_dialogue
+do GlobalAudioStreamPlayer.switch_to_battle()
+set GlobalBattle.gameover = false
 Berättare: {{GlobalBattle.prompt}}
 
 {{GlobalBattle.battle_name}}: {{GlobalBattle.start_dialog}}
@@ -13,6 +15,7 @@ if GlobalPlayer.hp > GlobalBattle.hp:
 else:
 	{{GlobalBattle.battle_name}}: [[Hahahaha, där fick du så du teg!|Inte så kaxig nu va?]]
 	Sten: ...
+	set GlobalBattle.gameover = true
 => END
 
 ~ battle_state_machine
@@ -44,8 +47,8 @@ while GlobalPlayer.hp > 0 and GlobalBattle.hp > 0:
 do GlobalBattle.get_random()
 if GlobalBattle.random_val < 0.33:
 	{{GlobalBattle.battle_name}}: Smocka!!
-	if GlobalPlayer.hp - GlobalBattle.smock > 0:
-		set GlobalPlayer.hp = GlobalPlayer.hp - GlobalBattle.smock
+	if GlobalBattle.smock - GlobalPlayer.smock  > 0:
+		set GlobalPlayer.hp -= GlobalBattle.smock - GlobalPlayer.smock
 	else:
 		Berättare: {{GlobalBattle.battle_name}} är [[inte tillräckligt stark|vek|en mes]]...
 elif GlobalBattle.random_val < 0.66:
@@ -53,12 +56,21 @@ elif GlobalBattle.random_val < 0.66:
 	do GlobalBattle.get_random()
 	if GlobalBattle.random_val < 0.33:
 		if  GlobalBattle.brains - GlobalPlayer.brains / 2 > 0
-			set GlobalPlayer.hp -= GlobalBattle.brains - GlobalPlayer.brains / 2 
+			set GlobalPlayer.hp -= (GlobalBattle.brains - GlobalPlayer.brains / 2 )
 		else:
 			Berättare: {{GlobalBattle.battle_name}} är [[inte tillräckligt smart|dum i huvudet|svagt begåvad]]...
+	else:
+		Berättare: {{GlobalBattle.battle_name}} [[gjorde en hjärnprutt.|tänkte lite fel.|gjorde en tanke vurpa.]]
+		
 else:
 	{{GlobalBattle.battle_name}}: Slisk!
 	do GlobalBattle.get_random()
 	if GlobalBattle.random_val < 0.33: 
-		set GlobalPlayer.hp -= GlobalBattle.slisk - GlobalPlayer.slisk / 2
+		if GlobalBattle.slisk - GlobalPlayer.slisk / 2 > 0:
+			set GlobalPlayer.hp -= GlobalBattle.slisk - GlobalPlayer.slisk / 2
+		else:
+			Berättare: Du är lite för sliskig för {{GlobalBattle.battle_name}}.
+	else:
+		{{GlobalBattle.battle_name}}: [[Jag är väldigt rik.|Vet du, jag är en så smart person.|Min pappa jobbar på nintendo.]]
+		Sten: [[Ehhhh...|Det är väl inget att skryta om...|🙄]]
 => END

@@ -24,7 +24,9 @@ GlobalEvent="*res://Globals/Event.gd"
 GlobalRiddle="*res://Globals/Riddle.gd"
 GlobalSlisk="*res://Globals/Slisk.gd"
 GlobalSetup="*res://Globals/Setup.gd"
-GlobalFoe="*res://Foe.gd"
+GlobalBackgroundImage="*res://background_image.gd"
+GlobalAudioStreamPlayer="*res://AudioStreamPlayer.gd"
+GlobalBattleProgress="*res://Assets/Slider/BattleProgress.gd"
 
 [display]
 
