@@ -34,7 +34,7 @@ func get_battle_sprite():
 	elif(battle_type=="Boss"):
 		if(level==1) :
 			#Stinky hack
-			if(battle_name == "Sebastian Student") : return"baseStan.png"
+			if(battle_name == "Sebastian Student") : return"baseSTAN.png"
 			else: return "SvenStark.png"
 		elif(level==2): return "SamSchnygg.png"
 		elif(level==3): return "StefanSynaps.png"

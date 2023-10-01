@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_10"
+type="Resource"
+uid="uid://cq1iu7morw5g3"
+path="res://.godot/imported/persuasion.dialogue-d5c33c0476661f6b0c5af8975f8b8b1c.tres"
+
+[deps]
+
+source_file="res://dialogs/persuasion.dialogue"
+dest_files=["res://.godot/imported/persuasion.dialogue-d5c33c0476661f6b0c5af8975f8b8b1c.tres"]
+
+[params]
+
+defaults=true
