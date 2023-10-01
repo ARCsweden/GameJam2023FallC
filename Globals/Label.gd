@@ -6,5 +6,5 @@ func _ready():
 	pass # Replace with function body.
 
 func _process(delta):
-	self.text = str(GlobalPlayer.cash) + "$"
+	self.text = str(GlobalPlayer.cash) + "💲"
 
