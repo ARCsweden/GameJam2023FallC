@@ -16,7 +16,7 @@ var smock = 4
 var brains = 4
 var slisk = 4
 var hp = 20
-var gameover = 0
+var gameover = true
 
 var random_val = 0
 
@@ -29,7 +29,7 @@ func get_grunt_sprite():
 
 func get_battle_sprite():
 	#Dummy thic hack incomming
-	if(gameover == 0): return "NarratorSTAN.png"
+	if(gameover): return "NarratorSTAN.png"
 	elif(battle_type=="boss"):
 		if(level==1) : return "SvenStark.png"
 		elif(level==2): return "SamSchnygg.png"
