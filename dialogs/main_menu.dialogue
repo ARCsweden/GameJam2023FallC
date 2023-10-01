@@ -1,7 +1,6 @@
 import "res://dialogs/battle_dialogue.dialogue" as battle
 import "res://dialogs/event_dialogue.dialogue" as event
 ~ main_menu
-
 Berättare: [[Hej|Tjenixen|Trevligt att råkas]], detta är Steriotypical Standoff.
 Berättare: Vad heter du?
 - Sten
