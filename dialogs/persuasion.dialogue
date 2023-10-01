@@ -35,7 +35,7 @@ do GlobalBattle.get_random()
 	Sten: {{GlobalSlisk.choice_four.text}}
 	if GlobalBattle.random_val < 0.2:
 		if GlobalPlayer.slisk * 1.5 > 0:
-			set GlobalBattle.game_state -= (GlobalPlayer.slisk  * 1.5)
+			set GlobalBattle.game_state += (GlobalPlayer.slisk  * 1.5)
 			=> slisk_success
 		else:
 			Berättare: {{GlobalBattle.battle_name}} är för sliskig för dig...

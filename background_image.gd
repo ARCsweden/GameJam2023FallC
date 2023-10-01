@@ -16,7 +16,7 @@ func _process(delta):
 		change(GlobalEvent.background_sprite)
 	else: 
 		if(GlobalBattle.battle_name == "Sven Stark"): change("Systemet.png")
-		if(GlobalBattle.battle_name == "Simon von Steinberg"): change("Generic_office_3.png")
+		elif(GlobalBattle.battle_name == "Simon von Steinberg"): change("Generic_office_3.png")
 		else: change("Generic_office_1.png")
 		GlobalEvent.random_background()
 		#Stinkty hack
