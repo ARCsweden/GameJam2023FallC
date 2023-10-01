@@ -27,7 +27,6 @@ GlobalSetup="*res://Globals/Setup.gd"
 GlobalBackgroundImage="*res://background_image.gd"
 GlobalAudioStreamPlayer="*res://AudioStreamPlayer.gd"
 GlobalLabel="*res://Globals/Label.gd"
-GlobalBattleProgress="*res://Assets/Slider/BattleProgress.gd"
 
 [display]
 
