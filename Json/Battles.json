@@ -122,7 +122,7 @@
 		"Sigurd":
 		{   "Name": "Sigurd Stor",
 			"Level": 1,
-			"Prompt": "Julen är här, och det innebär ju förstås en familjeåterträff. Efter din tredje vända till julbordet för dagen s¨hamnar du efter i kön till din farbror Sigurd. Han berättar ofta om hur han spelade brännboll professionellt under universitetstiden, men idag är det brännvin han spelar. Du ser att han håller på och ta den sista julskinkan. Men den vill ju du ha. Det är nog bäst att sätta farbrorn på plats. ",
+			"Prompt": "Julen är här, och det innebär ju förstås en familjeåterträff. Efter din tredje vända till julbordet för dagen så hamnar du efter i kön till din farbror Sigurd. Han berättar ofta om hur han spelade brännboll professionellt under universitetstiden, men idag är det brännvin han spelar. Du ser att han håller på och ta den sista julskinkan. Men den vill ju du ha. Det är nog bäst att sätta farbrorn på plats. ",
 			"BattleType": "Grunt",
 			"StartDialog": "Jag har börjat en ny diet...",
 			"BattleDialogs": "Min foodora beställning här här, måste dra",
