@@ -17,7 +17,7 @@ if GlobalBattle.game_state >= GlobalBattle.hp + GlobalPlayer.hp:
 	do GlobalPlayer.increase_grunts_defeated()
 	set GlobalPlayer.cash += GlobalBattle.cash
 else:
-	{{GlobalBattle.battle_name}}: [[Hahahaha, där fick du så du teg!|Inte så kaxig nu va?]]
+	{{GlobalBattle.battle_name}}: [[Hahahaha, där fick du så du teg!|Inte så kaxig nu va?|Trodde du hade mer att ge än så.]]
 	Sten: ...
 	set GlobalPlayer.cash -= GlobalBattle.cash
 set GlobalBattle.gameover = true
@@ -36,8 +36,8 @@ while GlobalBattle.game_state < GlobalBattle.hp + GlobalPlayer.hp and GlobalBatt
 ~ player_round
 do GlobalBattle.calculate_bribe()
 - Smocka
-	{{GlobalBattle.battle_name}}: Ouch!
 	if GlobalPlayer.smock - GlobalBattle.smock > 0:
+		{{GlobalBattle.battle_name}}: [[Ouch!|Ajajajajaj|Syft|Oufff]]
 		set GlobalBattle.game_state += (GlobalPlayer.smock - GlobalBattle.smock)
 	else:
 		Berättare: {{GlobalBattle.battle_name}} är för stark för dig...
@@ -55,7 +55,7 @@ do GlobalBattle.calculate_bribe()
 		set GlobalBattle.cash = 0
 		=> END
 	else:
-		{{GlobalBattle.battle_name}} Ja, det var väl det minsta du kunde gjort för mig...
+		{{GlobalBattle.battle_name}}: [[Tror du jag kan köpas?|Mer har du väl?|Snåljop...]]
 => END
 
 ~ enemy_round

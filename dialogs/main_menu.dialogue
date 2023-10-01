@@ -15,61 +15,92 @@ Berättare: Dags att spela?
 	while GlobalPlayer.grunts_defeated % 3 != 0 or GlobalPlayer.grunts_defeated == 0:
 		do GlobalSetup.load_event()
 		=>< event/event
+		=>< check_backrupcy
 		do GlobalSetup.load_battle()
 		=>< battle/battle_dialogue
+		=>< check_backrupcy
 	do GlobalSetup.load_event()
 	=>< event/event
+	=>< check_backrupcy
 	do GlobalSetup.load_battle()
 	=>< battle/battle_dialogue
+	=>< check_backrupcy
 	set GlobalPlayer.level += 1
 	Berättare: Nu har du klarat första nivån!
 	Berättare: Grattis!!!
 	while GlobalPlayer.grunts_defeated % 3 != 0:
 		do GlobalSetup.load_event()
 		=>< event/event
+		=>< check_backrupcy
 		do GlobalSetup.load_battle()
 		=>< battle/battle_dialogue
+		=>< check_backrupcy
 	do GlobalSetup.load_event()
 	=>< event/event
+	=>< check_backrupcy
 	do GlobalSetup.load_battle()
 	=>< battle/battle_dialogue
+	=>< check_backrupcy
 	set GlobalPlayer.level += 1
 	Berättare: Nu har du klarat andra nivån!
 	Berättare: Grattis!!!
 	while GlobalPlayer.grunts_defeated % 3 != 0:
 		do GlobalSetup.load_event()
 		=>< event/event
+		=>< check_backrupcy
 		do GlobalSetup.load_battle()
 		=>< battle/battle_dialogue
+		=>< check_backrupcy
 	do GlobalSetup.load_event()
 	=>< event/event
+	=>< check_backrupcy
 	do GlobalSetup.load_battle()
 	=>< battle/battle_dialogue
+	=>< check_backrupcy
 	set GlobalPlayer.level += 1
 	Berättare: Nu har du klarat tredje nivån!
 	Berättare: Grattis!!!
 	while GlobalPlayer.grunts_defeated % 3 != 0:
 		do GlobalSetup.load_event()
 		=>< event/event
+		=>< check_backrupcy
 		do GlobalSetup.load_battle()
 		=>< battle/battle_dialogue
+		=>< check_backrupcy
 	do GlobalSetup.load_event()
 	=>< event/event
+	=>< check_backrupcy
 	do GlobalSetup.load_battle()
 	=>< battle/battle_dialogue
+	=>< check_backrupcy
 	set GlobalPlayer.level += 1
 	Berättare: Nu har du klarat fjärde nivån!
 	Berättare: Grattis!!!
 	while GlobalPlayer.grunts_defeated % 3 != 0:
 		do GlobalSetup.load_event()
 		=>< event/event
+		=>< check_backrupcy
 		do GlobalSetup.load_battle()
 		=>< battle/battle_dialogue
+		=>< check_backrupcy
 	do GlobalSetup.load_event()
 	=>< event/event
+	=>< check_backrupcy
 	do GlobalSetup.load_battle()
 	=>< battle/battle_dialogue
+	=>< check_backrupcy
 	Berättare: Whaaaat! Du hade ihjäl Simon!? 
 	Berättare: Grattis!!!
+	Berättare: Nu är spelet slut och du har lärt dig mycket.
+=> END!
 
-=> END
+~ check_backrupcy
+if GlobalPlayer.cash > 0:
+	=> END
+else:
+	=> end_game
+	
+~ end_game
+Berättare: Tyvärr är pengarna slut... 
+Berättare: Du får inte spela mera nu.
+=> END!

@@ -78,9 +78,9 @@ func _ready():
 	if(GlobalPlayer.smock > GlobalEvent.choice_four.success_threshhold):
 		GlobalEvent.choice_four.success_chance *=  GlobalEvent.choice_four.skill_modifier
 	GlobalEvent.choice_four.outcome_positive_prompt = "Chefen var för bakis för att märka att du inte ens var på jobbet idag. En lyckad aktieinvestering från din sida ger dig lite extra inkomst för dagen."
-	GlobalEvent.choice_four.outcome_positive_increase_value = 5
+	GlobalEvent.choice_four.outcome_positive_increase_value = 5000
 	GlobalEvent.choice_four.outcome_negative_prompt = "Du får sparken, pappa blir sur och tar tillbaka en månadspeng"
-	GlobalEvent.choice_four.outcome_negative_decrease_value = 3
+	GlobalEvent.choice_four.outcome_negative_decrease_value = 3000
 	
 	#Choice five
 	GlobalEvent.choice_five.choice_type = "RödSmocka"
