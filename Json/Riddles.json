@@ -346,22 +346,22 @@
 		},
 	"16":
 		{   
-			"Prompt": "Il y a un homme dans un immeuble de 4 étages. Il saute par la fenêtre et s’en sort indemne. Il n’a utilisé aucun rembourrage, et n’a subi aucun dommage. Comment ?",
+			"Prompt": "Vad är fullt av hål, men kan ändå behålla vatten?",
 			"Choices": [
 				{
-					"ChoiceText": "Il a sauté du rez-de-chaussée",
+					"ChoiceText": "Tvättsvamp",
 					"Correct": true
 				},
 				{
-					"ChoiceText": "fenêtres",
+					"ChoiceText": "Durkslag",
 					"Correct": false
 				},
 				{
-					"ChoiceText": "Ils sont nés dans des fuseaux horaires différents.",
+					"ChoiceText": "Badkar",
 					"Correct": false
 				},
 				{
-					"ChoiceText": "mensonge",
+					"ChoiceText": "Ballong",
 					"Correct": false
 				}
 			],
@@ -369,22 +369,22 @@
 		},
 	"17":
 		{   
-			"Prompt": "Qu’est-ce qui n’est ni à l’intérieur ni à l’extérieur de la maison mais qui est une nécessité pour toute maison ?",
+			"Prompt": "Jag är så lätt att skapa, men kräver energi att behålla. Jag är viktigast när jag delas, men jag är sällan långvarig. Vad är jag?",
 			"Choices": [
 				{
-					"ChoiceText": "mensonge",
+					"ChoiceText": "Idéer",
 					"Correct": false
 				},
 				{
-					"ChoiceText": "Ils sont nés dans des fuseaux horaires différents.",
+					"ChoiceText": "Känslor",
 					"Correct": false
 				},
 				{
-					"ChoiceText": "fenêtres",
+					"ChoiceText": "Leenden",
 					"Correct": true
 				},
 				{
-					"ChoiceText": "trois",
+					"ChoiceText": "Soppa",
 					"Correct": false
 				}
 			],
@@ -392,22 +392,22 @@
 		},
 	"18":
 		{   
-			"Prompt": "Deux personnes sont nées au même moment, mais elles n’ont pas les mêmes anniversaires. Comment cela est-il possible ?",
+			"Prompt": "Jag kan vara stark, jag kan vara svag. Jag kan vara ond, jag kan vara god. Alla bär mig, men få kan behärska mig. Vad är jag?",
 			"Choices": [
 				{
-					"ChoiceText": "mensonge",
+					"ChoiceText": "Framtiden",
 					"Correct": false
 				},
 				{
-					"ChoiceText": "Ils sont nés dans des fuseaux horaires différents.",
+					"ChoiceText": "Känslor",
 					"Correct": true
 				},
 				{
-					"ChoiceText": "aujourd'hui",
+					"ChoiceText": "Människa",
 					"Correct": false
 				},
 				{
-					"ChoiceText": "trois",
+					"ChoiceText": "Hjärnan",
 					"Correct": false
 				}
 			],
@@ -415,22 +415,22 @@
 		},
 	"19":
 		{   
-			"Prompt": "Si je dis “tout ce que je te dis est un mensonge”, est-ce que je te dis la vérité ou un mensonge ?",
+			"Prompt": "En pojke gav fyra äpplen utan att dela dem åt tre flickor, så att ingen fick mer än den andra. Hur bar han sig åt?",
 			"Choices": [
 				{
-					"ChoiceText": "mensonge",
+					"ChoiceText": "Han gav 2 till den andra",
 					"Correct": true
 				},
 				{
-					"ChoiceText": "trois",
+					"ChoiceText": "Han åt ett äpple själv",
 					"Correct": false
 				},
 				{
-					"ChoiceText": "L'autruche. Elle ne vole pas.",
+					"ChoiceText": "Han hittade 2 till äpplen",
 					"Correct": false
 				},
 				{
-					"ChoiceText": "aujourd'hui",
+					"ChoiceText": "Magi",
 					"Correct": false
 				}
 			],
@@ -438,22 +438,22 @@
 		},
 	"20":
 		{   
-			"Prompt": "Il y a deux canards devant un canard, deux canards derrière un canard et un canard au milieu. Combien de canards y a-t-il ?",
+			"Prompt": "Det står 2 lamm framför 2 andra lamm. Det står 2 lamm bakom 2 andra lamm. Det står 2 lamm bredvid 2 andra lamm.",
 			"Choices": [
 				{
-					"ChoiceText": "L'autruche. Elle ne vole pas.",
+					"ChoiceText": "6",
 					"Correct": false
 				},
 				{
-					"ChoiceText": "Aujourd'hui, c'est son onzième anniversaire.",
+					"ChoiceText": "2",
 					"Correct": false
 				},
 				{
-					"ChoiceText": "aujourd'hui",
+					"ChoiceText": "8",
 					"Correct": false
 				},
 				{
-					"ChoiceText": "trois",
+					"ChoiceText": "4",
 					"Correct": true
 				}
 			],
