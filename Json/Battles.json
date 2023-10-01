@@ -7,7 +7,7 @@
 			"StartDialog": "Vad är ditt personbästa i tyngdlyft?",
 			"BattleDialogs": "Jag kan räkna till minst 7 faktiskt",
 			"Stats": {
-				"Stålar": 5,
+				"Stålar": 10000,
 				"Smocka": 10,
 				"Slisk": 5,
 				"Snille": 5,
@@ -22,7 +22,7 @@
 			"StartDialog": "Använd gärna min promo code SCHNYGG20% för 20% billigare fettsugning",
 			"BattleDialogs": "Min näsa! Den var ju plastikopererad!",
 			"Stats": {
-				"Stålar": 10,
+				"Stålar": 50000,
 				"Smocka": 10,
 				"Slisk": 15,
 				"Snille": 10,
@@ -37,7 +37,7 @@
 			"StartDialog": "Jag vill inte säga att jag är bättre än dig bara för jag är smartare men, du kan väl inte ens stava till intellekt...",
 			"BattleDialogs": "Jag hade faktiskt 2.0 på högskoleprovet",
 			"Stats": {
-				"Stålar": 15,
+				"Stålar": 100000,
 				"Smocka": 15,
 				"Slisk": 15,
 				"Snille": 20,
@@ -52,7 +52,7 @@
 			"StartDialog": "Om ditt förmögenhet inte är minst tiosiffrig, kan du lika gärna Schticka iväg",
 			"BattleDialogs": "Jag är kommer från en bättre familj",
 			"Stats": {
-				"Stålar": 25,
+				"Stålar": 250000,
 				"Smocka": 20,
 				"Slisk": 20,
 				"Snille": 20,
@@ -67,7 +67,7 @@
 			"StartDialog": "Dom kallar mig aktiemarknadens knug",
 			"BattleDialogs": "Vakter, vakter! Allt mitt guld",
 			"Stats": {
-				"Stålar": 30,
+				"Stålar": 1000000,
 				"Smocka": 30,
 				"Slisk": 30,
 				"Snille": 30,
@@ -82,7 +82,7 @@
 			"StartDialog": "Hörde du vad Bianca Ingrosso sa på gårdagens program?!",
 			"BattleDialogs": "Kaffet hemma är ju mycket godare än det här...",
 			"Stats": {
-				"Stålar": 3,
+				"Stålar": 0,
 				"Smocka": 4,
 				"Slisk": 6,
 				"Snille": 2,
@@ -97,7 +97,7 @@
 			"StartDialog": "Vill du ha ett ståskrivbord?",
 			"BattleDialogs": "Mina leder!",
 			"Stats": {
-				"Stålar": 5,
+				"Stålar": 0,
 				"Smocka": 5,
 				"Slisk": 5,
 				"Snille": 5,
@@ -112,7 +112,7 @@
 			"StartDialog": "Min mage är lite orolig idag..",
 			"BattleDialogs": "Detta är inte bra för tarmfloran",
 			"Stats": {
-				"Stålar": 5,
+				"Stålar": 0,
 				"Smocka": 6,
 				"Slisk": 2,
 				"Snille": 3,

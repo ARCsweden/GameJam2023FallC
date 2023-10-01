@@ -11,19 +11,33 @@ func _process(delta):
 func load_battle():
 	#Load all events from a json
 	var battles = read_json_file("res://Json/Battles.json")
+	var battle
+	#Initialize random number generator
+	var rng = RandomNumberGenerator.new()
 	
-	#Pick the next event at random
-	var size = battles.size()
-	var random_key = battles.keys()[randi() % size]
-	var battle = battles[random_key]
-	
+	if(GlobalPlayer.grunts_defeated % 3 != 0):
+		var grunt_battles_keys = []
+		for key in battles.keys():
+			if battles[key]["BattleType"] == "Grunt" and battles[key]["Level"] <= GlobalPlayer.level:
+				grunt_battles_keys.append(key)
+		var random_key = grunt_battles_keys[randi() % grunt_battles_keys.size()]
+		battle = battles[random_key]
+	else:
+		for key in battles.keys():
+			if battles[key]["BattleType"] == "Boss" and battles[key]["Level"] == GlobalPlayer.level:
+				battle = battles[key]
+				
 	#Add values to the global battle class
 	GlobalBattle.battle_name = battle["Name"]
 	GlobalBattle.prompt = battle["Prompt"]
 	GlobalBattle.battle_type = battle["BattleType"]
 	GlobalBattle.start_dialog = battle["StartDialog"]
 	GlobalBattle.battle_dialogs = battle["BattleDialogs"]
-	GlobalBattle.cash = battle["Stats"]["Stålar"]
+	GlobalBattle.level = battle["Level"]
+	if(GlobalBattle.battle_type == "Grunt"):
+		GlobalBattle.cash = rng.randf_range(2000*GlobalPlayer.level, 5000*GlobalPlayer.level)
+	else:
+		GlobalBattle.cash = battle["Stats"]["Stålar"]
 	GlobalBattle.smock = battle["Stats"]["Smocka"]
 	GlobalBattle.brains = battle["Stats"]["Snille"]
 	GlobalBattle.slisk = battle["Stats"]["Slisk"]

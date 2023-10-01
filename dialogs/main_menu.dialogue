@@ -8,23 +8,69 @@ Berättare: Vad heter du?
 Berättare: Sa du Sten? Hej Sten jag är bara berättare och mitt namn spelar ingen roll i denna kontext.
 Berättare: Dags att spela?
 - Ja
-	Sten: Ja, jag vill [[sspela|gamea|komma igång]].
+	Sten: Ja, jag vill [[spela|gamea|komma igång]].
+	Berättare: Det var en gång...
 	=>< event/event
 	Berättare: Dags för din första standoff!
 	=>< battle/battle_dialogue
+	while GlobalPlayer.grunts_defeated % 3 != 0:
+		do GlobalSetup.load_event()
+		=>< event/event
+		do GlobalSetup.load_battle()
+		=>< battle/battle_dialogue
 	do GlobalSetup.load_event()
 	=>< event/event
 	do GlobalSetup.load_battle()
 	=>< battle/battle_dialogue
-	do GlobalSetup.load_event()
-	=>< event/event
-	do GlobalSetup.load_battle()
-	=>< battle/battle_dialogue
-	do GlobalSetup.load_event()
-	=>< event/event
-	do GlobalSetup.load_battle()
-	=>< battle/battle_dialogue
+	set GlobalPlayer.level += 1
 	Berättare: Nu har du klarat första nivån!
+	Berättare: Grattis!!!
+	while GlobalPlayer.grunts_defeated % 3 != 0:
+		do GlobalSetup.load_event()
+		=>< event/event
+		do GlobalSetup.load_battle()
+		=>< battle/battle_dialogue
+	do GlobalSetup.load_event()
+	=>< event/event
+	do GlobalSetup.load_battle()
+	=>< battle/battle_dialogue
+	set GlobalPlayer.level += 1
+	Berättare: Nu har du klarat andra nivån!
+	Berättare: Grattis!!!
+	while GlobalPlayer.grunts_defeated % 3 != 0:
+		do GlobalSetup.load_event()
+		=>< event/event
+		do GlobalSetup.load_battle()
+		=>< battle/battle_dialogue
+	do GlobalSetup.load_event()
+	=>< event/event
+	do GlobalSetup.load_battle()
+	=>< battle/battle_dialogue
+	set GlobalPlayer.level += 1
+	Berättare: Nu har du klarat tredje nivån!
+	Berättare: Grattis!!!
+	while GlobalPlayer.grunts_defeated % 3 != 0:
+		do GlobalSetup.load_event()
+		=>< event/event
+		do GlobalSetup.load_battle()
+		=>< battle/battle_dialogue
+	do GlobalSetup.load_event()
+	=>< event/event
+	do GlobalSetup.load_battle()
+	=>< battle/battle_dialogue
+	set GlobalPlayer.level += 1
+	Berättare: Nu har du klarat fjärde nivån!
+	Berättare: Grattis!!!
+	while GlobalPlayer.grunts_defeated % 3 != 0:
+		do GlobalSetup.load_event()
+		=>< event/event
+		do GlobalSetup.load_battle()
+		=>< battle/battle_dialogue
+	do GlobalSetup.load_event()
+	=>< event/event
+	do GlobalSetup.load_battle()
+	=>< battle/battle_dialogue
+	Berättare: Whaaaat! Du hade ihjäl Simon!? 
 	Berättare: Grattis!!!
 
 => END
