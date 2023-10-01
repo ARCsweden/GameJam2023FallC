@@ -15,7 +15,7 @@ if GlobalBattle.game_state >= GlobalBattle.hp + GlobalPlayer.hp:
 	Sten: [[Loser.|Noob.|Kan du inte bättre?]]
 	set GlobalBattle.gameover = true
 	do GlobalPlayer.increase_grunts_defeated()
-	set GlobalPlayer.cash += GlobalBattle.cash
+	do GlobalPlayer.add_cash()
 else:
 	{{GlobalBattle.battle_name}}: [[Hahahaha, där fick du så du teg!|Inte så kaxig nu va?|Trodde du hade mer att ge än så.]]
 	Sten: ...
