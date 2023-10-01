@@ -18,6 +18,9 @@ var answer = ""
 #func _changeSprite():
 	#Add checks to see if player sprite needs to be changed here
 
+func add_cash():
+	cash += round(GlobalBattle.cash)
+
 func increase_grunts_defeated():
 	grunts_defeated += 1
 
