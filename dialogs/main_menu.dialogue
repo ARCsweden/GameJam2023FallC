@@ -11,7 +11,7 @@ Berättare: Dags att spela?
 	Sten: Ja, jag vill [[spela|gamea|komma igång]].
 	Berättare: Det var en gång...
 	=>< event/event
-	Berättare: Dags för din första encounter!
+	Berättare: Dags för din första standoff!
 	=>< battle/battle_dialogue
 	while GlobalPlayer.grunts_defeated % 3 != 0:
 		do GlobalSetup.load_event()
