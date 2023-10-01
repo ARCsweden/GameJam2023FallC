@@ -1,5 +1,6 @@
 import "res://dialogs/quiz.dialogue" as quiz
 import "res://dialogs/persuasion.dialogue" as persuasion
+
 ~ battle_dialogue
 Berättare: {{GlobalBattle.prompt}}
 
