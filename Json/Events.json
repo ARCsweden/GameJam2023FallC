@@ -706,5 +706,123 @@
 					]
 				}
 			]
+		},
+		"Event_Seven": 
+		{
+			"Name": "NFT",
+			"Prompt": "Du är ute på en mysig promenad på stan. En sliskig typ stoppar dig och frågar om du vill göra en investering i en NFT. Vad gör du?",
+			"Level" : 1,
+			"Choices": [
+				{
+					"ChoicePrompt": "Du har bråttom till gymmet och ignorerar snubben",
+					"ChoiceType": "Smocka",
+					"IncreaseType": "Smocka",
+					"DecreaseType": "Smocka",
+					"SuccessChance": 0.5,
+					"SkillModifier": 1.5,
+					"Outcome": [
+						{
+							"Prompt": "Najs gympass, du slog personbästa igen!",
+							"Type": "Positive",
+							"IncreaseValue": 5,
+							"DecreaseValue": 0
+						},
+						{
+							"Prompt": "Du tappade en hantel på foten och bröt den, AJ!",
+							"Type": "Negative",
+							"IncreaseValue": 0,
+							"DecreaseValue": 3
+						}
+					]
+				},
+				{
+					"ChoicePrompt": "Du säger åt snubben att NFT är en scam och går vidare",
+					"ChoiceType": "Snille",
+					"IncreaseType": "Snille",
+					"DecreaseType": "Snille",
+					"SuccessChance": 0.5,
+					"SkillModifier": 1.5,
+					"Outcome": [
+						{
+							"Prompt": "Du slapp en korkad investering, snyggt!",
+							"Type": "Positive",
+							"IncreaseValue": 5,
+							"DecreaseValue": 0
+						},
+						{
+							"Prompt": "En journalist såg dig prata med idioten som säljer NFT, och du hamnar i tidningen. Folk tycker du är en idiot.",
+							"Type": "Negative",
+							"IncreaseValue": 0,
+							"DecreaseValue": 3
+						}
+					]
+				},
+				{
+					"ChoicePrompt": "En partner hade inte gillat det konstverket, du går vidare",
+					"ChoiceType": "Slisk",
+					"IncreaseType": "Slisk",
+					"DecreaseType": "Slisk",
+					"SuccessChance": 0.5,
+					"SkillModifier": 1.5,
+					"Outcome": [
+						{
+							"Prompt": "Du slapp en korkad investering, det tycker partnern om!",
+							"Type": "Positive",
+							"IncreaseValue": 5,
+							"DecreaseValue": 0
+						},
+						{
+							"Prompt": "Ditt senaste ragg älskar NFT:s, du kanske skulle köpt den ändå..",
+							"Type": "Negative",
+							"IncreaseValue": 0,
+							"DecreaseValue": 3
+						}
+					]
+				},
+				{
+					"ChoicePrompt": "Du köper NFT:n på kredit för 100 000 Rikstaler",
+					"ChoiceType": "Stålar",
+					"IncreaseType": "Stålar",
+					"DecreaseType": "Stålar",
+					"SuccessChance": 0.5,
+					"SkillModifier": 1.5,
+					"Outcome": [
+						{
+							"Prompt": "Du lyckas sälja NFT:n vidare till en ännu större idiot än dig själv och tjänar en hacka",
+							"Type": "Positive",
+							"IncreaseValue": 5000,
+							"DecreaseValue": 0
+						},
+						{
+							"Prompt": "NFT:s totalsjunker i värde och du förlorar hela din investering",
+							"Type": "Negative",
+							"IncreaseValue": 0,
+							"DecreaseValue": 100000
+						}
+					]
+				},
+				{
+					"ChoicePrompt": "Du slår ned försäljaren och tar hans NFT",
+					"ChoiceType": "RödSmocka",
+					"IncreaseType": "Smocka",
+					"DecreaseType": "Smocka",
+					"SuccessChance": 0.5,
+					"SkillModifier": 1.5,
+					"Outcome": [
+						{
+							"Prompt": "Du hittar USB minnet med hashen till NFT:n och tar den. Nu är du inte bara ett rövhål, utan ett rövhål med en NFT. Ge dig en klapp på axeln och gå vidare till gå med högre Smocka.",
+							"Type": "Positive",
+							"IncreaseValue": 5,
+							"DecreaseValue": 0
+						},
+						{
+							"Prompt": "Du glömde att den var digital och inte fysiskt, och du står tomhänt med polisen påväg. De går friskt till med batongen och du mår inte så bra...",
+							"Type": "Negative",
+							"IncreaseValue": 0,
+							"DecreaseValue": 3
+						}
+					]
+				}
+			]
 		}
 }
