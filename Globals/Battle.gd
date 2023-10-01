@@ -30,14 +30,14 @@ func get_grunt_sprite():
 func get_battle_sprite():
 	#Dummy thic hack incomming
 	if(gameover): return "NarratorSTAN.png"
-	elif(battle_type=="boss"):
+	elif(battle_type=="Boss"):
 		if(level==1) : return "SvenStark.png"
 		elif(level==2): return "SamSchnygg.png"
 		elif(level==3): return "StefanSynaps.png"
 		elif(level==4): return "StigAfSchtenrik.png"
 		else: return "SimonVonSteinberg.png"
 	else: return get_grunt_sprite()
-		
+	
 	
 
 func get_random():
