@@ -55,7 +55,7 @@ do GlobalBattle.calculate_bribe()
 		set GlobalBattle.cash = 0
 		=> END
 	else:
-		{{GlobalBattle.battle_name}} Ja, det var väl det minsta du kunde gjort för mig...
+		{{GlobalBattle.battle_name}}: [[Tror du jag kan köpas?|Mer har du väl?|Snåljop...]]
 => END
 
 ~ enemy_round
