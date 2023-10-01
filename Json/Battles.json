@@ -7,7 +7,7 @@
 			"StartDialog": "Vad är ditt personbästa i tyngdlyft?",
 			"BattleDialogs": "Jag kan räkna till minst 7 faktiskt",
 			"Stats": {
-				"Stålar": 5,
+				"Stålar": 10000,
 				"Smocka": 10,
 				"Slisk": 5,
 				"Snille": 5,
@@ -22,7 +22,7 @@
 			"StartDialog": "Använd gärna min promo code SCHNYGG20% för 20% billigare fettsugning",
 			"BattleDialogs": "Min näsa! Den var ju plastikopererad!",
 			"Stats": {
-				"Stålar": 10,
+				"Stålar": 50000,
 				"Smocka": 10,
 				"Slisk": 15,
 				"Snille": 10,
@@ -37,7 +37,7 @@
 			"StartDialog": "Jag vill inte säga att jag är bättre än dig bara för jag är smartare men, du kan väl inte ens stava till intellekt...",
 			"BattleDialogs": "Jag hade faktiskt 2.0 på högskoleprovet",
 			"Stats": {
-				"Stålar": 15,
+				"Stålar": 100000,
 				"Smocka": 15,
 				"Slisk": 15,
 				"Snille": 20,
@@ -52,7 +52,7 @@
 			"StartDialog": "Om ditt förmögenhet inte är minst tiosiffrig, kan du lika gärna Schticka iväg",
 			"BattleDialogs": "Jag är kommer från en bättre familj",
 			"Stats": {
-				"Stålar": 25,
+				"Stålar": 250000,
 				"Smocka": 20,
 				"Slisk": 20,
 				"Snille": 20,
@@ -67,7 +67,7 @@
 			"StartDialog": "Dom kallar mig aktiemarknadens knug",
 			"BattleDialogs": "Vakter, vakter! Allt mitt guld",
 			"Stats": {
-				"Stålar": 30,
+				"Stålar": 1000000,
 				"Smocka": 30,
 				"Slisk": 30,
 				"Snille": 30,
@@ -82,7 +82,7 @@
 			"StartDialog": "Hörde du vad Bianca Ingrosso sa på gårdagens program?!",
 			"BattleDialogs": "Kaffet hemma är ju mycket godare än det här...",
 			"Stats": {
-				"Stålar": 3,
+				"Stålar": 0,
 				"Smocka": 4,
 				"Slisk": 6,
 				"Snille": 2,
@@ -97,7 +97,7 @@
 			"StartDialog": "Vill du ha ett ståskrivbord?",
 			"BattleDialogs": "Mina leder!",
 			"Stats": {
-				"Stålar": 5,
+				"Stålar": 0,
 				"Smocka": 5,
 				"Slisk": 5,
 				"Snille": 5,
@@ -112,9 +112,54 @@
 			"StartDialog": "Min mage är lite orolig idag..",
 			"BattleDialogs": "Detta är inte bra för tarmfloran",
 			"Stats": {
-				"Stålar": 5,
+				"Stålar": 0,
 				"Smocka": 6,
 				"Slisk": 2,
+				"Snille": 3,
+				"Hp": 25
+			}
+		},
+		"Sigurd":
+		{   "Name": "Sigurd Stor",
+			"Level": 1,
+			"Prompt": "Julen är här, och det innebär ju förstås en familjeåterträff. Efter din tredje vända till julbordet för dagen s¨hamnar du efter i kön till din farbror Sigurd. Han berättar ofta om hur han spelade brännboll professionellt under universitetstiden, men idag är det brännvin han spelar. Du ser att han håller på och ta den sista julskinkan. Men den vill ju du ha. Det är nog bäst att sätta farbrorn på plats. ",
+			"BattleType": "Grunt",
+			"StartDialog": "Jag har börjat en ny diet...",
+			"BattleDialogs": "Min foodora beställning här här, måste dra",
+			"Stats": {
+				"Stålar": 1,
+				"Smocka": 1,
+				"Slisk": 1,
+				"Snille": 1,
+				"Hp": 50
+			}
+		},
+		"SigurdStad":
+		{   "Name": "Sigurd Stadsvetare",
+			"Level": 1,
+			"Prompt": "Du är ute och partajar lite efter jobbet. Du har det ganska trevligt ändå. Efter en lång arbetsdag är det lite skönt att slappna av med alla tunga tankar. Men en vid bordet slutar inte prata politik. Du vill inte höra mer av det idag, kanske dags att sänka diskussionen",
+			"BattleType": "Grunt",
+			"StartDialog": "Jag vet hur vi löser gängkriminaliteten",
+			"BattleDialogs": "Jag tänker flytta till ett bättre område..",
+			"Stats": {
+				"Stålar": 2,
+				"Smocka": 1,
+				"Slisk": 3,
+				"Snille": 5,
+				"Hp": 25
+			}
+		},
+		"SamuelSjuk":
+		{   "Name": "Samuel Sjuksköterska",
+			"Level": 1,
+			"Prompt": "Idag är det dags att få uppleva den svenska välfärden något, det vill säga att sitta i väntrummet på akuten. Det gick visst inte så bra på din senaste standoff, eller hur? Du har fått vänta i timmar, och du är ganska frustrerad. Alla andra pöblar får ju träffa läkaren direkt, men inte du. Sjuksköterskan ger dig inga bra svar, och är till och med lite spydig. Du bestämmer dig att lära ut lite vett.",
+			"BattleType": "Grunt",
+			"StartDialog": "Testa att ta en ipren och sätt dig ned en stund",
+			"BattleDialogs": "Läkaren är här när som helst",
+			"Stats": {
+				"Stålar": 1,
+				"Smocka": 3,
+				"Slisk": 3,
 				"Snille": 3,
 				"Hp": 25
 			}
