@@ -15,7 +15,7 @@ func load_battle():
 	#Initialize random number generator
 	var rng = RandomNumberGenerator.new()
 	
-	if(GlobalPlayer.grunts_defeated % 3 != 0):
+	if(GlobalPlayer.grunts_defeated % 3 != 0 or GlobalPlayer.grunts_defeated == 0):
 		var grunt_battles_keys = []
 		for key in battles.keys():
 			if battles[key]["BattleType"] == "Grunt" and battles[key]["Level"] <= GlobalPlayer.level:

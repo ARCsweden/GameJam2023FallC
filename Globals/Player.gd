@@ -17,6 +17,9 @@ var answer = ""
 #func _changeSprite():
 	#Add checks to see if player sprite needs to be changed here
 
+func increase_grunts_defeated():
+	grunts_defeated += 1
+
 func increase_skill(skill_to_update, amount):
 	if(skill_to_update == "Slisk"):
 		answer = "Du känner dig sliskigare"
