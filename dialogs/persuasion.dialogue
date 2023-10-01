@@ -5,7 +5,7 @@ do GlobalBattle.get_random()
 	Sten: {{GlobalSlisk.choice_one.text}}
 	if GlobalBattle.random_val < 0.8:
 		if GlobalPlayer.slisk - GlobalBattle.slisk > 0:
-			set GlobalBattle.hp -= GlobalPlayer.slisk - GlobalBattle.slisk
+			set GlobalBattle.game_state += (GlobalPlayer.slisk - GlobalBattle.slisk)
 			=> slisk_success
 		else:
 			Berättare: {{GlobalBattle.battle_name}} är för sliskig för dig...
@@ -15,7 +15,7 @@ do GlobalBattle.get_random()
 	Sten: {{GlobalSlisk.choice_two.text}}
 	if GlobalBattle.random_val < 0.6:
 		if GlobalPlayer.slisk - GlobalBattle.slisk/2 > 0:
-			set GlobalBattle.hp -= GlobalPlayer.slisk - GlobalBattle.slisk/2
+			set GlobalBattle.game_state += (GlobalPlayer.slisk - GlobalBattle.slisk/2)
 			=> slisk_success
 		else:
 			Berättare: {{GlobalBattle.battle_name}} är för sliskig för dig...
@@ -25,7 +25,7 @@ do GlobalBattle.get_random()
 	Sten: {{GlobalSlisk.choice_three.text}}
 	if GlobalBattle.random_val < 0.35:
 		if GlobalPlayer.slisk > 0:
-			set GlobalBattle.hp -= GlobalPlayer.slisk
+			set GlobalBattle.game_state += GlobalPlayer.slisk
 			=> slisk_success
 		else:
 			Berättare: {{GlobalBattle.battle_name}} är för sliskig för dig...
@@ -35,7 +35,7 @@ do GlobalBattle.get_random()
 	Sten: {{GlobalSlisk.choice_four.text}}
 	if GlobalBattle.random_val < 0.2:
 		if GlobalPlayer.slisk * 1.5 > 0:
-			set GlobalBattle.hp -= GlobalPlayer.slisk  * 1.5
+			set GlobalBattle.game_state -= (GlobalPlayer.slisk  * 1.5)
 			=> slisk_success
 		else:
 			Berättare: {{GlobalBattle.battle_name}} är för sliskig för dig...

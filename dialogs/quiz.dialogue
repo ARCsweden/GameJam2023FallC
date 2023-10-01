@@ -29,7 +29,7 @@ Berättare: [[Nu ska du få svara på en fråga; ||En liten kluring; ]]{{GlobalR
 ~ correct_answer
 Berättare: [[Rätt svar!|Amenlejteså!|Snyggt!|Den kanske inte var så svår ändå?]]
 if GlobalPlayer.brains - GlobalBattle.brains/2 > 0:
-	set GlobalBattle.hp -= GlobalPlayer.brains - GlobalBattle.brains/2
+	set GlobalBattle.game_state += (GlobalPlayer.brains - GlobalBattle.brains/2)
 else:
 	Berättare: {{GlobalBattle.battle_name}} är för smart för dig...
 => END
