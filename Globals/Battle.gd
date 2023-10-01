@@ -43,7 +43,7 @@ func get_battle_sprite():
 	else: return get_grunt_sprite()
 	
 func calculate_bribe():
-	bribe = (cash / 10) + cash * (1 - (game_state/(hp+GlobalPlayer.hp)))
+	bribe = round((cash / 10) + cash * (1 - (game_state/(hp+GlobalPlayer.hp))))
 
 func get_random():
 	random_val = randf()
