@@ -11,7 +11,7 @@ var character_sprite = ""
 var background_sprite = ""
 
 #Stats
-var cash = 4
+var cash = 150
 var smock = 4
 var brains = 4
 var slisk = 4
@@ -19,6 +19,7 @@ var hp = 20
 var game_state = 50
 var gameover = true
 var random_val = 0
+var bribe = 0
 
 func get_grunt_sprite():
 	var tempStat = max(smock,brains,slisk)
@@ -41,7 +42,8 @@ func get_battle_sprite():
 		else: return "SimonVonSteinberg.png"
 	else: return get_grunt_sprite()
 	
-	
+func calculate_bribe():
+	bribe = (cash / 10) + cash * (1 - (game_state/(hp+GlobalPlayer.hp)))
 
 func get_random():
 	random_val = randf()

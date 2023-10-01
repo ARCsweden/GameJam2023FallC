@@ -15,9 +15,11 @@ if GlobalBattle.game_state >= GlobalBattle.hp + GlobalPlayer.hp:
 	Sten: [[Loser.|Noob.|Kan du inte bättre?]]
 	set GlobalBattle.gameover = true
 	do GlobalPlayer.increase_grunts_defeated()
+	set GlobalPlayer.cash += GlobalBattle.cash
 else:
 	{{GlobalBattle.battle_name}}: [[Hahahaha, där fick du så du teg!|Inte så kaxig nu va?]]
 	Sten: ...
+	set GlobalPlayer.cash -= GlobalBattle.cash
 set GlobalBattle.gameover = true
 => END
 
@@ -25,13 +27,14 @@ set GlobalBattle.gameover = true
 while GlobalBattle.game_state < GlobalBattle.hp + GlobalPlayer.hp and GlobalBattle.game_state > 0:
 	
 	=>< player_round
-	if GlobalBattle.game_state >= GlobalBattle.hp + GlobalPlayer.hp or GlobalBattle.game_state < 0:
+	if GlobalBattle.game_state >= GlobalBattle.hp + GlobalPlayer.hp or GlobalBattle.game_state < 0 or GlobalBattle.cash <= 0:
 		=> END
 	=>< enemy_round
 	
 => END
 
 ~ player_round
+do GlobalBattle.calculate_bribe()
 - Smocka
 	{{GlobalBattle.battle_name}}: Ouch!
 	if GlobalPlayer.smock - GlobalBattle.smock > 0:
@@ -44,6 +47,15 @@ while GlobalBattle.game_state < GlobalBattle.hp + GlobalPlayer.hp and GlobalBatt
 
 - Snille
 	=>< quiz/quiz
+- Stålar {{GlobalBattle.bribe}}$
+	set GlobalPlayer.cash -= GlobalBattle.bribe
+	do GlobalBattle.get_random()
+	if GlobalBattle.random_val < 0.5:
+		{{GlobalBattle.battle_name}} [[Nämen tackar! Nu lämnar jag dig i fred.|Prisa Gud, här kommer skatteåterbäringen!]]
+		set GlobalBattle.cash = 0
+		=> END
+	else:
+		{{GlobalBattle.battle_name}} Ja, det var väl det minsta du kunde gjort för mig...
 => END
 
 ~ enemy_round
