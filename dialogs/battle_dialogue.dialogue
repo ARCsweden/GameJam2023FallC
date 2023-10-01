@@ -1,6 +1,7 @@
 import "res://dialogs/quiz.dialogue" as quiz
 import "res://dialogs/persuasion.dialogue" as persuasion
 ~ battle_dialogue
+do GlobalAudioStreamPlayer.switch_to_battle()
 Berättare: {{GlobalBattle.prompt}}
 
 {{GlobalBattle.battle_name}}: {{GlobalBattle.start_dialog}}

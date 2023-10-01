@@ -9,9 +9,8 @@ Berättare: Sa du Sten? Hej Sten jag är bara berättare och mitt namn spelar in
 Berättare: Dags att spela?
 - Ja
 	Sten: Ja, jag vill [[sspela|gamea|komma igång]].
-	Berättare: Det var en gång...
 	=>< event/event
-	Berättare: Dags för din första encounter!
+	Berättare: Dags för din första standoff!
 	=>< battle/battle_dialogue
 	do GlobalSetup.load_event()
 	=>< event/event
