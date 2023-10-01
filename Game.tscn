@@ -27,6 +27,7 @@ scale = Vector2(0.124106, 0.0447955)
 script = ExtResource("2_kbaac")
 
 [node name="BattleProgress" type="TextureProgressBar" parent="."]
+visible = false
 offset_left = 24.8738
 offset_top = 20.3072
 offset_right = 151.874

@@ -10,3 +10,8 @@ func _ready():
 func _process(delta):
 	value = GlobalBattle.hp
 	pass
+
+func activateBar(active: bool):
+	visible = active
+	pass
+	
