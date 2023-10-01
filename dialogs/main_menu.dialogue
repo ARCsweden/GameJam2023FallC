@@ -106,6 +106,6 @@ else:
 	=> end_game
 	
 ~ end_game
-Berättare: [Tyvärr är pengarna slut...|Slut i kassan...|Du har gått i konkurs]
+Berättare: [[Tyvärr är pengarna slut...|Slut i kassan...|Du har gått i konkurs]]
 Berättare: Du får inte spela mera nu.
 => end_game
