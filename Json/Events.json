@@ -82,14 +82,14 @@
 						{
 							"Prompt": "Pappan till barnet som vann uppskattar din familjelojalitet, och med hjälp av lite trevlig nepotism får du lite vinstgivande möjligheter..",
 							"Type": "Positive",
-							"IncreaseValue": 5,
+							"IncreaseValue": 5000,
 							"DecreaseValue": 0
 						},
 						{
 							"Prompt": "En lyhördig pensionär råkade överhöra dig och barnets pappa diskutera om vem som skulle vinna, och har anmält er till myndigheterna. Du får betala din PR firma för att sopa detta under mattan. Ajdå!",
 							"Type": "Negative",
 							"IncreaseValue": 0,
-							"DecreaseValue": 3
+							"DecreaseValue": 3000
 						}
 					]
 				},
@@ -200,14 +200,14 @@
 						{
 							"Prompt": "Vilken tur! Första personen du frågar har precis förlorat sitt jobb, och behöver pengar för att ge sina barn något att äta ikväll. Det betyder att de är desperata, och du betalar dem endast en spottstyver för jobbet. Farmor får sin ärtsoppa hem utan problem.",
 							"Type": "Positive",
-							"IncreaseValue": 5,
+							"IncreaseValue": 5000,
 							"DecreaseValue": 0
 						},
 						{
 							"Prompt": "Du hittar ingen på bussen som kan hjälpa till, så du får ringa efter hjälp. Tyvärr får råkade det vara ett scamföretag, och ingen kom och hjälpte farmor. Pengarna försvann ut i intet.",
 							"Type": "Negative",
 							"IncreaseValue": 0,
-							"DecreaseValue": 3
+							"DecreaseValue": 3000
 						}
 					]
 				},
@@ -318,14 +318,14 @@
 						{
 							"Prompt": "Stina är helt till sig och tar ledigt från jobbet direkt. Hur kan något gå fel på ett privatjet med skumpa och schmys? Stina dokumenterar resan på sin reseblogg, och den resulterade i så mycket mer populäritet för företaget som hyrde ut sitt privatplan att de låter er ta en gratisresa i planet varje månad. Titt så det kan gå!",
 							"Type": "Positive",
-							"IncreaseValue": 5,
+							"IncreaseValue": 5000,
 							"DecreaseValue": 0
 						},
 						{
 							"Prompt": "Stina följer med på resan, inte varje dag man åker privatflygplan. Men hon uppskattar en lite mer frugal man, som inte slösar så med pengar, så det blir inte en andra dejt.",
 							"Type": "Negative",
 							"IncreaseValue": 0,
-							"DecreaseValue": 3
+							"DecreaseValue": 3000
 						}
 					]
 				},
@@ -436,14 +436,14 @@
 						{
 							"Prompt": "Vilken lyckad gala! Du lyckas värva en ny investerare till din nya startup! Kollegorna kanske saknade dig, men de håller dig bara tillbaka.",
 							"Type": "Positive",
-							"IncreaseValue": 5,
+							"IncreaseValue": 5000,
 							"DecreaseValue": 0
 						},
 						{
 							"Prompt": "Galen var ett riktigt bottenapp, ingen ny investerare, så du fick stå för hela dryckesnotan själv. Du skulle nog gått på afterworken istället.",
 							"Type": "Negative",
 							"IncreaseValue": 0,
-							"DecreaseValue": 3
+							"DecreaseValue": 3000
 						}
 					]
 				},
@@ -554,14 +554,14 @@
 						{
 							"Prompt": "Vilken lyckad gala! Du lyckas värva en ny investerare till din nya startup! Kollegorna kanske saknade dig, men de håller dig bara tillbaka.",
 							"Type": "Positive",
-							"IncreaseValue": 5,
+							"IncreaseValue": 5000,
 							"DecreaseValue": 0
 						},
 						{
 							"Prompt": "Galen var ett riktigt bottenapp, ingen ny investerare, så du fick stå för hela dryckesnotan själv. Du skulle nog gått på afterworken istället.",
 							"Type": "Negative",
 							"IncreaseValue": 0,
-							"DecreaseValue": 3
+							"DecreaseValue": 3000
 						}
 					]
 				},
@@ -672,14 +672,14 @@
 						{
 							"Prompt": "Rumskamraten beställer mer mjölk, den levereras nån halvtimma därefter, och du går inte pannkakslös länge. Och du behövde inte köpa den själv!",
 							"Type": "Positive",
-							"IncreaseValue": 5,
+							"IncreaseValue": 5000,
 							"DecreaseValue": 0
 						},
 						{
 							"Prompt": "Rumskamrater vägrar, och det slutar med att du får köpa mjölken själv.",
 							"Type": "Negative",
 							"IncreaseValue": 0,
-							"DecreaseValue": 3
+							"DecreaseValue": 3000
 						}
 					]
 				},

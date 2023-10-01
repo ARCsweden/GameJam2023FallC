@@ -8,7 +8,7 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	value = GlobalBattle.hp
+	value = GlobalBattle.game_state
 	if GlobalBattle.gameover:
 		activateBar(false)
 	else:
@@ -16,6 +16,7 @@ func _process(delta):
 	pass
 
 func activateBar(active: bool):
+	max_value = GlobalBattle.hp + GlobalPlayer.hp
 	visible = active
 	pass
 	
