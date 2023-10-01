@@ -4,6 +4,7 @@ class_name Player extends Node2D
 var player_name = ""
 var level = 1
 var sprite = "" #Path to sprite here
+var grunts_defeated = 0
 
 #Stats
 var cash = 0
