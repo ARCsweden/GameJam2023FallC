@@ -36,8 +36,8 @@ while GlobalBattle.game_state < GlobalBattle.hp + GlobalPlayer.hp and GlobalBatt
 ~ player_round
 do GlobalBattle.calculate_bribe()
 - Smocka
-	{{GlobalBattle.battle_name}}: Ouch!
 	if GlobalPlayer.smock - GlobalBattle.smock > 0:
+		{{GlobalBattle.battle_name}}: [[Ouch!|Ajajajajaj|Syft|Oufff]]
 		set GlobalBattle.game_state += (GlobalPlayer.smock - GlobalBattle.smock)
 	else:
 		Berättare: {{GlobalBattle.battle_name}} är för stark för dig...
