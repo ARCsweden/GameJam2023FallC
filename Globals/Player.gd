@@ -13,6 +13,7 @@ var brains = 0
 var slisk = 0
 var hp = 0
 
+
 var answer = ""
 #func _changeSprite():
 	#Add checks to see if player sprite needs to be changed here

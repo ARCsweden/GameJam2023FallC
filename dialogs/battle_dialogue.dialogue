@@ -2,28 +2,30 @@ import "res://dialogs/quiz.dialogue" as quiz
 import "res://dialogs/persuasion.dialogue" as persuasion
 ~ battle_dialogue
 do GlobalAudioStreamPlayer.switch_to_battle()
+
+set GlobalBattle.game_state = GlobalPlayer.hp
 set GlobalBattle.gameover = false
 Berättare: {{GlobalBattle.prompt}}
 
 {{GlobalBattle.battle_name}}: {{GlobalBattle.start_dialog}}
 =>< battle_state_machine
-if GlobalPlayer.hp > GlobalBattle.hp:
+if GlobalBattle.game_state >= GlobalBattle.hp + GlobalPlayer.hp:
 	{{GlobalBattle.battle_name}}: [[Ja det gick ju som det gick.|Nu vill jag inte vara med mer.]]
 	Sten: [[Loser.|Noob.|Kan du inte bättre?]]
 	set GlobalPlayer.grunts_defeated += 1
 else:
 	{{GlobalBattle.battle_name}}: [[Hahahaha, där fick du så du teg!|Inte så kaxig nu va?]]
 	Sten: ...
-	set GlobalBattle.gameover = true
+set GlobalBattle.gameover = true
 => END
 
 ~ battle_state_machine
-while GlobalPlayer.hp > 0 and GlobalBattle.hp > 0:
+while GlobalBattle.game_state < GlobalBattle.hp + GlobalPlayer.hp and GlobalBattle.game_state > 0:
 	
 	=>< player_round
-	{{GlobalBattle.battle_name}}: {{GlobalBattle.hp}} hp
+	if GlobalBattle.game_state >= GlobalBattle.hp + GlobalPlayer.hp or GlobalBattle.game_state < 0:
+		=> END
 	=>< enemy_round
-	Sten: {{GlobalPlayer.hp}} hp
 	
 => END
 
@@ -31,7 +33,7 @@ while GlobalPlayer.hp > 0 and GlobalBattle.hp > 0:
 - Smocka
 	{{GlobalBattle.battle_name}}: Ouch!
 	if GlobalPlayer.smock - GlobalBattle.smock > 0:
-		set GlobalBattle.hp -= GlobalPlayer.smock - GlobalBattle.smock
+		set GlobalBattle.game_state += (GlobalPlayer.smock - GlobalBattle.smock)
 	else:
 		Berättare: {{GlobalBattle.battle_name}} är för stark för dig...
 	
@@ -47,7 +49,7 @@ do GlobalBattle.get_random()
 if GlobalBattle.random_val < 0.33:
 	{{GlobalBattle.battle_name}}: Smocka!!
 	if GlobalBattle.smock - GlobalPlayer.smock  > 0:
-		set GlobalPlayer.hp -= GlobalBattle.smock - GlobalPlayer.smock
+		set GlobalBattle.game_state -= (GlobalBattle.smock - GlobalPlayer.smock)
 	else:
 		Berättare: {{GlobalBattle.battle_name}} är [[inte tillräckligt stark|vek|en mes]]...
 elif GlobalBattle.random_val < 0.66:
@@ -55,7 +57,8 @@ elif GlobalBattle.random_val < 0.66:
 	do GlobalBattle.get_random()
 	if GlobalBattle.random_val < 0.33:
 		if  GlobalBattle.brains - GlobalPlayer.brains / 2 > 0
-			set GlobalPlayer.hp -= (GlobalBattle.brains - GlobalPlayer.brains / 2 )
+			Narrator: test
+			set GlobalBattle.game_state -= (GlobalBattle.brains - (GlobalPlayer.brains / 2 ))
 		else:
 			Berättare: {{GlobalBattle.battle_name}} är [[inte tillräckligt smart|dum i huvudet|svagt begåvad]]...
 	else:
@@ -66,7 +69,8 @@ else:
 	do GlobalBattle.get_random()
 	if GlobalBattle.random_val < 0.33: 
 		if GlobalBattle.slisk - GlobalPlayer.slisk / 2 > 0:
-			set GlobalPlayer.hp -= GlobalBattle.slisk - GlobalPlayer.slisk / 2
+			Narrator: test
+			set GlobalBattle.game_state -= (GlobalBattle.slisk - (GlobalPlayer.slisk / 2))
 		else:
 			Berättare: Du är lite för sliskig för {{GlobalBattle.battle_name}}.
 	else:
