@@ -16,8 +16,8 @@ var smock = 4
 var brains = 4
 var slisk = 4
 var hp = 20
+var game_state = 50
 var gameover = true
-
 var random_val = 0
 
 func get_grunt_sprite():
